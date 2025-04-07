@@ -15,10 +15,7 @@ Landing page oficial de Royal Integrity. Código fuente diseñado para presentar
     *   [Instalación](#instalación)
     *   [Desarrollo Local](#desarrollo-local)
     *   [Build para Producción](#build-para-producción)
-*   [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-*   [🌐 Despliegue](#-despliegue)
 *   [🤝 Contribuciones](#-contribuciones)
-*   [📄 Licencia](#-licencia)
 *   [📫 Contacto](#-contacto)
 
 ---
@@ -98,3 +95,30 @@ npm run dev
 yarn dev
 # ó
 pnpm dev
+ ```
+---
+
+## 🤝 Contribuciones
+
+Actualmente, este repositorio es para el desarrollo de la landing page de Royal Integrity. 
+Las contribuciones externas no están habilitadas para este repositorio en este momento.
+
+---
+
+## 📫 Contacto
+
+Royal Integrity
+
+Dirección: Carrera 13A # 104 - 32 Oficina 201, Bogotá - Colombia
+
+Teléfono: +57 312 577 9244
+
+Email: royalintegritycolombia@gmail.com
+
+Sitio Web Principal: [Si hay un sitio web principal diferente a esta landing, ponlo aquí]
+
+LinkedIn: https://www.linkedin.com/company/royal-integrity-sas/posts/?feedView=all
+
+YouTube: https://www.youtube.com/@RoyalIntegritysas
+
+Desarrollador/Repo Owner: @manuelarevalo01
