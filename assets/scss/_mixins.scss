@@ -1,0 +1,35 @@
+@import '../button/buttons';
+
+@mixin main-gradient {
+  background-color: linear-gradient(to right #6306fc, #4dafb2);
+}
+
+@mixin background-gradient {
+  background-color: linear-gradient(to right #f5f5f5, #f5f5f5);
+}
+
+@mixin divider {
+  border-bottom: 2px solid #312458;
+  margin-top: 15px;
+}
+
+@mixin divider-gradient {
+  width: 50%;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #6306fc, #24b0b3);
+    z-index: 1;
+  }
+}
+
+@mixin link-decoration {
+  text-decoration: none;
+}

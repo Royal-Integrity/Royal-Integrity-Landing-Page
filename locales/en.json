@@ -1,0 +1,1055 @@
+{
+  "navbar": {
+    "home": "Home",
+    "whoweare": "About us",
+    "aboutRoyalIntegrity": "About Royal Integrity",
+    "products": "Products",
+    "platforms": "Platforms",
+    "energytech": "Energytech",
+    "logtech": "Logtech",
+    "legaltech": "Legaltech",
+    "services": "Services",
+    "customService": "Customized development",
+    "consultancy": "Innovation consulting",
+    "testimonials": "Success stories",
+    "contacts": "Contact us"
+  },
+  "footer": {
+    "contactUs": "Contact us!",
+    "followUs": "Follow us on our social media!",
+    "policy": "Personal Data Policy"
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "text": "Royal Integrity integrity that endures",
+        "keywords": ["Royal Integrity"]
+      },
+      "text": "We are a leading Colombian company in the distribution, service and development of new technologies with a single objective, to safeguard your assets to increase the profitability of your operation; for the Oil & Gas (Upstream, Midstream, Downstream), Energy, Petrochemical, Naval and Industrial markets.",
+      "keywords": ["Oil & Gas"],
+      "button": "Learn more!",
+      "alt": "Home hero"
+    },
+    "whatwedo": {
+      "title": {
+        "text": "How can we support you in royalIntegrity?",
+        "keywords": ["royalIntegrity?"]
+      },
+      "description": "At royalIntegrity, we create software powered by artificial intelligence, supported by applied research. We combine innovation and experience to help you overcome challenges and seize new opportunities. Ready to find out how we can work together?",
+      "keywords": [
+        "royalIntegrity",
+        "artificial intelligence",
+        "Ready to find out how we can work together?"
+      ]
+    },
+    "whoweare": {
+      "title": {
+        "text": "Who we are?",
+        "keywords": ["Who"]
+      },
+      "slideOne": {
+        "text": "We enable emerging technologies through applied research and cloud software, driving innovation and digital transformation of the ecosystem",
+        "keywords": [
+          "emerging technologies",
+          "applied research",
+          "digital transformation"
+        ]
+      },
+      "slideTwo": {
+        "text": "We apply natural and data sciences to solve industry problems and support our clients' insertion into the Fourth Industrial Revolution.",
+        "keywords": ["Fourth Industrial Revolution"]
+      },
+      "slideThree": {
+        "text": "We ensure expertise in:",
+        "keywords": ["expertise"],
+        "itemOne": "Science and research, business knowledge.",
+        "itemTwo": "Process automation and digital transformation.",
+        "itemThree": "AI technologies and software development."
+      }
+    },
+    "ourServices": {
+      "title": {
+        "text": "Our services",
+        "keywords": ["services"]
+      },
+      "services": {
+        "energytech": {
+          "title": "ENERGYTECH",
+          "alt": "Ícono Energytech",
+          "text": "Meet THORI AI, a suite of technological solutions that support planning and decision-making in the energy ecosystem. Digitalization is the strategic ally for a sustainable world."
+        },
+        "logtech": {
+          "title": "LOGTECH",
+          "alt": "icon Logtech",
+          "text": "We have developed intelligent cognitive assistants that accelerate your manual freight transport operations and processes. We build and enhance competitive advantages for an interconnected world."
+        },
+        "legaltech": {
+          "title": "LEGALTECH",
+          "alt": "icon Legaltech",
+          "text": "Learn about our Legaltech services. Specialized solutions for efficient data management. We focus on optimizing operational tasks, streamlining document management and digitally transforming state processes."
+        },
+        "customService": {
+          "title": "Custom development",
+          "alt": "custom development icon",
+          "textOne": "At royalIntegrity we believe that every company is unique, which is why our custom software development understands the challenges of each industry and adapts to new business paradigms.",
+          "textTwo": "Experience in: BPOs, FinTech, GovTech."
+        }
+      }
+    },
+    "advantages": {
+      "title": {
+        "text": "Competitive advantages",
+        "keywords": ["advantages"]
+      },
+      "cardOne": "15+ years of experience and 5 years since its foundation in the energy, logistics and government industries.",
+      "cardOneAlt": "Imagen experiencia",
+      "cardTwo": "20+ PhDs and MScs who contribute knowledge and experience to each project.",
+      "cardTwoAlt": "Imagen expertos",
+      "cardThree": "Recognitions for innovation and track record in the technology sector.",
+      "cardThreeAlt": "Imagen resultados"
+    },
+    "ourClients": {
+      "title": {
+        "text": "Our clients",
+        "keywords": ["clients"]
+      }
+    },
+    "testimonials": {
+      "title": {
+        "text": "Success cases",
+        "keywords": ["cases"]
+      },
+      "cardOne": {
+        "text": "'royalIntegrity is an ally for the organization who has been very useful in the adoption of new technologies such as advanced analytics and artificial intelligence.'",
+        "rol": "INNOVATION MANAGER AT CELSIA."
+      },
+      "cardTwo": {
+        "text": "'The service provided to us has been of very high quality, the expertise of the teams that have worked with us is evident, they have the potential to generate a lot of value for companies. royalIntegrity has been an ideal model of a startup with which we want to work and continue working.'",
+        "rol": "INNOVATION MANAGER AT GEB."
+      },
+      "cardThree": {
+        "text": "'The know-how of royalIntegrity and his investigative team is what has interested us the most. royalIntegrity is a partner that, thanks to its specialization, knowledge and success in the logistics industry, has had a significant impact in terms of efficiency and digitalization.'",
+        "rol": "CO-FOUNDER OF MAGAYA CORPORATION."
+      }
+    },
+    "contactUsHome": {
+      "title": {
+        "text": "Discover the potential of artificial intelligence in your business!",
+        "keywords": ["artificial intelligence"]
+      },
+      "text": "Join the digital revolution with royalIntegrity emerging technologies!",
+      "keywords": ["royalIntegrity emerging technologies!"],
+      "button": "Connect with us"
+    }
+  },
+  "quottingModal": {
+    "title": "Make a personalized consultation",
+    "labelOne": "Full name:",
+    "placeHolderOne": "Type your name",
+    "requiredOne": "Required field.",
+    "labelTwo": "Position:",
+    "placeHolderTwo": "Type your role",
+    "labelThree": "Corporate email:",
+    "placeHolderThree": "Type your corporate email",
+    "requiredTwo": "Empty field or wrong format.",
+    "labelFour": "Company:",
+    "placeHolderFour": "Type the name of your company",
+    "labelFive": "Requests:",
+    "placeHolderFive": "Describe your interest or suggestions",
+    "button": "Send"
+  },
+  "formFieldContactsUs": {
+    "hero": {
+      "alt": "Mask Gruop"
+    },
+    "title": {
+      "text": "Contact us",
+      "keywords": ["Contact us"]
+    },
+    "text": {
+      "partOne": "Ask our experts and contact us at ",
+      "partTwo": "contact_at_guane.com.co"
+    },
+    "labelOne": "Full name:",
+    "placeHolderOne": "type your name",
+    "requiredOne": "Field required.",
+    "labelTwo": "Corporate email:",
+    "placeHolderTwo": "Type your corporate email",
+    "requiredTwo": "Campo vacío o formato incorrecto.",
+    "labelThree": "Company:",
+    "placeHolderThree": "type your company",
+    "labelFour": "Is your comment associated with...?",
+    "placeHolderFour": "Select",
+    "requiredFour": "Field required. select a option",
+    "labelFive": "Comment:",
+    "placeHolderFive": "Describe your interest or suggestions",
+    "labelSix": "Personal Data Handling Policy",
+    "policyDescription": "In compliance with Law 1581 of 2012, we inform you that the data provided in this form will be used exclusively for your registration. You can access, update, or correct your information at any time. By submitting this form, you agree to the processing of your data in accordance with this policy.",
+    "policyOptionOne": "I accept the personal data handling policy",
+    "policyOptionTwo": "I do not accept",
+    "button": "Send"
+  },
+  "about": {
+    "hero": {
+      "title": {
+        "text": "Welcome to royalIntegrity Emerging Technologies!",
+        "keywords": ["royalIntegrity Emerging Technologies!"]
+      },
+      "text": "Learn more about this company that helps you digitally transform your business.",
+      "keywords": ["company", "digitally transform your business"],
+      "alt": "about us hero"
+    },
+    "aboutUs": {
+      "title": {
+        "text": "About us",
+        "keywords": ["us"]
+      },
+      "imageText": {
+        "imageOne": {
+          "text": "Company founded in May 2018",
+          "keywords": ["Company founded"]
+        },
+        "imageTwo": {
+          "text": "We are based on scientific physics",
+          "keywords": ["scientific physics"]
+        },
+        "imageThree": {
+          "text": "Solutions in 9 countries",
+          "keywords": []
+        },
+        "imageFour": {
+          "text": "Our name “royalIntegrity” pays tribute to the indigenous Santandereana tribe",
+          "keywords": []
+        },
+        "imageFive": {
+          "text": "Connecting our roots with technology",
+          "keywords": []
+        },
+        "imageSix": {
+          "text": "Academy with industry and humans with machines",
+          "keywords": []
+        }
+      },
+      "alt": "Infographics"
+    },
+    "ourTeam": {
+      "title": {
+        "text": "Get to know our team!",
+        "keywords": ["team!"]
+      },
+      "textOne": "Highly trained and diverse with profiles with extensive training in natural sciences, physics, mathematics, engineering, design and advanced technology.",
+      "textThree": "They focus on developing, programming and designing solutions that drive the growth of our clients and the ecosystem.",
+      "alt": "Infographics"
+    },
+    "ourPath": {
+      "title": {
+        "text": "Our path in the industry",
+        "keywords": ["Our path"]
+      },
+      "text": "We are recognized as a leader in Industry 4.0, providing innovative and technologically advanced solutions to solve the most complex challenges.",
+      "keywords": ["innovative", "solutions"],
+      "itemOne": "Continents",
+      "itemTwo": "Countries",
+      "alt": "Mapamundi"
+    },
+    "technologiesStack": {
+      "title": {
+        "partOne": "Technology",
+        "partTwo": "stack"
+      },
+      "itemOne": "Angular",
+      "altOne": "Angular",
+      "itemTwo": "React",
+      "altTwo": "React",
+      "itemThree": "Vue",
+      "altThree": "Vue",
+      "itemFour": "Torch",
+      "altFour": "Torch",
+      "itemFive": "Nodejs",
+      "altFive": "Nodejs",
+      "itemSix": "ExpressJS",
+      "altSix": "ExpressJS",
+      "itemSeven": "FastApi",
+      "altSeven": "FastApi",
+      "itemEight": "Flask",
+      "altEight": "Flask",
+      "itemNine": "Docker",
+      "altNine": "Docker",
+      "itemTen": "Kubernetes",
+      "altTen": "Kubernetes",
+      "itemEleven": "Golang",
+      "altEleven": "Golang"
+    },
+    "clusters": {
+      "title": {
+        "partOne": "Where our developments are ",
+        "partTwo": "hosted?"
+      },
+      "itemOne": "Azure",
+      "itemTwo": "GCP",
+      "itemThree": "AWS"
+    },
+    "contactUs": {
+      "title": {
+        "text": "Join our mission to digitally transform your business!",
+        "keywords": ["digitally transform"]
+      },
+      "button": "I want to know more!"
+    },
+    "heroNews": {
+      "title": {
+        "text": "Our news",
+        "keywords": ["news"]
+      },
+      "text": "Find out about our latest achievements, don't miss updates on our successes and the positive impact we are generating in the sector.",
+      "keywords": ["latest achievements"]
+    }
+  },
+  "blog": {
+    "error404": {
+      "alt": "Error message",
+      "textOne": "Here you can find out about our scientific articles, research and studies.",
+      "textTwo": "Subscribe to be part of our scientific newsletter!",
+      "form": {
+        "label": "Corporate email:",
+        "placeholder": "Type your corporate email",
+        "required": "Empty field or wrong format",
+        "button": "Send"
+      }
+    }
+  },
+  "news": {
+    "timeline": {
+      "title": {},
+      "2019": {
+        "title": "2019",
+        "itemOne": "Videoconference: A conversation about solving unsolvable problems with quantum laws.",
+        "itemTwo": "royalIntegrity was selected as one of the 10 best Colombian scientists in the Academia-Industria training of the Swiss-Colombian Government.",
+        "itemThree": "First place in Innomarathon SAP 2019 Colombia and third place in Latin America SAP.",
+        "itemFour": "Participant in Google Startup Program and Showcase 2019 Colombia and Partner Advantage Program at Google."
+      },
+      "2020": {
+        "title": "2020",
+        "itemOne": "TOP 3 and 46th globally in the ANDI Innovation Ranking.",
+        "itemTwo": "Winner of the startup competition as the most innovative and sustainable solution according to the World Energy Council (WEC) and the Renewable Energy Association (SER).",
+        "itemThree": "royalIntegrity is part of the Sustainable Energy Cluster in the Medellín Chamber of Commerce.",
+        "itemFour": "royalIntegrity is part of the Startups 4.0 Network for the Energy Transition in the Bogotá Chamber of Commerce.",
+        "itemFive": "AI, hand in hand with human ability to optimize business processes, according to Semana Magazine.",
+        "itemSix": "royalIntegrity is a Google Cloud Build Partner for Global."
+      },
+      "2021": {
+        "title": "2021",
+        "itemOne": "TOP 6 in the Innovation Ranking of ANDI as a small company in Colombia.",
+        "itemTwo": "46th place among 340 companies representing 43% of Colombia's GDP.",
+        "itemThree": "TOP 1 in the Open Innovation Ranking based on AI and TOP 6 in Colombia Connect Bogotá.",
+        "itemFour": "First startup member and the most innovative according to the World Energy Council (WEC)."
+      },
+      "2022": {
+        "title": "2022",
+        "itemOne": "Most innovative startup in the country, according to the ANDI Business Innovation Ranking 2022.",
+        "itemTwo": "TOP 1 in Artificial Intelligence and TOP 2 in open innovation, according to the Open Innovation Ranking Colombia and Connect Bogotá 2022.",
+        "itemThree": "First startup member of the Colombian Committee of the CIER (COCIER).",
+        "itemFour": "Two consecutive times winner of open innovation calls from Grupo Energía Bogotá through HubBOG for solutions in Calidda and Electrodunas."
+      },
+      "2023": {
+        "title": "2023",
+        "itemOne": "Top 1 in EnergyTech and Top 3 in Open Innovation, according to the Open Innovation Ranking Colombia and Connect Bogotá 2023.",
+        "itemTwo": "Most innovative startup in the country, according to the ANDI 2023 Business Innovation Ranking.",
+        "itemThree": "Award for Business Creation, ANDI 2023.",
+        "itemFour": "royalIntegrity, one of the 30 Promises of Business in Forbes.",
+        "itemFive": "The only Colombian startup and one of the 100 most promising in energy technology worldwide in Set Award 2023.",
+        "itemSix": "New strategic alliance with RightSide. The acquisition of DHOG to expand the portfolio of technological products to the energy sector."
+      },
+      "2024": {
+        "title": "2024",
+        "itemOne": "Only Colombian startup and one of the 100 most promising startups in energy technology worldwide in the Set Award 2024.",
+        "itemTwo": "TOP4 INVENTORS category according to the Colombian business congress ANDI 2024.",
+        "itemThree": "First place in Innovation Platform, National Phase - CIER 2024.",
+        "itemFour": "Development of AI and GenAI for Latin America in alliance with Google GCP."
+      }
+    },
+    "ourReferences": {
+      "title": {
+        "text": "Our references",
+        "keywords": ["references"]
+      },
+      "altOne": "Forbes Colombia",
+      "altTwo": "Ser Colombia",
+      "altThree": "Google for Startups",
+      "altFour": "World Energy Council",
+      "altFive": "Cálidda",
+      "altSix": "Start Up Energy Transition",
+      "altSeven": "Cámara de Comercio de Medellín",
+      "altEight": "Cámara de Comercio de Bogotá",
+      "altNine": "Portafolio",
+      "altTen": "Top 100 Open Startups",
+      "altEleven": "ANDI",
+      "altTwelve": "Revista Semana",
+      "altThirteen": "Revista Dinero",
+      "altFourteen": "COCIER",
+      "altFiveteen": "Google Partner",
+      "altSixteen": "Electrodunas",
+      "altSeventeen": "Grupo Energía Bogotá"
+    }
+  },
+  "energytech": {
+    "hero": {
+      "title": {
+        "text": "Meet Thori AI!",
+        "keywords": ["Thori AI!"]
+      },
+      "text": "A suite of technological tools for the entire energy ecosystem.",
+      "keywords": ["suite of technological tools"],
+      "alt": "Energytech hero"
+    },
+    "whyThori": {
+      "title": {
+        "text": "Why choose Thori AI?",
+        "keywords": ["Thori AI?"]
+      },
+      "alt": "Estadísticas Thori",
+      "textOne": {
+        "text": "We comply with energy industry standards and regulations.",
+        "keywords": ["standards and regulations"]
+      },
+      "textTwo": {
+        "text": "Our personalized approach allows us to deliver unique results.",
+        "keywords": ["personalized approach"]
+      },
+      "textMobile": {
+        "text": "We comply with energy industry standards and regulations.Our personalized approach allows us to deliver unique results.",
+        "keywords": ["standards and regulations", "personalized approach"]
+      },
+      "statOne": "Precision in daily forecasts of energy and power demand.",
+      "statTwo": "Savings in consumption and energy optimization.",
+      "statThree": "Predicted marketing markets.",
+      "statFour": "Generators predicted by Thori AI."
+    },
+    "features": {
+      "title": {
+        "text": "What do you find on our platform?",
+        "keywords": ["our platform?"]
+      },
+      "text": "We have developed different products that are useful for decision making and strategic planning of your organization.",
+      "keywords": ["different products", "your organization"],
+      "alt": "Módulos de Thori"
+    },
+    "thoriModules": {
+      "title": {
+        "text": "Get to know our services",
+        "keywords": ["services"]
+      },
+      "modules": {
+        "forecast": {
+          "title": {
+            "text": "Energy and power generation and demand forecasts",
+            "keywords": ["Energy and power"]
+          },
+          "text": "Obtain optimization models to improve planning, reduce costs associated with overproduction, and comply with state regulations.",
+          "keywords": ["improve", "state regulations"],
+          "alt": "Pronóstico Thori"
+        },
+        "dhog": {
+          "title": {
+            "text": "Widespread hydrothermal dispatch",
+            "keywords": ["Widespread hydrothermal"]
+          },
+          "text": "DHOG offers short, medium and long-term simulations on prices and behavior of the energy market in Colombia.",
+          "keywords": ["DHOG", "energy market in Colombia"],
+          "alt": "DHOG"
+        },
+        "dam": {
+          "title": {
+            "text": "Intraday economic dispatch",
+            "keywords": ["Intraday economic"]
+          },
+          "text": "With the DAM, you will be able to simulate detailed scenarios for the daily and intraday dispatch in Colombia.",
+          "keywords": ["DAM", "daily and intraday dispatch"],
+          "alt": "DAM"
+        },
+        "management": {
+          "title": {
+            "text": "Energy efficiency and sustainable management",
+            "keywords": ["Energy efficiency", "sustainable"]
+          },
+          "text": "The GEES offers detailed analysis and intelligent adjustments to improve sustainability and energy efficiency.",
+          "keywords": ["GEES", "sustainability and energy efficiency"],
+          "alt": "Gestión Thori"
+        },
+        "buttonOne": "Visit THORI AI",
+        "buttonTwo": "See Brochure",
+        "buttonTwoAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_-_energytech_eng_?fr=sMzA1YzgzNTE0MDg"
+      }
+    },
+    "thoriClients": {
+      "title": {
+        "text": "Who do we add value to at Thori AI?",
+        "keywords": ["Thori AI?"]
+      },
+      "itemOne": "Generation Companies",
+      "altOne": "Generation Companies",
+      "itemTwo": "Commercialization",
+      "altTwo": "Commercialization",
+      "itemThree": "Transmission",
+      "altThree": "Transmission",
+      "itemFour": "Distribution",
+      "altFour": "Distribution",
+      "itemFive": "Energy consumer",
+      "altFive": "Energy consumer"
+    },
+    "customized": {
+      "title": {
+        "text": "Custom developments",
+        "keywords": ["Custom"]
+      },
+      "cards": {
+        "cardOne": {
+          "title": "Prediction of incidents in the field and optimization of brigades",
+          "title_keywords": ["incidents", "brigades"],
+          "text": "With this development, companies ensure service continuity and minimize incident response and resolution times.",
+          "keywords": ["service continuity", "resolution"],
+          "alt": "Predicción de incidencias"
+        },
+        "cardTwo": {
+          "title": "Digital transformation in the management of electrical networks",
+          "title_keywords": ["Digital transformation"],
+          "text": "Through different techniques and tools of data science, language analytics and computer vision, this development reduces the workload of operators in an energy distribution company.",
+          "keywords": ["reduces the workload of operators"],
+          "alt": "Transformación digital"
+        },
+        "cardThree": {
+          "title": "Optimal management of PQRS",
+          "title_keywords": ["Optimal management", "PQRS"],
+          "text": "We integrate technologies from the fourth industrial revolution to identify, classify and resolve PQRS automatically.",
+          "keywords": ["fourth industrial revolution"],
+          "alt": "Gestion de PQRS"
+        }
+      }
+    }
+  },
+  "logtech": {
+    "hero": {
+      "title": {
+        "text": "Welcome to Logistics 4.0!",
+        "keywords": ["Logistics 4.0!"]
+      },
+      "text": "At royalIntegrity, we embrace optimization and digitalization to drive the logistics industry to new levels of performance. Discover how royalIntegrity transforms operations and empowers your business in the digital age.",
+      "keywords": ["royalIntegrity", "empowers your business in the digital age"],
+      "alt": "Logtech hero"
+    },
+    "whyLogtech": {
+      "title": {
+        "text": "Why choose our Logtech solutions?",
+        "keywords": ["Logtech solutions?"]
+      },
+      "alt": "Estadísticas Logtech",
+      "textOne": {
+        "text": "We comply with high quality standards in our developments.",
+        "keywords": ["high quality standards"]
+      },
+      "textTwo": {
+        "text": "Our personalized approach allows us to deliver unique results.",
+        "keywords": ["personalized approach"]
+      },
+      "textMobile": {
+        "text": "We comply with high quality standards in our developments. Our personalized approach allows us to deliver unique results.",
+        "keywords": ["high quality standards", "personalized approach"]
+      },
+      "statOne": "Increase in sales up to 100%.",
+      "statTwo": "Reduction of operational costs up to 25%.",
+      "statThree": "+600 hours saved per operator.",
+      "statFour": "1M+ documents analyzed with AI"
+    },
+    "ourAssistants": {
+      "title": {
+        "text": "Our cognitive assistants",
+        "keywords": ["cognitive"]
+      },
+      "text": "We have developed highly trained cognitive assistants to automate processes in the supply and value chain so you can simplify your operations and maximize productivity.",
+      "keywords": ["cognitive assistants", "maximize productivity"],
+      "itemOne": {
+        "title": {
+          "text": "Smart email manager",
+          "keywords": ["email"]
+        },
+        "text": "Intelligent email manager for collaborative work and high performance between teams.",
+        "keywords": ["email", "high performance between teams"],
+        "alt": "email manager"
+      },
+      "itemTwo": {
+        "title": {
+          "text": "Portal for self-management",
+          "keywords": ["self-management"]
+        },
+        "text": "Portal for complete self-management, from quotation to cargo dispatch.",
+        "keywords": ["complete self-management"],
+        "alt": "autogestor"
+      },
+      "itemThree": {
+        "title": {
+          "text": "Automation with AI and RPA",
+          "keywords": ["AI and RPA"]
+        },
+        "text": "Automation with AI and RPA to accelerate processes with integration to CRM and data sources.",
+        "keywords": ["accelerate processes"],
+        "alt": "AI automatization"
+      },
+      "itemFour": {
+        "title": {
+          "text": "Document management",
+          "keywords": ["Document"]
+        },
+        "text": "Document management of large volumes of contracts with OCR and NLP in any format (excel, pdf, word).",
+        "keywords": ["large volumes of contracts", "OCR and NLP"],
+        "alt": "document manager"
+      },
+      "itemFive": {
+        "title": {
+          "text": "Smart document manager",
+          "keywords": ["document"]
+        },
+        "text": "Automated digitization, identification and extraction of information from cargo documents (BOL, invoices, receipts, POD, NOA, Air waybill).",
+        "keywords": ["digitization", "identification", "extraction"],
+        "alt": "documents manager"
+      },
+      "itemSix": {
+        "title": {
+          "text": "Quotes",
+          "keywords": ["Quotes"]
+        },
+        "text": "Quotes and response requests in 30 seconds.",
+        "keywords": ["requests in 30 seconds"],
+        "alt": "quotes"
+      },
+      "buttonOne": "See Brochure",
+      "buttonOneAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_logtech_eng_1_?fr=xKAE9_zU1NQ"
+    },
+    "whoUseOurServices": {
+      "title": {
+        "text": "Who can implement our services?",
+        "keywords": ["our services?"]
+      },
+      "itemOne": {
+        "title": "Logistics intermediaries",
+        "keywords": ["intermediaries"],
+        "alt": "Intermediarios logísticos"
+      },
+      "itemTwo": {
+        "title": "Distribution centers and warehouses",
+        "keywords": ["Distribution", "warehouses"],
+        "alt": "Centros de distribución y almacenes"
+      },
+      "itemThree": {
+        "title": "Manufacturing and production companies",
+        "keywords": ["Manufacturing", "production"],
+        "alt": "Compañías de manufactura y producción"
+      },
+      "itemFour": {
+        "title": "Retail and sales companies",
+        "keywords": ["Retail", "sales"],
+        "alt": "Empresas de retail y ventas"
+      },
+      "itemFive": {
+        "title": "Logistics providers and transportation",
+        "keywords": ["Logistics"],
+        "alt": "Proveedores de servicios logísticos y transporte"
+      },
+      "itemSix": {
+        "title": "Distribution and supply companies",
+        "keywords": ["Distribution", "supply"],
+        "alt": "Empresas de distribución y abastecimiento"
+      }
+    },
+    "characteristics": {
+      "title": {
+        "text": "Some features",
+        "keywords": ["features"]
+      },
+      "itemOne": {
+        "title": "Automated processes from hours to seconds.",
+        "keywords": ["hours to seconds"],
+        "alt": "Procesos automatizazdos de tiempo"
+      },
+      "itemTwo": {
+        "title": "Automated reading in any format (word, excel, pdf, jpg).",
+        "keywords": ["Automated reading"],
+        "alt": "Lectura automatizada"
+      },
+      "itemThree": {
+        "title": "24/7 web platforms hosted on microservices.",
+        "keywords": ["24/7 web platforms"],
+        "alt": "Plataformas web 24/7 alojadas en microservicios"
+      },
+      "itemFour": {
+        "title": "Intuitive and easy to implement in operational teams.",
+        "keywords": ["Intuitive and easy to implement"],
+        "alt": "Intuitiva y fácil"
+      },
+      "itemFive": {
+        "title": "100% customizable smart assistants.",
+        "keywords": ["100% customizable"],
+        "alt": "Asistentes parametrizables"
+      }
+    }
+  },
+  "legaltech": {
+    "hero": {
+      "title": {
+        "text": "Learn about our Legaltech services",
+        "keywords": ["Legaltech"]
+      },
+      "text": "We develop solutions to improve the management of legal documents, including digitization, automatic indexing and advanced search to facilitate quick access to relevant information.",
+      "keywords": [
+        "management of legal documents",
+        "facilitate quick access to relevant information"
+      ],
+      "alt": "Legaltech hero"
+    },
+    "whyLegaltech": {
+      "title": {
+        "text": "Why choose our Legaltech solutions?",
+        "keywords": ["Legaltech solutions?"]
+      },
+      "alt": "Legaltech",
+      "text_one": "It facilitates the classification and identification of documentary findings.",
+      "text_two": "Reduces costs and time associated with data and document management.",
+      "text_three": "Aligns actions with the strategic objectives of an entity.",
+      "text_four": "Maximizes administrative and operational efficiency.",
+      "keywords": []
+    },
+    "ourSolutions": {
+      "title": {
+        "text": "Some of our solutions",
+        "keywords": ["solutions"]
+      },
+      "itemOne": {
+        "title": "Automatic digitization",
+        "keywords": ["Automatic digitization"],
+        "text": "allows faster access to relevant information.",
+        "alt": "Digitalización automática"
+      },
+      "itemTwo": {
+        "title": "Artificial intelligence",
+        "keywords": ["Artificial intelligence"],
+        "text": "streamlines application processing and human resource management.",
+        "alt": "Análisis de datos"
+      },
+      "itemThree": {
+        "title": "Advanced data analysis",
+        "keywords": ["Advanced data analysis"],
+        "text": "provides valuable information for decision making.",
+        "alt": "Inteligencia artificial"
+      },
+      "itemFour": {
+        "title": "Broader access to public information",
+        "keywords": ["Broader access", "information"],
+        "text": "facilitates the detection of possible cases of corruption.",
+        "alt": "Detección de irregularidades"
+      }
+    },
+    "whoUseOurServices": {
+      "title": {
+        "text": "Who can implement our services?",
+        "keywords": ["our services?"]
+      },
+      "itemOne": {
+        "title": "Public sector companies",
+        "alt": "Public sector companies"
+      },
+      "itemTwo": {
+        "title": "Insurance companies",
+        "alt": "Insurance companies"
+      },
+      "itemThree": {
+        "title": "Shipping companies",
+        "alt": "Shipping companies"
+      },
+      "itemFour": {
+        "title": "BPO's companies",
+        "alt": "BPO's companies"
+      },
+      "itemFive": {
+        "title": "Legal departments",
+        "alt": "Legal departments"
+      }
+    },
+    "ourProjects": {
+      "title": {
+        "text": "Some of our developments",
+        "keywords": ["developments"]
+      },
+      "itemOne": {
+        "title": {
+          "text": "Smart project management for civil works",
+          "keywords": ["project management for civil works"]
+        },
+        "text": "Our AI platform facilitates project auditing, simplifies task assignment and consolidates document traceability in a single platform.",
+        "keywords": ["facilitates project auditing"],
+        "alt": "Gestion inteligente"
+      },
+      "itemTwo": {
+        "title": {
+          "text": "Smart PQRS Management",
+          "keywords": ["PQRS"]
+        },
+        "text": "Manage your PQRS using AI and advanced natural language understanding (NLP). Parameterize reasons and types of PQRS for accurate classification, improving resolution times thanks to fast and intuitive market analysis.",
+        "keywords": [
+          "Manage your PQRS using AI and advanced natural language understanding (NLP)"
+        ],
+        "alt": "Gestión PQRS"
+      },
+      "itemThree": {
+        "title": {
+          "text": "Automated case law analysis",
+          "keywords": ["jurisprudencia automatizado"]
+        },
+        "text": "Our platform transforms the way sentences are managed by automating the process of searching and analyzing sentences.",
+        "keywords": ["sentences are managed"],
+        "alt": "Análisis jurisprudencia"
+      },
+      "itemFour": {
+        "title": {
+          "text": "Smart email management",
+          "keywords": ["management", "email"]
+        },
+        "text": "This assistant adapts to any mail server in order to classify and delegate responsibilities to different areas and/or work teams.",
+        "keywords": ["classify and delegate responsibilities"],
+        "alt": "Gestión correo"
+      },
+      "buttonOne": "See Brochure",
+      "buttonOneAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_gps_2024_eng?fr=sNzczNTgzNTE0MDg"
+    }
+  },
+  "customizedDevelopment": {
+    "hero": {
+      "title": {
+        "text": "Custom development!",
+        "keywords": ["Custom"]
+      },
+      "text": "We offer you customized software development solutions, understanding the challenges and opportunities that may arise on your journey towards digital transformation.",
+      "keywords": [
+        "solutions",
+        "customized software development",
+        "digital transformation"
+      ],
+      "alt": "Desarrollo a medida hero"
+    },
+    "howItWorks": {
+      "title": {
+        "text": "How do we start?",
+        "keywords": ["start?"]
+      },
+      "itemOne": {
+        "text": "Schedule a first session to get to know us and land your automation project.",
+        "keywords": ["first session"],
+        "alt": "Agenda una cita"
+      },
+      "itemTwo": {
+        "text": "With our expert team we delve into the opportunities for improvement of your organization, designing innovative solutions that add tangible and lasting value.",
+        "keywords": ["our expert team", "designing innovative solutions"],
+        "alt": "Diseñamos soluciones"
+      },
+      "itemThree": {
+        "text": "We evaluate essential requirements together with your technology team and managers to ensure a comprehensive and efficient approach.",
+        "keywords": ["technology team and managers"],
+        "alt": "Evaluamos requisitos"
+      },
+      "itemFour": {
+        "text_one": "We present your automation project proposal",
+        "text_two": "in detail, with transparent information about the expert team, technologies to be used and a clear schedule for a successful implementation.",
+        "keywords": ["automation project", "in detail"],
+        "alt": "Presentamos propuestas"
+      },
+      "itemFourMobile": {
+        "text": "We present your automation project proposal in detail, with transparent information about the expert team, technologies to be used and a clear schedule for a successful implementation.",
+        "keywords": ["automation project", "in detail"],
+        "alt": "Presentamos propuestas"
+      },
+      "itemFive": {
+        "text": "Our priority is to ensure the confidentiality of all the information involved, giving you peace of mind and confidence at all times.",
+        "keywords": ["confidentiality of all the information involved"],
+        "alt": "Brindamos confidencialidad"
+      },
+      "itemSix": {
+        "text": "Let's start your journey towards innovation together!",
+        "keywords": ["your journey", "innovation"],
+        "alt": "Iniciamos la transformación"
+      }
+    },
+    "servicesAction": {
+      "title": {
+        "text": "Request a demo and we will answer all your questions!",
+        "keywords": ["demo"]
+      },
+      "subtitle": {
+        "text": "See you in the cloud!",
+        "keywords": ["in the cloud!"]
+      },
+      "button": "Connect with us"
+    }
+  },
+  "innovationConsulting": {
+    "hero": {
+      "title": {
+        "text": "Innovation consulting!",
+        "keywords": ["Innovation"]
+      },
+      "text": "We diagnose your organization and identify critical flows to guide you in the process of discovering and facing the challenges of the digital age.",
+      "keywords": [
+        "We diagnose",
+        "discovering and facing the challenges of the digital age"
+      ],
+      "alt": "Consultorías de innovación hero"
+    },
+    "howItWorks": {
+      "title": {
+        "text": "How do we start?",
+        "keywords": ["start?"]
+      },
+      "itemOne": {
+        "text": "Schedule a first session to tell us the current status of your organization.",
+        "keywords": ["first session"],
+        "alt": "Agenda una cita"
+      },
+      "itemTwo": {
+        "text": "We go deeper with our team of experts, we analyze the processes of your company's entire value chain, identifying bottlenecks and processes susceptible to digitalization.",
+        "keywords": [
+          "analyze",
+          "identifying bottlenecks",
+          "processes susceptible to digitalization"
+        ],
+        "alt": "Identificamos soluciones"
+      },
+      "itemThree": {
+        "text": "Our priority is to ensure the confidentiality of the information involved, giving you peace of mind and confidence at all times.",
+        "keywords": ["ensure the confidentiality", "peace", "mind"],
+        "alt": "Brindamos confidencialidad"
+      },
+      "itemFour": {
+        "text": "We work as a team to create intelligent solutions that add value to your company.",
+        "keywords": ["intelligent solutions"],
+        "alt": "Soluciones inteligentes"
+      },
+      "itemFive": {
+        "text": "We present our digital transformation proposal in detail. In this, you visualize the optimal digital scenarios of your processes.",
+        "keywords": ["transformation proposal", "digital", "in detail"],
+        "alt": "Presentamos propuestas"
+      },
+      "itemSix": {
+        "text": "We have reached our destination, the digital transformation of your organization!",
+        "keywords": ["the digital transformation of your organization"],
+        "alt": "Iniciamos la transformación"
+      }
+    },
+    "servicesAction": {
+      "title": {
+        "text": "Request a demonstration here!",
+        "keywords": ["demonstration"]
+      },
+      "subtitle": {
+        "text": "See you in the cloud!",
+        "keywords": ["in the cloud!"]
+      },
+      "button": "Connect with us"
+    }
+  },
+  "servicesAction": {
+    "title": {
+      "text": "Request a demonstration here!",
+      "keywords": ["demonstration"]
+    },
+    "subtitle": {
+      "text": "See you in the cloud!",
+      "keywords": ["in the cloud!"]
+    },
+    "button": "Connect with us"
+  },
+  "successStories": {
+    "hero": {
+      "title": {
+        "text": "Our success cases!",
+        "keywords": ["success cases!"]
+      },
+      "text": "Learn how our AI has transformed leading companies in various sectors. Be part of the future of technology with royalIntegrity.",
+      "keywords": ["our AI", "Be part of the future", "technology with royalIntegrity"],
+      "alt": "Success stories hero",
+      "button": "See Brochure",
+      "buttonAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_guane_eng_final?fr=sMjdiNTgzNTE0MDg"
+    },
+    "ourProducts": {
+      "title": {
+        "text": "We invite you to get to know our customized developments!",
+        "keywords": ["our customized developments!"]
+      },
+      "itemOne": {
+        "title": {
+          "text": "Route optimization and failure probability distribution.",
+          "keywords": ["failure probability"]
+        },
+        "text": "Unlock operational efficiency with advanced data analytics, machine learning, and sophisticated optimization algorithms. This innovative approach streamlines processes, ensures faster response times, and more reliable utility maintenance.",
+        "alt": "Optimización de rutas"
+      },
+      "itemTwo": {
+        "title": {
+          "text": "Management of electrical assets and infrastructure.",
+          "keywords": ["electrical", "infrastructure"]
+        },
+        "text": "By uploading electrical network plans, transformer laboratory protocols and photos of plates taken in the field, our system extracts, standardizes and applies specific business rules, delivering processed information ready for use in order to minimize the time spent reviewing details, consulting and calculating.",
+        "alt": "Gestion de activos"
+      },
+      "itemThree": {
+        "title": {
+          "text": "Capture of the maximum monthly energy demand.",
+          "keywords": ["monthly", "energy"]
+        },
+        "text": "A critical aspect for energy trading companies in Peru. By implementing our technologies, these companies can significantly avoid the high costs associated with transmission tolls and optimize the use of batteries during peak demand time slots, ensuring efficient use of energy and reducing operational costs.",
+        "alt": "Demanda máxima de energía"
+      },
+      "itemFour": {
+        "title": {
+          "text": "Cognitive assistant for process automation via email.",
+          "keywords": ["Cognitive", "assistant"]
+        },
+        "text": "Logistics intermediaries optimize high email volume with a collaborative assistant that automatically assigns emails. In addition, they optimize quote requests in 30 seconds, billing processes, and document extraction through RPA, OCR and NLP technologies.",
+        "alt": "Asistente cognitivo de email"
+      },
+      "itemFive": {
+        "title": {
+          "text": "Document manager of large volumes of contracts.",
+          "keywords": ["large volumes of contracts"]
+        },
+        "text": "Assistant designed to read and process large volumes of information contained in various formats such as PDF, Excel and Word. It standardizes and parameterizes data for more efficient use. This capability transforms shipping route planning, providing fast and organized access.",
+        "alt": "Asistente cognitivo de procesamiento"
+      },
+      "itemSix": {
+        "title": {
+          "text": "Customer hypersegmentation and PQRS analysis.",
+          "keywords": ["PQRS analysis."]
+        },
+        "text": "By analyzing consumption patterns, this assistant allows for intelligent consideration of unbanked users and the granting of credits. At the same time, it can determine the level of customer satisfaction based on natural language processing (NLP) and geolocation technologies in the case of public services.",
+        "alt": "Análisis de PQRs"
+      },
+      "itemSeven": {
+        "title": {
+          "text": "Project document management.",
+          "keywords": ["document management"]
+        },
+        "text": "Using AI tools, these technologies facilitate the understanding, classification and identification of key data in large quantities of documents, providing an intuitive navigation and filtering menu, parameterized according to business rules: legal, commercial or operational.",
+        "alt": "Gestion documental de probabilidad"
+      }
+    },
+    "callToAction": {
+      "title": {
+        "text": "If you are interested in delving deeper into any of these developments,",
+        "keywords": ["interested in delving deeper"]
+      },
+      "text": "See you in the cloud!",
+      "keywords": ["in the cloud!"],
+      "button": "Connect with us"
+    }
+  },
+  "404": {
+    "title": "Page under construction...",
+    "text": "We are creating this new section for you."
+  }
+}

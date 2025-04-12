@@ -1,0 +1,147 @@
+.hero-section {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, #fff 50%, $secondary-color);
+  color: $primary-color-dark;
+  font-family: $font-family-royalIntegrity;
+  
+  &__container {
+    width: 100%;
+    position: relative;
+
+    &--content {
+      z-index: 1;
+      position: absolute;
+      top: 20%;
+      right: 10%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 20px;
+
+      width: 40%;
+      margin-top: $navbar-spacing;
+      
+      @media (max-width: 927px) {
+        width: 50%;
+      }
+
+      @media (min-width: 928px) and (max-width: 1279px) {
+        width: 50%;
+        top: 25%;
+      }
+
+      @media (min-width: 1280px) and (max-width: 1365px) {
+        top: 20%;
+        right: 8%;
+      }
+
+      @media (min-width: 1366px) and (max-width: 1600px) {
+        top: 20%;
+        right: 10%;
+      }
+    }
+    
+  }
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  margin-top: $navbar-spacing;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.hero {
+  &__title {
+    font-size: $large-title;
+    text-align: right;
+    width: 65%;
+
+    @media (max-width: 369px) {
+    width: 90%;
+    font-size: $small;
+    line-height: normal;
+    }
+
+    @media (min-width: 370px) and (max-width: 574px) {
+      width: 90%;
+      font-size: $small;
+      line-height: normal;
+    }
+
+    @media (min-width: 575px) and (max-width: 927px) {
+      font-size: $small;
+    }
+
+    @media (min-width: 928px) and (max-width: 1279px) {
+      font-size: $small-title;
+      width: 75%;
+    }
+
+    @media (min-width: 1280px) and (max-width: 1365px) {
+      font-size: $small-title;
+      width: 75%;
+    }
+
+    @media (min-width: 1366px) and (max-width: 1600px) {
+      font-size: $medium-title;
+      width: 80%;
+    }
+
+    @media (min-width: 1601px) and (max-width: 1875px) {
+      font-size: $medium-title;
+      width: 90%;
+    }
+  }
+
+  &__description {
+    font-size: $body-lg-2;
+    line-height: 30px;
+    text-align: right;
+    width: 90%;
+    font-weight: 300;
+
+    @media (max-width: 369px) {
+      width: 90%;
+      font-size: 8px;
+      line-height: normal;
+    }
+
+    @media (min-width: 370px) and (max-width: 574px) {
+      width: 90%;
+      font-size: 8px;
+      line-height: normal;
+    }
+
+    @media (min-width: 575px) and (max-width: 927px) {
+      width: 90%;
+      font-size: $body;
+      line-height: normal;
+    }
+
+    @media (min-width: 928px) and (max-width: 1279px) {
+      font-size: $body;
+      width: 100%;
+    }
+
+    @media (min-width: 1280px) and (max-width: 1365px) {
+      font-size: $body-md;
+      width: 100%;
+    }
+
+    @media (min-width: 1366px) and (max-width: 1600px) {
+      font-size: $body-md;
+      width: 100%;
+    }
+  }
+}

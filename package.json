@@ -1,0 +1,70 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev-host": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare && husky install",
+    "prepare": "husky install",
+    "lint": "npm run prettier && npm run lint:js",
+    "lint-check": "npm run prettier-check && npm run lint:js-check",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore --fix .",
+    "lint:js-check": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "add-husky": "husky add .husky/pre-commit \"npm run lint-check\"",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.5",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@vueuse/nuxt": "^10.2.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.0",
+    "nuxt": "^3.8.2",
+    "nuxt-icon": "^0.6.7",
+    "pinia": "^2.1.4",
+    "prettier": "2.8.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^8.3.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@vueuse/core": "^10.2.1",
+    "element-plus": "^2.3.14",
+    "gsap": "^3.12.5",
+    "nuxt-gsap-module": "^2.0.0",
+    "swiper": "^10.2.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-i18n": "^9.8.0",
+    "vue-recaptcha": "^2.0.3",
+    "vue3-lottie": "^3.2.0",
+    "yup": "^1.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "prettier --write . && git add -A ."
+    },
+    "lint-staged": {
+      "*": "prettier --write"
+    }
+  }
+}
