@@ -65,34 +65,6 @@
                 <span>{{ $t('navbar.legaltech') }}</span>
               </el-menu-item>
             </NuxtLink>
-            <NuxtLink :to="localePath(
-              locale === 'es'
-                ? '/desarrollo-a-medida'
-                : '/customized-development'
-            )
-              " class="link" @click="closeDrawer">
-              <el-menu-item class="menu__nav subnav" :class="isCurrentRoute(localePath(
-                locale === 'es'
-                  ? '/desarrollo-a-medida'
-                  : '/customized-development'
-              ), currentRoute)" index="3-4">
-                <span>{{ $t('navbar.customService') }}</span>
-              </el-menu-item>
-            </NuxtLink>
-            <NuxtLink :to="localePath(
-              locale === 'es'
-                ? '/consultoria-innovacion'
-                : '/innovation-consulting'
-            )
-              " class="link" @click="closeDrawer">
-              <el-menu-item class="menu__nav subnav" :class="isCurrentRoute(localePath(
-                locale === 'es'
-                  ? '/consultoria-innovacion'
-                  : '/innovation-consulting'
-              ), currentRoute)" index="3-5">
-                <span>{{ $t('navbar.consultancy') }}</span>
-              </el-menu-item>
-            </NuxtLink>
           </el-sub-menu>
 
           <!-- CASOS DE EXITO -->
@@ -178,8 +150,7 @@ const getMenuIndex = (routePath) => {
       energytech: ['/energytech-royalIntegrity', '/en/royalIntegrity-energytech'],
       logtech: ['/logtech-royalIntegrity', '/en/royalIntegrity-logtech'],
       legaltech: ['/legaltech-royalIntegrity', '/en/royalIntegrity-legaltech'],
-      customized: ['/desarrollo-a-medida', '/en/customized-development'],
-      consulting: ['/consultoria-innovacion', '/en/innovation-consulting'],
+
     },
     stories: ['/casos-de-exito', '/en/success-stories'],
     contact: ['/contactanos', '/en/contact-us'],

@@ -54,33 +54,17 @@ export default defineNuxtConfig({
         en: '/about-us',
         es: '/acerca-de-nosotros',
       },
-      news: {
-        en: '/news',
-        es: '/noticias',
-      },
-      blog: {
-        en: '/guane-blog',
-        es: '/blog-guane',
-      },
       energytech: {
-        en: '/guane-energytech',
-        es: '/energytech-guane',
+        en: '/royalIntegrity-energytech',
+        es: '/energytech-royalIntegrity',
       },
       logtech: {
-        en: '/guane-logtech',
-        es: '/logtech-guane',
+        en: '/royalIntegrity-logtech',
+        es: '/logtech-royalIntegrity',
       },
       legaltech: {
-        en: '/guane-legaltech',
-        es: '/legaltech-guane',
-      },
-      customized: {
-        en: '/customized-development',
-        es: '/desarrollo-a-medida',
-      },
-      consulting: {
-        en: '/innovation-consulting',
-        es: '/consultoria-innovacion',
+        en: '/royalIntegrity-legaltech',
+        es: '/legaltech-royalIntegrity',
       },
       stories: {
         en: '/success-stories',

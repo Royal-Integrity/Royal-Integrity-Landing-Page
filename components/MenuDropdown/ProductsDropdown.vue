@@ -40,40 +40,6 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="divider"/>
-    <div class="dropdown-list-products__item">
-      <div class="dropdown-list-products__item--title">
-        {{ $t('navbar.services') }}
-      </div>
-      <div class="dropdown-list-products__item--sub-list">
-        <NuxtLink
-          :to="
-            localePath(
-              locale === 'es'
-                ? '/desarrollo-a-medida'
-                : '/customized-development'
-            )
-          "
-          class="link"
-          @click="toggleCloseMenu"
-        >
-          <span>{{ $t('navbar.customService') }}</span>
-        </NuxtLink>
-        <NuxtLink
-          :to="
-            localePath(
-              locale === 'es'
-                ? '/consultoria-innovacion'
-                : '/innovation-consulting'
-            )
-          "
-          class="link"
-          @click="toggleCloseMenu"
-        >
-          <span>{{ $t('navbar.consultancy') }}</span>
-        </NuxtLink>
-      </div>
-    </div>
   </div>
 </template>
 

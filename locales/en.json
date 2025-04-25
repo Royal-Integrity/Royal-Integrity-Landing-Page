@@ -9,8 +9,6 @@
     "logtech": "Logtech",
     "legaltech": "Legaltech",
     "services": "Services",
-    "customService": "Customized development",
-    "consultancy": "Innovation consulting",
     "testimonials": "Success stories",
     "contacts": "Contact us"
   },
@@ -32,39 +30,42 @@
     },
     "whatwedo": {
       "title": {
-        "text": "How can we support you in royalIntegrity?",
-        "keywords": ["royalIntegrity?"]
+        "text": "How can we support you in Royal Integrity?",
+        "keywords": ["Royal Integrity?"]
       },
-      "description": "At royalIntegrity, we create software powered by artificial intelligence, supported by applied research. We combine innovation and experience to help you overcome challenges and seize new opportunities. Ready to find out how we can work together?",
+      "description": "At Royal Integrity we are ready to support you with specialized solutions for the protection of your assets. We offer Volatile Corrosion Inhibitors, PIG services (cleaning, instrumentation and plugs), as well as Carbon Fiber Composite Wrap repair. Contact us and we will gladly help you strengthen the integrity of your systems.",
       "keywords": [
-        "royalIntegrity",
-        "artificial intelligence",
-        "Ready to find out how we can work together?"
+        "Royal Integrity",
+        "Volatile Corrosion Inhibitors",
+        "PIG services",
+        "Carbon Fiber Composite Wrap repair"
       ]
     },
     "whoweare": {
       "title": {
-        "text": "Who we are?",
+        "text": "Who are we?",
         "keywords": ["Who"]
       },
+      "slideOneTitle": {
+        "text": "Mission",
+        "keywords": ["Mission"]
+      },
       "slideOne": {
-        "text": "We enable emerging technologies through applied research and cloud software, driving innovation and digital transformation of the ecosystem",
-        "keywords": [
-          "emerging technologies",
-          "applied research",
-          "digital transformation"
-        ]
+        "text": "Our mission is to protect the critical infrastructure and long-term investments of clients in the Oil & Gas, Energy, and Industrial sectors in Latin America. We also offer specialized solutions for corrosion protection and repair.",
+        "keywords": ["Our mission", "Oil & Gas", "Energy and Industrial"]
       },
       "slideTwo": {
-        "text": "We apply natural and data sciences to solve industry problems and support our clients' insertion into the Fourth Industrial Revolution.",
-        "keywords": ["Fourth Industrial Revolution"]
+        "text": "Extending the lifespan of equipment and improving its profitability through direct distribution, expert service, certified training, and support, we provide proven and cutting-edge technologies with unparalleled technical support, acting as partners to secure your assets and optimize your processes.",
+        "keywords": [
+          "lifespan",
+          "profitability",
+          "proven and cutting-edge technologies"
+        ]
       },
       "slideThree": {
-        "text": "We ensure expertise in:",
-        "keywords": ["expertise"],
-        "itemOne": "Science and research, business knowledge.",
-        "itemTwo": "Process automation and digital transformation.",
-        "itemThree": "AI technologies and software development."
+        "title": "Vision",
+        "text": "We envision ourselves as the global benchmark partner in integrity management throughout the asset lifecycle and corrosion protection.",
+        "keywords": ["global benchmark partner", "asset lifecycle"]
       }
     },
     "ourServices": {
@@ -73,63 +74,128 @@
         "keywords": ["services"]
       },
       "services": {
-        "energytech": {
-          "title": "ENERGYTECH",
-          "alt": "Ícono Energytech",
-          "text": "Meet THORI AI, a suite of technological solutions that support planning and decision-making in the energy ecosystem. Digitalization is the strategic ally for a sustainable world."
-        },
-        "logtech": {
-          "title": "LOGTECH",
-          "alt": "icon Logtech",
-          "text": "We have developed intelligent cognitive assistants that accelerate your manual freight transport operations and processes. We build and enhance competitive advantages for an interconnected world."
-        },
-        "legaltech": {
-          "title": "LEGALTECH",
-          "alt": "icon Legaltech",
-          "text": "Learn about our Legaltech services. Specialized solutions for efficient data management. We focus on optimizing operational tasks, streamlining document management and digitally transforming state processes."
-        },
-        "customService": {
-          "title": "Custom development",
-          "alt": "custom development icon",
-          "textOne": "At royalIntegrity we believe that every company is unique, which is why our custom software development understands the challenges of each industry and adapts to new business paradigms.",
-          "textTwo": "Experience in: BPOs, FinTech, GovTech."
-        }
+        "slides": [
+            {
+              "img": ["/images/services/pig_encamisado.png"],
+              "alt": "Patents, Licensing",
+              "title": "Patents, Licensing",
+              "text": "Versatile Jacketed Cleaning Pig capable of use in pipelines with different fluid phases and ease of negotiation with two or more internal diameters, meeting the particularities of the subsea pipeline system and its arrangement."
+            },
+            {
+              "img": [
+                "/images/services/pig_espuma_1.png",
+                "/images/services/pig_espuma_2.png",
+                "/images/services/pig_espuma_3.png",
+                "/images/services/pig_espuma_4.png"
+              ],
+              "alt": "Foam Pig",
+              "title": "Foam Pigs",
+              "text": "Versatile (Low Weight and High Flexibility), ideal for large diameter reductions and sharp angles."
+            },
+            {
+              "img": [
+                "/images/services/pig_mandril_1.png",
+                "/images/services/pig_mandril_2.png",
+                "/images/services/pig_mandril_3.png",
+                "/images/services/pig_mandril_4.png"
+              ],
+              "alt": "Mandrel Pigs",
+              "title": "Mandrel Pigs",
+              "text": "Versatile (allowing quick replacement of its components), ideal for line preparation prior to inspection. LBD Model (Bi-Directional), LUN Model (Uni-Directional)."
+            },
+            {
+              "img": [
+                "/images/services/acc_pigs_1.png",
+                "/images/services/acc_pigs_2.png",
+                "/images/services/acc_pigs_3.png",
+                "/images/services/acc_pigs_4.png"
+              ],
+              "alt": "Pig Accessories",
+              "title": "Pig Accessories",
+              "text": "Essential elements that complement and optimize pig performance in cleaning, dehydration, and inspection tasks. Manufactured with high-resistance materials, they allow customizing pigs according to the pipeline's operational conditions. These accessories ensure greater efficiency, adaptability, and lifespan of the equipment in the field."
+            },
+            {
+              "img": ["/images/services/pig_Hflex_1.png"],
+              "alt": "HFlex Pigs",
+              "title": "HFlex Pigs",
+              "text": "Removal of liquids and condensates from gas lines, product separation, cleaning, product interfacing, water removal in hydrostatic testing with minimal risk of obstruction."
+            },
+            {
+              "img": [
+                "/images/services/pig_Discflex_1.png",
+                "/images/services/pig_Discflex_2.png",
+                "/images/services/pig_Discflex_3.png"
+              ],
+              "alt": "Discflex Pig",
+              "title": "Discflex Pig",
+              "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations."
+            },
+            {
+              "img": ["/images/services/pig_valePig_1.png"],
+              "alt": "Valve Pig",
+              "title": "Valve Pig",
+              "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations."
+            },
+            {
+              "img": [
+                "/images/services/acc_pigs_5.png",
+                "/images/services/acc_pigs_6.png",
+                "/images/services/acc_pigs_7.png",
+                "/images/services/acc_pigs_8.png"
+              ],
+              "alt": "Pig Accessories",
+              "title": "Pig Accessories",
+              "text": "Essential elements that complement and optimize pig performance in cleaning, dehydration, and inspection tasks. Manufactured with high-resistance materials, they allow customizing pigs according to the pipeline's operational conditions. These accessories ensure greater efficiency, adaptability, and lifespan of the equipment in the field."
+            },
+            {
+              "img": ["/images/services/pig_PressurePlug_1.png"],
+              "alt": "Hi Pressure Plug",
+              "title": "Hi Pressure Plug",
+              "text": "Sealing device, with double compression packers (Polyurethane + Tungsten Rings), designed for the temporary plugging of wells for up to 30 years, coated and with sacrificial anodes."
+            },
+            {
+              "img": ["/images/services/pig_Plug_1.png"],
+              "alt": "Pig Plug",
+              "title": "Pig Plug",
+              "text": "Insertion device at one end of the pipeline, creating a seal (Polyurethane Packers are Compressed and Expanded) using a torque tool, blocking the flow and allowing Pig launching."
+            },
+            {
+              "img": ["/images/services/pig_Bloqueadores_Flujo_Temp._1.png"],
+              "alt": "Temp. Flow Blockers",
+              "title": "Temp. Flow Blockers",
+              "text": "Device for directing or diverting Pig flow towards specific pipelines, allowing maintenance and inspection operations to be carried out efficiently and safely, controlled via a lever."
+            },
+            {
+              "img": ["/images/services/valvula_argus_1.png"],
+              "alt": "Argus Valve",
+              "title": "Argus Valve",
+              "text": "Bi-directional valves that allow launching and receiving Pigs in Gas Lines, offering greater efficiency, safety, comfort, ease of use, and reduced environmental impact."
+            },
+            {
+              "img": ["/images/services/pig_dataLogger_1.png"],
+              "alt": "Pig Data Logger",
+              "title": "Pig Data Logger",
+              "text": "Economical and Compact ILI Unit (Installed in a Pig) and independent, designed to record pressure, temperature, and speeds via sensors."
+            },
+            {
+              "img": ["/images/services/ILI_1.png"],
+              "alt": "ILI – Unpiggable Lines",
+              "title": "ILI – Unpiggable Lines",
+              "text": "ILI Unit for Unpiggable Lines equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines."
+            },
+            {
+              "img": ["/images/services/acquarius_1.png"],
+              "alt": "Acquarius",
+              "title": "Acquarius",
+              "text": "Wireless intelligent PIG, equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines."
+            }
+        ]
       }
-    },
-    "advantages": {
-      "title": {
-        "text": "Competitive advantages",
-        "keywords": ["advantages"]
-      },
-      "cardOne": "15+ years of experience and 5 years since its foundation in the energy, logistics and government industries.",
-      "cardOneAlt": "Imagen experiencia",
-      "cardTwo": "20+ PhDs and MScs who contribute knowledge and experience to each project.",
-      "cardTwoAlt": "Imagen expertos",
-      "cardThree": "Recognitions for innovation and track record in the technology sector.",
-      "cardThreeAlt": "Imagen resultados"
     },
     "ourClients": {
       "title": {
         "text": "Our clients",
         "keywords": ["clients"]
-      }
-    },
-    "testimonials": {
-      "title": {
-        "text": "Success cases",
-        "keywords": ["cases"]
-      },
-      "cardOne": {
-        "text": "'royalIntegrity is an ally for the organization who has been very useful in the adoption of new technologies such as advanced analytics and artificial intelligence.'",
-        "rol": "INNOVATION MANAGER AT CELSIA."
-      },
-      "cardTwo": {
-        "text": "'The service provided to us has been of very high quality, the expertise of the teams that have worked with us is evident, they have the potential to generate a lot of value for companies. royalIntegrity has been an ideal model of a startup with which we want to work and continue working.'",
-        "rol": "INNOVATION MANAGER AT GEB."
-      },
-      "cardThree": {
-        "text": "'The know-how of royalIntegrity and his investigative team is what has interested us the most. royalIntegrity is a partner that, thanks to its specialization, knowledge and success in the logistics industry, has had a significant impact in terms of efficiency and digitalization.'",
-        "rol": "CO-FOUNDER OF MAGAYA CORPORATION."
       }
     },
     "contactUsHome": {
@@ -534,7 +600,10 @@
         "keywords": ["Logistics 4.0!"]
       },
       "text": "At royalIntegrity, we embrace optimization and digitalization to drive the logistics industry to new levels of performance. Discover how royalIntegrity transforms operations and empowers your business in the digital age.",
-      "keywords": ["royalIntegrity", "empowers your business in the digital age"],
+      "keywords": [
+        "royalIntegrity",
+        "empowers your business in the digital age"
+      ],
       "alt": "Logtech hero"
     },
     "whyLogtech": {
@@ -971,7 +1040,11 @@
         "keywords": ["success cases!"]
       },
       "text": "Learn how our AI has transformed leading companies in various sectors. Be part of the future of technology with royalIntegrity.",
-      "keywords": ["our AI", "Be part of the future", "technology with royalIntegrity"],
+      "keywords": [
+        "our AI",
+        "Be part of the future",
+        "technology with royalIntegrity"
+      ],
       "alt": "Success stories hero",
       "button": "See Brochure",
       "buttonAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_guane_eng_final?fr=sMjdiNTgzNTE0MDg"

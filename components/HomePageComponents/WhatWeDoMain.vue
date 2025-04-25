@@ -13,7 +13,6 @@ const WhatWeDoComponentMobile = defineAsyncComponent(() => import('./components/
 const { screenWidth } = onResize();
 
 const largeScreen = computed(() => screenWidth.value > 0 && screenWidth.value > 650);
-const mobileScreen = computed(() => screenWidth.value > 0 && screenWidth.value < 650);
 
 const currentComponent = computed(() => {
   if (largeScreen.value) return WhatWeDoComponent;

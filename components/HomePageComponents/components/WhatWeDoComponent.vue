@@ -11,77 +11,16 @@
       </div>
     </div>
     <div class="section-two__image-container">
-      <ResponsiveImage original="/images/new_design/home/section_2.webp" alt="royalIntegrity" loading="lazy" width="600"
-        height="500" />
-      <div class="section-two__image-container--texts">
-        <div class="image-text">
-          <div v-for="text, index in texts" :key="index" class="image-text__item text-highlighter-gradient" :class="{
-            visible: index === currentIndex,
-            short: text.split(' ').length === 1,
-            short_lg: text.split(' ').length === 1 && text.split('').length > 2,
-            medium: text.split(' ').length > 1 && text.split(' ').length <= 2,
-            large: text.split(' ').length > 2,
-          }" :style="{ transform: `translateY(${index === currentIndex ? calculatePositionY(text) : 100}%)` }">
-            {{ text }}
-          </div>
-        </div>
-      </div>
+      <ResponsiveImage original="/images/new_design/home/LUN-CC2-DG2-ELP.png" alt="royalIntegrity" loading="lazy"
+        width="500" height="500" />
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
 import TextHighlighter from '~/components/TextHighlighter.vue';
 import ResponsiveImage from '~/components/ResponsiveImage.vue';
 
-const { locale } = useI18n();
-
-const texts_ = {
-  es: [
-    "IA",
-    "Machine Learning",
-    "Deep Learning",
-    "OCR",
-    "NLP",
-    "Visión por computadora",
-    "Ciencia y análisis de datos",
-    "RPA"
-  ],
-  en: [
-    "IA",
-    "Machine Learning",
-    "Deep Learning",
-    "OCR",
-    "NLP",
-    "Computer Vision",
-    "Data science and analysis",
-    "RPA"
-  ]
-};
-const texts = ref([]);
-const currentIndex = ref(3);
-
-const changeText = () => {
-  currentIndex.value = (currentIndex.value + 1) % texts.value.length;
-}
-
-const calculatePositionY = (text) => {
-  if (text.split(' ').length === 1) {
-    return 25;
-  } else if (text.split(' ').length > 2 && text.split(' ').length <= 3) {
-    return 26;
-  } else if (text.split(' ').length > 3) {
-    return 0;
-  }
-  return 10;
-}
-
-onMounted(() => {
-  texts.value = locale.value === 'es' ? texts_.es : texts_.en;
-  const interval = setInterval(changeText, 2000);
-  return () => clearInterval(interval);
-})
 </script>
 
 <style lang="scss" scoped>
@@ -95,14 +34,13 @@ onMounted(() => {
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
+  background-image: url('/public/images/new_design/home/BK4-05-06.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  @media (max-width: 927px) {
-    margin-bottom: 50px;
-  }
+  @media (max-width: 927px) {}
 
-  @media (min-width: 928px) and (max-width: 1279px) {
-    margin-bottom: 50px;
-  }
+  @media (min-width: 928px) and (max-width: 1279px) {}
 
   &__image-container {
     width: 40%;
@@ -380,13 +318,13 @@ onMounted(() => {
     left: 0;
     right: 0;
     height: 2px;
-    background: linear-gradient(90deg, #6306fc, #24b0b3);
+    background: linear-gradient(90deg, #4E4A9E, #F6AF33);
     z-index: -1;
   }
 }
 
-.text-highlighter-gradient {
-  background: linear-gradient(90deg, #6306fc, #24b0b3);
+:deep .text-highlighter-gradient {
+  background: linear-gradient(90deg, #4E4A9E, #F6AF33);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 300;

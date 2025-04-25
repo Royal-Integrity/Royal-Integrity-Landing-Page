@@ -32,14 +32,15 @@
     },
     "whatwedo": {
       "title": {
-        "text": "¿Cómo podemos apoyarte en royalIntegrity?",
-        "keywords": ["royalIntegrity?"]
+        "text": "¿Cómo podemos apoyarte en Royal Integrity?",
+        "keywords": ["Royal Integrity?"]
       },
-      "description": "En royalIntegrity, creamos software apalancado por inteligencia artificial, soportado por investigación aplicada. Combinamos innovación y experiencia para ayudarte a superar retos y aprovechar nuevas oportunidades. ¿Listo para descubrir cómo podemos trabajar juntos?",
+      "description": "En Royal Integrity estamos listos para apoyarte con soluciones especializadas para la protección de tus activos. Ofrecemos Inhibidores de Corrosión Volátiles, servicios con PIGs (limpieza, instrumentación y plugs), así como reparación con Materiales Compuestos (Carbon Fiber Composite Wrap). Contáctanos y con gusto te ayudaremos a fortalecer la integridad de tus sistemas.",
       "keywords": [
-        "royalIntegrity",
-        "inteligencia artificial",
-        "¿Listo para descubrir cómo podemos trabajar juntos?"
+        "Royal Integrity",
+        "Inhibidores de Corrosión Volátiles",
+        "PIGs",
+        "Materiales Compuestos"
       ]
     },
     "whoweare": {
@@ -47,89 +48,122 @@
         "text": "¿Quiénes somos?",
         "keywords": ["¿Quiénes"]
       },
+      "slideOneTitle": {
+        "text": "Misión",
+        "keywords": ["Misión"]
+      },
       "slideOne": {
-        "text": "Habilitamos tecnologías emergentes mediante investigación aplicada y software en la nube impulsando la innovación y transformación digital del ecosistema",
-        "keywords": [
-          "tecnología emergentes",
-          "investigación aplicada",
-          "transformación digital"
-        ]
+        "text": "Nuestra misión es proteger la infraestructura crítica e inversiones a largo plazo de clientes en Oil & Gas, Energía e Industrial en Latinoamérica. También ofrecemos soluciones especializadas de protección y reparación contra la corrosión.",
+        "keywords": ["Nuestra misión", "Oil & Gas", "Energía e Industrial"]
       },
       "slideTwo": {
-        "text": "Aplicamos las ciencias naturales y de datos para resolver  problemas de la industria y apoyar la inserción de nuestros clientes en la Cuarta Revolución Industrial",
-        "keywords": ["Cuarta Revolución Industrial"]
+        "text": "Extendiendo la vida útil de equipos y mejorando su rentabilidad a través de distribución directa, servicio experto, capacitación y soporte certificado, brindamos tecnologías probadas y vanguardistas con un soporte técnico inigualable, actuando como socios para asegurar sus activos y optimizar sus procesos.",
+        "keywords": [
+          "vida útil",
+          "rentabilidad",
+          "tecnologías probadas y vanguardistas"
+        ]
       },
       "slideThree": {
-        "text": "Aseguramos experiencia en:",
-        "keywords": ["experiencia"],
-        "itemOne": "Ciencia e investigación, conocimiento del negocio.",
-        "itemTwo": "Automatización de procesos y transformación digital.",
-        "itemThree": "Tecnologías IA y desarrollo de software."
+        "title": "Visión",
+        "text": "Nos visualizamos como el aliado global de referencia en el manejo de la integridad a lo largo del ciclo de vida de los activos y la protección contra la corrosión.",
+        "keywords": ["aliado global", "ciclo de vida de los activos"]
       }
     },
     "ourServices": {
       "title": {
-        "text": "Nuestros servicios",
-        "keywords": ["servicios"]
+        "text": "Nuestro portafolio",
+        "keywords": ["portafolio"]
       },
       "services": {
-        "energytech": {
-          "title": "ENERGYTECH",
-          "alt": "Ícono Energytech",
-          "text": "Conoce a THORI AI, una suite de soluciones tecnológicas que soportan la planeación y las decisiones en el ecosistema energético. La digitalización es el aliado estratégico para un mundo sostenible."
-        },
-        "logtech": {
-          "title": "LOGTECH",
-          "alt": "Ícono Logtech",
-          "text": "Hemos desarrollado asistentes cognitivos inteligentes que aceleran tus operaciones y procesos manuales de transporte de carga. Construimos y potenciamos ventajas competitivas para un mundo interconectado."
-        },
-        "legaltech": {
-          "title": "LEGALTECH",
-          "alt": "Ícono Legaltech",
-          "text": "Conoce nuestros servicios Legaltech. Soluciones especializadas para la gestión eficiente de datos. Nos enfocamos en optimizar tareas operativas, agilizar la gestión de documentos y transformar digitalmente los procesos del estado."
-        },
-        "customService": {
-          "title": "Desarrollo a medida",
-          "alt": "Ícono desarrollo a la medida",
-          "textOne": "En royalIntegrity creemos que cada empresa es única, por eso nuestro desarrollo de software a la medida entiende los desafíos de cada industria y se adapta a los nuevos paradigmas empresariales.",
-          "textTwo": "Experiencia en: BPO’s, FinTech, GovTech."
-        }
+        "slides": [
+          {
+            "alt": "Patentes, Licenciamiento",
+            "title": "Patentes, Licenciamiento",
+            "text": "En asociación con Petrobras, se desarrollo un Pig Encamisado de Limpieza versátil y con capacidad de uso en tuberías con diferentes fases de fluido y la facilidad de negociación con dos o más diámetros internos que cumpliera con las particularidades del sistema de tuberías submarinas y su disposición. Patente BR 102012011868-8 Ideal para: Inspección, Secado, Limpieza y Remoción (Liviana)."
+          },
+          {
+            "alt": "Patentes, Licenciamiento",
+            "title": "Patentes, Licenciamiento",
+            "text": "Pig Multisize Licenciado por Petrobras, diseñado para atender líneas con variaciones de diámetro mediante la utilización de una sola herramienta. Diámetros: 4” x 8.5”, 8” x 12”, 12 x 16”, entre otros. Ideal para: Limpieza."
+          },
+          {
+            "alt": "Pig Espuma",
+            "title": "Pigs de Espuma",
+            "text": "Versátil (Bajo Peso y Alta Flexibilidad) ideales para reducciones de gran diámetro y ángulos pronunciados. Ideal para: Inspección, Secado, Limpieza, Remoción."
+          },
+          {
+            "alt": "Pigs de Mandril",
+            "title": "Pigs de Mandril",
+            "text": "Versátil (permitiendo la rápida reposición de sus componentes) ideales para la preparación de líneas previo a la inspección. Modelo LBD (Bi-Direccionales), Modelo LUN (Unidireccionales). Ideal para: Limpieza, Remoción, Separación y Calibración."
+          },
+          {
+            "alt": "Accesorios para Pigs",
+            "title": "Accesorios para Pigs",
+            "text": "Elementos esenciales que complementan y optimizan el desempeño de los pigs en tareas de limpieza, deshidratado e inspección. Fabricados con materiales de alta resistencia, permiten personalizar los pigs según las condiciones operativas del ducto. Estos accesorios aseguran mayor eficiencia, adaptabilidad y vida útil de los equipos en campo."
+          },
+          {
+            "alt": "Pigs HFlex",
+            "title": "Pigs HFlex",
+            "text": "Eliminación de líquidos y condensados de líneas de gas, separación de productos, limpieza, interfaz de productos, eliminación de agua en prueba hidrostática con un riesgo mínimo de obstrucción. Ideal para: Limpieza o Drenaje."
+          },
+          {
+            "alt": "Pig Discflex",
+            "title": "Pig Discflex",
+            "text": "Pigs monolíticos, con cambios en sus composiciones químicas que permiten su aplicabilidad en diversas situaciones. Ideal para: Limpieza o Drenaje."
+          },
+          {
+            "alt": "Valve Pig",
+            "title": "Valve Pig",
+            "text": "Pigs monolíticos, con cambios en sus composiciones químicas que permiten su aplicabilidad en diversas situaciones. Ideal para: Limpieza o Drenaje."
+          },
+          {
+            "alt": "Accesorios para Pigs",
+            "title": "Accesorios para Pigs",
+            "text": "Elementos esenciales que complementan y optimizan el desempeño de los pigs en tareas de limpieza, deshidratado e inspección. Fabricados con materiales de alta resistencia, permiten personalizar los pigs según las condiciones operativas del ducto. Estos accesorios aseguran mayor eficiencia, adaptabilidad y vida útil de los equipos en campo."
+          },
+          {
+            "alt": "Hi Pressure Plug",
+            "title": "Hi Pressure Plug",
+            "text": "Dispositivo de Sellado, con packers de compresión doble (Poliuretano + Anillos de Tungsteno) diseñado para el bloqueo temporal de hasta 30 años de pozos, recubierto y ánodos de sacrificio. Ideal para: Aislamiento, Sellado, Pruebas Hidrostáticas de Líneas, Pozos y Arboles de Navidad."
+          },
+          {
+            "alt": "Pig Plug",
+            "title": "Pig Plug",
+            "text": "Dispositivo de inserción en un extremo de la tubería, creando un sello (Packers en Poliuretano son Comprimidos y Expandidos) mediante una herramienta de torque, bloqueando el flujo y permitiendo el lanzamiento de Pig. Ideal para: Lavado y/o Lanzamiento de Pigs."
+          },
+          {
+            "alt": "Bloqueadores de Flujo Temp.",
+            "title": "Bloqueadores de Flujo Temp.",
+            "text": "Dispositivo de dirección o desviación del flujo del Pig hacia líneas de tuberías especificas, permitiendo que las operaciones de mantenimiento e inspección se realicen con eficiencia y seguridad, siendo controlado a través de una palanca. Ideal para: Bloqueo Temporal de Flujo."
+          },
+          {
+            "alt": "Válvula Argus",
+            "title": "Válvula Argus",
+            "text": "Válvulas bidireccionales que permiten lanzar y recibir los Pig´s en Líneas de Gas, ofrecen mayor eficacia, seguridad, comodidad, facilidad de uso e impacto ambiental reducido. Ideal para: Lanzamiento, Recepción de Pig´s."
+          },
+          {
+            "alt": "Pig Data Logger",
+            "title": "Pig Data Logger",
+            "text": "Unidad ILI Económica y Compacta (Instalado en un Pig) e independiente, diseñado para registrar presión, temperatura y velocidades a través de sensores."
+          },
+          {
+            "alt": "ILI – Líneas No Pigables",
+            "title": "ILI – Líneas No Pigables",
+            "text": "Unidad ILI para Líneas no Pigables equipado con sensores ultrasónicos para medir la geometría y detectar anomalías en tuberías presurizadas. Realiza un mapeo XYZ preciso y evalúa la condición completa (Pérdida de pared Interior y externa, Discriminación Interna/Externa, Creeps “Protuberancias, Exceso de Penetración, Ovalidad”, Abolladuras, Reparaciones Históricas, Incrustaciones)."
+          },
+          {
+            "alt": "Acquarius",
+            "title": "Acquarius",
+            "text": "PIG inteligente inalámbrico, equipado con sensores ultrasónicos para medir la geometría y detectar anomalías en tuberías presurizadas. Realiza un mapeo XYZ preciso y evalúa la condición completa de tuberías, independientemente del material “Acero, HDPE/PVC/GRP, hormigón, hierro fundido,”. Sus datos se presentan en un panel interactivo y dinámico, facilitando el análisis detallado de la tubería inspeccionada."
+          }
+        ]
       }
-    },
-    "advantages": {
-      "title": {
-        "text": "Ventajas competitivas",
-        "keywords": ["Ventajas"]
-      },
-      "cardOne": "15+ años de experiencia y 5 desde su fundación en la industria energética, logística y de gobierno.",
-      "cardOneAlt": "Imagen experiencia",
-      "cardTwo": "20+ PhDs y MScs los cuales aportan conocimiento y experiencia en cada proyecto.",
-      "cardTwoAlt": "Imagen expertos",
-      "cardThree": "Reconocimientos en innovación y trayectoria en el sector tecnológico.",
-      "cardThreeAlt": "Imagen resultados"
     },
     "ourClients": {
       "title": {
         "text": "Nuestros clientes",
         "keywords": ["clientes"]
-      }
-    },
-    "testimonials": {
-      "title": {
-        "text": "Casos de éxito",
-        "keywords": ["éxito"]
-      },
-      "cardOne": {
-        "text": "'royalIntegrity es un aliado para la organización que ha sido muy útil en la adopción de nuevas tecnologías cómo la analítica avanzada y la inteligencia artificial'.",
-        "rol": "GERENTE DE INNOVACIÓN EN CELSIA."
-      },
-      "cardTwo": {
-        "text": "'El servicio que nos ha proporcionado ha sido de muy alta calidad. Se nota la experticia de los equipos que han trabajado con nosotros, tienen el potencial de generar mucho valor a las empresas. royalIntegrity ha sido un modelo ideal de startup con la que queremos trabajar y seguir trabajando'.",
-        "rol": "GERENTE DE INNOVACIÓN EN GEB."
-      },
-      "cardThree": {
-        "text": "'El know how de royalIntegrity y su equipo investigativo es lo que más nos ha interesado. royalIntegrity es un partner que gracias a su especialización, conocimiento y éxito en la industria logística, ha impactado significativamente en términos de eficiencia y digitalización'.",
-        "rol": "COFUNDADOR DE MAGAYA CORPORATION."
       }
     },
     "contactUsHome": {
@@ -982,7 +1016,11 @@
         "keywords": ["casos de éxito!"]
       },
       "text": "Conoce cómo nuestra IA ha transformado empresas líderes de diversos sectores. Sé parte del futuro de la tecnología con royalIntegrity.",
-      "keywords": ["nuestra IA", "Sé parte del futuro", "tecnología con royalIntegrity"],
+      "keywords": [
+        "nuestra IA",
+        "Sé parte del futuro",
+        "tecnología con royalIntegrity"
+      ],
       "alt": "Casos de éxito hero",
       "button": "Ver Brochure",
       "buttonAction": "https://issuu.com/royalIntegrity.ai/docs/brochure_guane_completo?fr=sNDUzYzgwMTE2NDY"

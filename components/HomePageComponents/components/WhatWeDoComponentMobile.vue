@@ -1,22 +1,8 @@
 <template>
   <div class="what_we_do_mobile">
     <div class="what_we_do_mobile__image-container">
-      <ResponsiveImage original="/images/new_design/home/section_2.webp" alt="what_we_do" width="250" height="250"
+      <ResponsiveImage original="/images/new_design/home/LUN-CC2-DG2-ELP.png" alt="what_we_do" width="250" height="250"
         loading="lazy" />
-
-      <div class="what_we_do_mobile__image-container--texts">
-        <div class="image-text">
-          <div v-for="text, index in texts" :key="index" class="image-text__item text-highlighter-gradient" :class="{
-            visible: index === currentIndex,
-            short: text.split(' ').length === 1,
-            short_lg: text.split(' ').length === 1 && text.split('').length > 2,
-            medium: text.split(' ').length > 1 && text.split(' ').length <= 2,
-            large: text.split(' ').length > 2,
-          }">
-            {{ text }}
-          </div>
-        </div>
-      </div>
     </div>
     <div class="what_we_do_mobile__text-container">
       <div class="what_we_do_mobile__text-container--title">
@@ -32,77 +18,28 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
 import TextHighlighter from '~/components/TextHighlighter.vue';
 import ResponsiveImage from '~/components/ResponsiveImage.vue';
 
-const { locale } = useI18n();
-
-const texts_ = {
-  es: [
-    "IA",
-    "Machine Learning",
-    "Deep Learning",
-    "OCR",
-    "NLP",
-    "Visión por computadora",
-    "Ciencia y análisis de datos",
-    "RPA"
-  ],
-  en: [
-    "IA",
-    "Machine Learning",
-    "Deep Learning",
-    "OCR",
-    "NLP",
-    "Computer Vision",
-    "Data science and analysis",
-    "RPA"
-  ]
-};
-const texts = ref([]);
-const currentIndex = ref(0);
-
-const changeText = () => {
-  currentIndex.value = (currentIndex.value + 1) % texts.value.length;
-}
-
-const calculatePositionY = (text) => {
-  if (text.split(' ').length === 1) {
-    return 25;
-  } else if (text.split(' ').length > 2 && text.split(' ').length <= 3) {
-    return 26;
-  } else if (text.split(' ').length > 3) {
-    return 0;
-  }
-  return 10;
-}
-
-onMounted(() => {
-  texts.value = locale.value === 'es' ? texts_.es : texts_.en;
-
-  const interval = setInterval(changeText, 2000);
-  return () => clearInterval(interval);
-})
 
 </script>
 
 <style lang="scss" scoped>
 .what_we_do_mobile {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   box-sizing: border-box;
   font-family: $font-family-royalIntegrity;
   color: $primary-color-dark;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
+  align-items: center;
   position: relative;
   margin-bottom: 5%;
 
   &__image-container {
-    width: 80%;
+    width: 70%;
     height: auto;
     position: relative;
 
@@ -118,7 +55,6 @@ onMounted(() => {
       position: absolute;
       top: 18%;
       left: 3.5%;
-
       width: 85px;
       height: 60px;
 
@@ -150,17 +86,17 @@ onMounted(() => {
     bottom: 0;
 
     @media (min-width: 390px) {
-      bottom: 20%;
+      bottom: 0%;
     }
 
     @media (min-width: 570px) {
-      bottom: 10%;
+      bottom: 5%;
     }
 
     &--title {
       font-size: $mobile-title;
       text-align: center;
-      width: 90%;
+      width: 100%;
 
       @media (min-width: 430px) {
         width: 70%;

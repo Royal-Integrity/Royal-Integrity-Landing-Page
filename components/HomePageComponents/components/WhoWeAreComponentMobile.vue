@@ -2,7 +2,7 @@
   <div class="whoweare-mobile">
     <div class="whoweare-mobile__video">
       <video autoplay loop muted playsinline>
-        <source src="/videos/planet.webm" type="video/webm">
+        <source src="/videos/logo.mp4" type="video/webm">
       </video>
     </div>
     <div class="whoweare-mobile__content">
@@ -22,11 +22,6 @@
 
         <div :class="{ 'visible': activeStep === 2 }" class="whoweare-mobile__content--description--list">
           <TextHighlighter text="home.whoweare.slideThree.text" keywords="home.whoweare.slideThree.keywords" />
-          <ul>
-            <li>{{ $t('home.whoweare.slideThree.itemOne') }}</li>
-            <li>{{ $t('home.whoweare.slideThree.itemTwo') }}</li>
-            <li>{{ $t('home.whoweare.slideThree.itemThree') }}</li>
-          </ul>
         </div>
 
       </div>
@@ -82,6 +77,7 @@ onMounted(() => {
     video {
       width: 100%;
       height: auto;
+      border-radius: 100%;
     }
   }
 
@@ -94,7 +90,7 @@ onMounted(() => {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 10px;
+    gap: 35px;
 
     @media (min-width: 390px) {
       width: 95%;
@@ -121,7 +117,7 @@ onMounted(() => {
       line-height: 16px;
       position: relative;
       width: 100%;
-      min-height: 90px;
+      min-height: 140px;
 
       @media (min-width: 575px) {
         font-size: $extra-small;

@@ -41,7 +41,7 @@ import ResponsiveImage from '../ResponsiveImage.vue';
   color: $text-light-color;
   background-color: white;
   position: relative;
-  box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.12);
 
   &__image {
     width: 400px;
@@ -191,7 +191,7 @@ import ResponsiveImage from '../ResponsiveImage.vue';
       text-align: center;
       font-weight: 300;
       line-height: normal;
-      color: #4E4A9E;
+      color: black;
       text-align: justify;
 
 

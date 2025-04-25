@@ -2,7 +2,7 @@
   <section ref="whoweareSection" class="whoweare-section">
     <div ref="image" class="whoweare-section__image">
       <video autoplay loop muted playsinline>
-        <source src="/videos/planet.webm" type="video/webm">
+        <source src="/videos/logo.mp4" type="video/mp4">
       </video>
     </div>
     <div ref="info" class="whoweare-section__information">
@@ -26,11 +26,6 @@
           </span>
           <div :class="{ 'visible': activeStep === 2 }" class="information-content__description--list">
             <TextHighlighter text="home.whoweare.slideThree.text" keywords="home.whoweare.slideThree.keywords" />
-            <ul>
-              <li>{{ $t('home.whoweare.slideThree.itemOne') }}</li>
-              <li>{{ $t('home.whoweare.slideThree.itemTwo') }}</li>
-              <li>{{ $t('home.whoweare.slideThree.itemThree') }}</li>
-            </ul>
           </div>
 
         </div>
@@ -144,6 +139,9 @@ onBeforeUnmount(() => {
   gap: 20px;
   padding: 10px;
   font-family: $font-family-royalIntegrity;
+  background-image: url('/public/images/new_design/home/BK4-05-06.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   // TRANSITION
   opacity: 0;
   transform: translateY(0px);
@@ -176,6 +174,7 @@ onBeforeUnmount(() => {
     video {
       width: 90%;
       height: 90%;
+      border-radius: 100%;
     }
 
     @media (min-width: 650px) and (max-width: 927px) {
@@ -383,10 +382,10 @@ onBeforeUnmount(() => {
     &.el-steps--vertical {
       & .el-step__head {
         &.is-success {
-          border-color: #24b0b3;
+          border-color: #F6AF33;
 
           & .el-step__icon {
-            background-color: #24b0b3;
+            background-color: #F6AF33;
             color: transparent;
             border: 0;
             width: 20px;
@@ -404,7 +403,7 @@ onBeforeUnmount(() => {
           }
 
           & .el-step__line {
-            background: linear-gradient(180deg, #24b0b3 56%, #6306fc);
+            background: linear-gradient(90deg, #4E4A9E, #F6AF33);
             left: 10px;
 
             @media (max-width: 369px) {
@@ -424,7 +423,7 @@ onBeforeUnmount(() => {
         &.is-process {
           & .el-step__icon {
             color: transparent;
-            background-color: #6306fc;
+            background-color: #4E4A9E;
             border: 0;
             width: 20px;
             height: 20px;
@@ -490,6 +489,13 @@ onBeforeUnmount(() => {
         }
       }
     }
+  }
+
+  .text-highlighter-gradient {
+    background: linear-gradient(90deg, #4E4A9E, #F6AF33);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
   }
 }
 </style>
