@@ -185,13 +185,13 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
     left: 0;
     right: 0;
     height: 2px;
-    background: linear-gradient(90deg, #6306fc, #24b0b3);
+    background: linear-gradient(90deg, #4E4A9E, #F6AF33);
     z-index: -1;
   }
 }
 
 .text-highlighter-gradient {
-  background: linear-gradient(90deg, #6306fc, #24b0b3);
+  background: linear-gradient(90deg, #4E4A9E, #F6AF33);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 300;

@@ -86,7 +86,7 @@ export default defineNuxtConfig({
   components: false,
   app: {
     head: {
-      title: 'guane emerging technologies',
+      title: 'royal integrity',
       htmlAttrs: {
         lang: 'en',
       },

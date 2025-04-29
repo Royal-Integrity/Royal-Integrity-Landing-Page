@@ -82,7 +82,7 @@ const highlightedText = computed(() => {
 }
 
 .text-highlighter-gradient {
-  background: linear-gradient(90deg, #6306fc, #24b0b3);
+  background: linear-gradient(90deg, #4E4A9E, #F6AF33);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;

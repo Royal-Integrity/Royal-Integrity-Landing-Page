@@ -146,7 +146,7 @@ onUnmounted(() => {
   background: linear-gradient(0deg, #fff 70%, $secondary-color);
 
 
-  font-family: $font-family-guane;
+  font-family: $font-family-font-family-royalIntegrity;
   color: $primary-color-dark;
   box-sizing: border-box;
   padding-top: calc($navbar-height-mobile + 5%);
@@ -299,7 +299,7 @@ onUnmounted(() => {
     &--input {
       width: 100%;
       box-shadow: 0px 5px 10px #00000033;
-      font-family: $font-family-guane;
+      font-family: $font-family-royalIntegrity;
       font-size: $small;
       color: #7b7b7b;
       line-height: normal;
@@ -440,7 +440,7 @@ onUnmounted(() => {
 }
 
 .highlight {
-  background: linear-gradient(90deg, #6306fc, #24b0b3);
+  background: linear-gradient(90deg, #4E4A9E, #F6AF33);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;

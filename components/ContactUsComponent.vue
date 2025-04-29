@@ -1,27 +1,31 @@
 <template>
   <section class="contact-section" :class="content.class">
+    <ResponsiveImage original="/images/new_design/home/preview (2).svg" alt="footerImg" loading="lazy" width="1280"
+      height="500" class="contact-section-img" />
+    <div class="section-container">
+      <div class="title-container">
+        <h2 class="title-container__title">
+          <TextHighlighter :text="content.title.text" :keywords="content.title.keywords" />
+        </h2>
+      </div>
 
-    <div class="title-container">
-      <h2 class="title-container__title">
-        <TextHighlighter :text="content.title.text" :keywords="content.title.keywords" />
-      </h2>
-    </div>
+      <div class="contact-section__content-text">
+        <TextHighlighter :text="content.text" :keywords="content.keywords" />
+      </div>
 
-    <div class="contact-section__content-text">
-      <TextHighlighter :text="content.text" :keywords="content.keywords" />
-    </div>
-
-    <div class="button-container">
-      <button class="button-container__button">
-        <NuxtLink to="https://calendar.app.google/f1JUpjECTEy8nt4X9" target="_blank" class="link">
-          {{ $t(content.button) }}
-        </NuxtLink>
-      </button>
+      <div class="button-container">
+        <button class="button-container__button">
+          <NuxtLink to="https://calendar.app.google/ZNoeLdnSzxFSthCLA" target="_blank" class="link">
+            {{ $t(content.button) }}
+          </NuxtLink>
+        </button>
+      </div>
     </div>
 
   </section>
 </template>
 <script setup>
+import ResponsiveImage from '~/components/ResponsiveImage.vue';
 const TextHighlighter = defineAsyncComponent(() => import('./TextHighlighter.vue'));
 const content = {
   title: {
@@ -35,48 +39,63 @@ const content = {
 </script>
 
 <style lang="scss" scoped>
+.section-container {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 320px) {
+    height: 100%;
+padding: 20px
+  }
+}
+
+.contact-section-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
 .contact-section {
   width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  gap: 30px;
-  padding: 10% 0;
-  background-color: white;
-  background-image: url('/images/new_design/home/section_8.svg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: $font-family-royalIntegrity;
+  justify-content: center;
+  background-color: #fff;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #1f2846;
+  position: relative;
+
 
   @media (max-width: 375px) {
     gap: 20px;
-    background-size: 160%;
     background-position: bottom;
-    padding-bottom: 70%;
+
   }
 
   @media (min-width: 376px) and (max-width: 574px) {
     gap: 20px;
-    background-size: 160%;
     background-position: bottom;
-    padding-bottom: 70%
+
   }
 
   @media (min-width: 575px) and (max-width: 927px) {
     gap: 20px;
-    background-size: 100%;
     background-position: bottom;
-    padding-bottom: 70%
+
   }
 
 
   &__content-text {
     color: $primary-color-dark;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -216,11 +235,11 @@ const content = {
 
 .link {
   @include link-decoration;
-  color: #fff;
+  color: #4E4A9E;
 
   &__alt {
     @include link-decoration;
-    color: #fff;
+    color: #4E4A9E;
   }
 }
 </style>

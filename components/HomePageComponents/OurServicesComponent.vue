@@ -198,7 +198,6 @@ onMounted(() => {
 .slide-container {
   width: 100%;
   height: 100%;
-  margin-top: 3%;
 
   &__carousel {
     width: 50%;
