@@ -11,7 +11,6 @@
 
     <div class="divider" />
 
-
     <div class="slide-container">
       <div ref="cards" class="cards-container">
         <div class="slide-container__button-left">
@@ -20,7 +19,7 @@
           </el-button>
         </div>
         <div class="slide-container__carousel">
-          <el-carousel ref="carousel" tigger="click" arrow="never" class="carousel" :autoplay="false" :interval="5000">
+          <el-carousel ref="carousel" tigger="click" arrow="never" class="carousel" :autoplay="true" :interval="5000">
             <el-carousel-item v-for="module, index in  pageContent " :key="index">
               <div class="card">
                 <div :class="['slider-card__img', { 'is-grid': module.img && module.img.length >= 3 }]">
@@ -90,19 +89,19 @@ const pageContentBase = [
     textKey: 'home.ourServices.services.slides.1.text'
   },
   {
-    img: ['/images/services/pig_espuma_1.png', '/images/services/pig_espuma_2.png', '/images/services/pig_espuma_3.png', '/images/services/pig_espuma_4.png'],
+    img: ['/images/services/pig_espuma_1.png', '/images/services/pig_espuma_2.png', '/images/services/pig_espuma_3.png', '/images/services/pig_espuma_4.png', '/images/services/pig_espuma_5.png', '/images/services/pig_espuma_6.png', '/images/services/pig_espuma_7.png', '/images/services/pig_espuma_8.png'],
     altKey: 'home.ourServices.services.slides.2.alt',
     titleKey: 'home.ourServices.services.slides.2.title',
     textKey: 'home.ourServices.services.slides.2.text'
   },
   {
-    img: ['/images/services/pig_mandril_1.png', '/images/services/pig_mandril_2.png', '/images/services/pig_mandril_3.png', '/images/services/pig_mandril_4.png'],
+    img: ['/images/services/pig_mandril_1.png', '/images/services/pig_mandril_2.png', '/images/services/pig_mandril_3.png', '/images/services/pig_mandril_4.png', '/images/services/pig_mandril_5.png', '/images/services/pig_mandril_6.png', '/images/services/pig_mandril_7.png', '/images/services/pig_mandril_8.png'],
     altKey: 'home.ourServices.services.slides.3.alt',
     titleKey: 'home.ourServices.services.slides.3.title',
     textKey: 'home.ourServices.services.slides.3.text'
   },
   {
-    img: ['/images/services/acc_pigs_1.png', '/images/services/acc_pigs_2.png', '/images/services/acc_pigs_3.png', '/images/services/acc_pigs_4.png'],
+    img: ['/images/services/acc_pigs_1.png', '/images/services/acc_pigs_2.png', '/images/services/acc_pigs_3.png', '/images/services/acc_pigs_4.png', '/images/services/acc_pigs_5.png', '/images/services/acc_pigs_6.png', '/images/services/acc_pigs_7.png', '/images/services/acc_pigs_8.png'],
     altKey: 'home.ourServices.services.slides.4.alt',
     titleKey: 'home.ourServices.services.slides.4.title',
     textKey: 'home.ourServices.services.slides.4.text'
@@ -114,7 +113,7 @@ const pageContentBase = [
     textKey: 'home.ourServices.services.slides.5.text'
   },
   {
-    img: ['/images/services/pig_Discflex_1.png', '/images/services/pig_Discflex_2.png', '/images/services/pig_Discflex_3.png'],
+    img: ['/images/services/pig_Discflex_1.png', '/images/services/pig_Discflex_3.png', '/images/services/pig_Discflex_2.png',],
     altKey: 'home.ourServices.services.slides.6.alt',
     titleKey: 'home.ourServices.services.slides.6.title',
     textKey: 'home.ourServices.services.slides.6.text'
@@ -126,52 +125,46 @@ const pageContentBase = [
     textKey: 'home.ourServices.services.slides.7.text'
   },
   {
-    img: ['/images/services/acc_pigs_5.png', '/images/services/acc_pigs_6.png', '/images/services/acc_pigs_7.png', '/images/services/acc_pigs_8.png'],
+    img: ['/images/services/pig_PressurePlug_1.png'],
     altKey: 'home.ourServices.services.slides.8.alt',
     titleKey: 'home.ourServices.services.slides.8.title',
     textKey: 'home.ourServices.services.slides.8.text'
   },
   {
-    img: ['/images/services/pig_PressurePlug_1.png'],
+    img: ['/images/services/pig_Plug_1.png'],
     altKey: 'home.ourServices.services.slides.9.alt',
     titleKey: 'home.ourServices.services.slides.9.title',
     textKey: 'home.ourServices.services.slides.9.text'
   },
   {
-    img: ['/images/services/pig_Plug_1.png'],
+    img: ['/images/services/pig_Bloqueadores_Flujo_Temp._1.png'],
     altKey: 'home.ourServices.services.slides.10.alt',
     titleKey: 'home.ourServices.services.slides.10.title',
     textKey: 'home.ourServices.services.slides.10.text'
   },
   {
-    img: ['/images/services/pig_Bloqueadores_Flujo_Temp._1.png'],
+    img: ['/images/services/valvula_argus_1.png', '/images/services/valvula_argus_2.png', '/images/services/valvula_argus_3.png'],
     altKey: 'home.ourServices.services.slides.11.alt',
     titleKey: 'home.ourServices.services.slides.11.title',
     textKey: 'home.ourServices.services.slides.11.text'
   },
   {
-    img: ['/images/services/valvula_argus_1.png'],
+    img: ['/images/services/pig_dataLogger_1.png'],
     altKey: 'home.ourServices.services.slides.12.alt',
     titleKey: 'home.ourServices.services.slides.12.title',
     textKey: 'home.ourServices.services.slides.12.text'
   },
   {
-    img: ['/images/services/pig_dataLogger_1.png'],
+    img: ['/images/services/ILI_1.png'],
     altKey: 'home.ourServices.services.slides.13.alt',
     titleKey: 'home.ourServices.services.slides.13.title',
     textKey: 'home.ourServices.services.slides.13.text'
   },
   {
-    img: ['/images/services/ILI_1.png'],
+    img: ['/images/services/acquarius_1.png'],
     altKey: 'home.ourServices.services.slides.14.alt',
     titleKey: 'home.ourServices.services.slides.14.title',
     textKey: 'home.ourServices.services.slides.14.text'
-  },
-  {
-    img: ['/images/services/acquarius_1.png'],
-    altKey: 'home.ourServices.services.slides.15.alt',
-    titleKey: 'home.ourServices.services.slides.15.title',
-    textKey: 'home.ourServices.services.slides.15.text'
   },
 ];
 const pageContent = computed(() => {
@@ -206,11 +199,6 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   margin-top: 3%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 
   &__carousel {
     width: 50%;
@@ -218,12 +206,14 @@ onMounted(() => {
     box-sizing: border-box;
     padding: 20px;
 
-    @media (min-width: 370px) and (max-width: 574px) {
-      padding: 10px;
+    @media (min-width: 320px) and (max-width: 780px) {
+      padding: 0px 10px;
+      width: 100%;
     }
 
-    @media (min-width: 928px) and (max-width: 1279px) {
+    @media (min-width: 928px) and (max-width: 1450px) {
       padding: 10px;
+      width: 100%;
     }
   }
 
@@ -271,24 +261,33 @@ onMounted(() => {
   align-items: center;
   position: relative;
 
+  @media (min-width: 320px) and (max-width: 420px) {
+    width: 100%;
+    margin: 0px;
+  }
+
+  @media (min-width: 425px) {
+    min-width: 245px
+  }
+
   @media (min-width: 650px) {
-    min-width: 300px;
+    min-width: 550px;
   }
 
   @media (min-width: 928px) {
-    min-width: 320px;
+    min-width: 650px;
   }
 
   @media (min-width: 1280px) {
-    min-width: 350px;
+    min-width: 750px;
   }
 
   @media (min-width: 1366px) {
-    min-width: 350px;
+    min-width: 850px;
   }
 
   @media (min-width: 1600px) {
-    min-width: 400px;
+    min-width: 900px;
   }
 
   &__text {
@@ -306,15 +305,34 @@ onMounted(() => {
     align-items: center;
     flex-direction: column;
 
+    @media (min-width: 320px) and (max-width: 420px) {
+      padding: 10px 15px;
+
+    }
+
+    @media (min-width: 425px) {
+      width: 100%;
+    }
+
+    @media (min-width: 650px) {
+      width: 100%;
+    }
+
     @media (min-width: 928px) {
-      padding: 15px 20px;
+      width: 100%;
     }
 
     @media (min-width: 1280px) {
-      padding: 20px;
+      width: 90%;
+    }
+
+    @media (min-width: 1366px) {
+      width: 100%;
+      padding: 25px;
     }
 
     @media (min-width: 1600px) {
+      width: 100%;
     }
 
     &--title {
@@ -361,20 +379,29 @@ onMounted(() => {
       display: none;
       text-align: justify;
 
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 11px;
+        line-height: 12px;
+      }
+
+      @media (min-width: 420px) {
+        font-size: 11px;
+      }
+
       @media (min-width: 570px) {
         font-size: $extra-small;
       }
 
       @media (min-width: 928px) {
-        font-size: $body-sm;
-      }
-
-      @media (min-width: 1280px) {
         font-size: $body;
       }
 
+      @media (min-width: 1280px) {
+        font-size: $body-sm;
+      }
+
       @media (min-width: 1366px) {
-        font-size: $body-md;
+        font-size: $medium;
       }
 
       @media (min-width: 1600px) {
@@ -390,7 +417,6 @@ onMounted(() => {
     right: 2%;
     width: 20%;
     height: auto;
-
     transition: bottom 0.2s ease;
   }
 
@@ -412,6 +438,8 @@ onMounted(() => {
           opacity: 1;
           display: block;
         }
+
+
       }
 
       &__image-complement {
@@ -426,11 +454,86 @@ onMounted(() => {
 .slider-card__img:is(.is-grid) .card-image-item {
   width: 200px;
   height: 100px;
+
+  @media (min-width: 320px) {
+    width: 90px;
+    height: 30px;
+  }
+
+  @media (min-width: 420px) {
+    width: 100px;
+    height: 50px;
+  }
+
+  @media (min-width: 570px) {
+    width: 100px;
+    height: 50px;
+  }
+
+  @media (min-width: 928px) {
+    width: 180px;
+    height: 80px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 200px;
+    height: 100px;
+  }
+
+  @media (min-width: 1366px) {
+    width: 170px;
+    height: 110px;
+  }
+
+  @media (min-width: 1600px) {
+    width: 200px;
+    height: 100px;
+  }
 }
 
 .slider-card__img:not(.is-grid) .card-image-item {
   width: 400px;
   height: 300px;
+  position: relative;
+  top: 15%;
+
+  @media (min-width: 320px) {
+    width: 150px;
+    height: 120px;
+  }
+
+  @media (min-width: 570px) {
+    width: 250px;
+    height: 150px;
+  }
+
+  @media (min-width: 928px) {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 15%;
+  }
+
+  @media (min-width: 1280px) {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 15%;
+  }
+
+  @media (min-width: 1366px) {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 15%;
+  }
+
+  @media (min-width: 1600px) {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 15%;
+  }
 }
 
 .slider-card:hover {
@@ -453,7 +556,6 @@ onMounted(() => {
   align-items: center;
 }
 
-
 .ourservices-section {
   width: 100%;
   display: flex;
@@ -472,6 +574,26 @@ onMounted(() => {
   text-align: center;
   position: absolute;
   top: 15%;
+
+  @media (min-width: 320px) {
+    top: 5%;
+  }
+
+  @media (min-width: 575px) {
+    top: 10%;
+  }
+
+  @media (min-width: 650px) {
+    top: 5%;
+  }
+
+  @media (min-width: 928px) {
+    top: 10%;
+  }
+
+  @media (min-width: 1366px) {
+    top: 10%;
+  }
 
   &__title {
     font-size: $mobile-title;
@@ -500,20 +622,24 @@ onMounted(() => {
   position: absolute;
   top: 20%;
 
+  @media (min-width: 320px) {
+    top: 10%;
+  }
+
   @media (min-width: 575px) {
-    width: 50%;
+    top: 10%;
   }
 
   @media (min-width: 650px) {
-    width: 40%;
+    top: 10%;
   }
 
   @media (min-width: 928px) {
-    width: 30%;
+    top: 15%;
   }
 
   @media (min-width: 1366px) {
-    width: 20%;
+    top: 15%;
   }
 }
 
@@ -533,10 +659,35 @@ onMounted(() => {
   position: absolute;
   top: 20%;
 
+  @media (min-width: 320px) {
+    top: 10%;
+  }
+
+  @media (min-width: 570px) {
+    top: 20%;
+  }
+
+  @media (min-width: 928px) {
+    top: 20%;
+  }
+
+  @media (min-width: 1280px) {
+    top: 20%;
+  }
+
+  @media (min-width: 1366px) {
+    top: 20%;
+  }
+
+  @media (min-width: 1600px) {
+    top: 20%;
+  }
+
   //TRANSITION
   opacity: 0;
   transform: translateY(50px);
-  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  transition: transform 0.8s ease-out,
+  opacity 0.8s ease-out;
 
   &::-webkit-scrollbar {
     display: none;
@@ -579,6 +730,40 @@ onMounted(() => {
   width: 50px;
   height: 50px;
   border-radius: 100%;
+
+  @media (min-width: 320px) {
+    visibility: hidden;
+  }
+
+  @media (min-width: 570px) {
+    visibility: visible;
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (min-width: 928px) {
+    visibility: visible;
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (min-width: 1280px) {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+  }
+
+  @media (min-width: 1366px) {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+  }
+
+  @media (min-width: 1600px) {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 :deep {
@@ -598,24 +783,24 @@ onMounted(() => {
     &__container {
       height: 600px;
 
-      @media (max-width: 369px) {
-        height: 150px;
+      @media (max-width: 320px) {
+        height: 180px;
       }
 
-      @media (min-width: 370px) and (max-width: 574px) {
-        height: 150px;
+      @media (min-width: 360px) and (max-width: 574px) {
+        height: 250px;
       }
 
       @media (min-width: 575px) and (max-width: 927px) {
-        height: 300px;
-      }
-
-      @media (min-width: 928px) and (max-width: 1000px) {
         height: 340px;
       }
 
-      @media (min-width: 1001px) and (max-width: 1140px) {
+      @media (min-width: 928px) and (max-width: 1000px) {
         height: 380px;
+      }
+
+      @media (min-width: 1001px) and (max-width: 1140px) {
+        height: 400px;
       }
 
       @media (min-width: 1141px) and (max-width: 1279px) {
@@ -649,9 +834,47 @@ onMounted(() => {
       box-sizing: border-box;
       display: flex;
       justify-content: center;
+      height: 50rem;
 
-      @media (min-width: 370px) and (max-width: 574px) {
-        padding: 0px 5px;
+      @media (min-width: 320px) and (max-width: 574px) {
+        padding: 0px;
+        height: 20rem;
+      }
+
+      @media (min-width: 575px) and (max-width: 927px) {
+        height: 20rem;
+      }
+
+      @media (min-width: 928px) and (max-width: 1000px) {
+        height: 20rem;
+      }
+
+      @media (min-width: 1001px) and (max-width: 1140px) {
+        height: 30rem;
+      }
+
+      @media (min-width: 1141px) and (max-width: 1279px) {
+        height: 30rem;
+      }
+
+      @media (min-width: 1280px) and (max-width: 1365px) {
+        height: 40rem;
+      }
+
+      @media (min-width: 1366px) and (max-width: 1470px) {
+        height: 40rem;
+      }
+
+      @media (min-width: 1471px) and (max-width: 1600px) {
+        height: 50rem;
+      }
+
+      @media (min-width: 1601px) and (max-width: 1710px) {
+        height: 50rem;
+      }
+
+      @media (min-width: 1711px) and (max-width: 1800px) {
+        height: 50rem;
       }
     }
 
@@ -662,6 +885,40 @@ onMounted(() => {
 
     &__indicators--horizontal {
       width: 100%;
+      position: relative;
+
+      @media (min-width: 320px) and (max-width: 574px) {
+        visibility: hidden;
+      }
+
+      @media (min-width: 575px) and (max-width: 927px) {
+        height: 50px;
+        bottom: 10px;
+        left: 55%;
+      }
+
+      @media (min-width: 928px) and (max-width: 1000px) {
+        height: 120px;
+        top: 60px;
+        left: 50%;
+      }
+
+      @media (min-width: 1001px) and (max-width: 1140px) {
+        height: 190px;
+        top: 100px;
+        left: 50%;
+      }
+
+      @media (min-width: 1366px) and (max-width: 1470px) {
+        height: 190px;
+        top: 160px;
+        left: 60%;
+      }
+
+      @media (min-width: 1471px) and (max-width: 2000px) {
+        height: 300px;
+        top: 200px;
+      }
     }
 
     &__indicator {
@@ -688,6 +945,14 @@ onMounted(() => {
         }
       }
     }
+  }
+
+  .icon {
+    @media (min-width: 320px) and (max-width: 570px) {
+      width: 0.8em;
+      height: 0.8em;
+    }
+
   }
 }
 </style>
