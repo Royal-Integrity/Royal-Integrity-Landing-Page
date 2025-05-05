@@ -36,33 +36,33 @@
               <span class="submenu__title">{{ $t('navbar.products') }}</span>
             </template>
             <NuxtLink :to="localePath(
-              locale === 'es' ? '/energytech-royalIntegrity' : '/royalIntegrity-energytech'
+              locale === 'es' ? '/preservationProgram-royalIntegrity' : '/royalIntegrity-preservationProgram'
             )
               " class="link" @click="closeDrawer">
               <el-menu-item class="menu__nav subnav" :class="isCurrentRoute(localePath(
-                locale === 'es' ? '/energytech-royalIntegrity' : '/royalIntegrity-energytech'
+                locale === 'es' ? '/preservationProgram-royalIntegrity' : '/royalIntegrity-preservationProgram'
               ), currentRoute)" index="3-1">
-                <span>{{ $t('navbar.energytech') }}</span>
+                <span>{{ $t('navbar.preservationProgram') }}</span>
               </el-menu-item>
             </NuxtLink>
             <NuxtLink :to="localePath(
-              locale === 'es' ? '/logtech-royalIntegrity' : '/royalIntegrity-logtech'
+              locale === 'es' ? '/pipelineCleaning-royalIntegrity' : '/royalIntegrity-pipelineCleaning'
             )
               " class="link" @click="closeDrawer">
               <el-menu-item class="menu__nav subnav" :class="isCurrentRoute(localePath(
-                locale === 'es' ? '/logtech-royalIntegrity' : '/royalIntegrity-logtech'
+                locale === 'es' ? '/pipelineCleaning-royalIntegrity' : '/royalIntegrity-pipelineCleaning'
               ), currentRoute)" index="3-2">
-                <span>{{ $t('navbar.logtech') }}</span>
+                <span>{{ $t('navbar.pipelineCleaning') }}</span>
               </el-menu-item>
             </NuxtLink>
             <NuxtLink :to="localePath(
-              locale === 'es' ? '/legaltech-royalIntegrity' : '/royalIntegrity-legaltech'
+              locale === 'es' ? '/trapsStations-royalIntegrity' : '/royalIntegrity-trapsStations'
             )
               " class="link" @click="closeDrawer">
               <el-menu-item class="menu__nav subnav" :class="isCurrentRoute(localePath(
-                locale === 'es' ? '/legaltech-royalIntegrity' : '/royalIntegrity-legaltech'
+                locale === 'es' ? '/trapsStations-royalIntegrity' : '/royalIntegrity-trapsStations'
               ), currentRoute)" index="3-3">
-                <span>{{ $t('navbar.legaltech') }}</span>
+                <span>{{ $t('navbar.trapsStations') }}</span>
               </el-menu-item>
             </NuxtLink>
           </el-sub-menu>
@@ -147,9 +147,9 @@ const getMenuIndex = (routePath) => {
       blog: ['/blog-royalIntegrity', '/en/royalIntegrity-blog'],
     },
     products: {
-      energytech: ['/energytech-royalIntegrity', '/en/royalIntegrity-energytech'],
-      logtech: ['/logtech-royalIntegrity', '/en/royalIntegrity-logtech'],
-      legaltech: ['/legaltech-royalIntegrity', '/en/royalIntegrity-legaltech'],
+      preservationProgram: ['/preservationProgram-royalIntegrity', '/en/royalIntegrity-preservationProgram'],
+      pipelineCleaning: ['/pipelineCleaning-royalIntegrity', '/en/royalIntegrity-pipelineCleaning'],
+      trapsStations: ['/trapsStations-royalIntegrity', '/en/royalIntegrity-trapsStations'],
 
     },
     stories: ['/casos-de-exito', '/en/success-stories'],

@@ -54,21 +54,17 @@ export default defineNuxtConfig({
         en: '/about-us',
         es: '/acerca-de-nosotros',
       },
-      energytech: {
-        en: '/royalIntegrity-energytech',
-        es: '/energytech-royalIntegrity',
+      preservationProgram: {
+        en: '/royalIntegrity-preservationProgram',
+        es: '/preservationProgram-royalIntegrity',
       },
-      logtech: {
-        en: '/royalIntegrity-logtech',
-        es: '/logtech-royalIntegrity',
+      pipelineCleaning: {
+        en: '/royalIntegrity-pipelineCleaning',
+        es: '/pipelineCleaning-royalIntegrity',
       },
-      legaltech: {
-        en: '/royalIntegrity-legaltech',
-        es: '/legaltech-royalIntegrity',
-      },
-      stories: {
-        en: '/success-stories',
-        es: '/casos-de-exito',
+      trapsStations: {
+        en: '/royalIntegrity-trapsStations',
+        es: '/trapsStations-royalIntegrity',
       },
       contacts: {
         en: '/contact-us',

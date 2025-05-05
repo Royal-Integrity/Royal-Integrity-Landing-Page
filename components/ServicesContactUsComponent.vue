@@ -2,7 +2,7 @@
   <section class="contact-section" :class="content.class">
 
     <div class="contact-section__image">
-      <img src="/images/new_design/energytech/request_demostration.svg" alt="demostration" loading="lazy" width="900"
+      <img src="/images/new_design/preservationProgram/request_demostration.svg" alt="demostration" loading="lazy" width="900"
         height="700" />
     </div>
 

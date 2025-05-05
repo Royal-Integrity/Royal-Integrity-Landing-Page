@@ -2,41 +2,41 @@
   <div class="dropdown-list-products">
     <div class="dropdown-list-products__item">
       <div class="dropdown-list-products__item--title">
-        {{ $t('navbar.platforms') }}
+        {{ $t('navbar.services') }}
       </div>
       <div class="dropdown-list-products__item--sub-list">
         <NuxtLink
           :to="
             localePath(
-              locale === 'es' ? '/energytech-royalIntegrity' : '/royalIntegrity-energytech'
+              locale === 'es' ? '/preservationProgram-royalIntegrity' : '/royalIntegrity-preservationProgram'
             )
           "
           class="link"
           @click="toggleCloseMenu"
         >
-          <span>{{ $t('navbar.energytech') }}</span>
+          <span>{{ $t('navbar.preservationProgram') }}</span>
         </NuxtLink>
         <NuxtLink
           :to="
             localePath(
-              locale === 'es' ? '/logtech-royalIntegrity' : '/royalIntegrity-logtech'
+              locale === 'es' ? '/pipelineCleaning-royalIntegrity' : '/royalIntegrity-pipelineCleaning'
             )
           "
           class="link"
           @click="toggleCloseMenu"
         >
-          <span>{{ $t('navbar.logtech') }}</span>
+          <span>{{ $t('navbar.pipelineCleaning') }}</span>
         </NuxtLink>
         <NuxtLink
           :to="
             localePath(
-              locale === 'es' ? '/legaltech-royalIntegrity' : '/royalIntegrity-legaltech'
+              locale === 'es' ? '/trapsStations-royalIntegrity' : '/royalIntegrity-trapsStations'
             )
           "
           class="link"
           @click="toggleCloseMenu"
         >
-          <span>{{ $t('navbar.legaltech') }}</span>
+          <span>{{ $t('navbar.trapsStations') }}</span>
         </NuxtLink>
       </div>
     </div>
