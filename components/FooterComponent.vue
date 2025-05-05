@@ -3,59 +3,67 @@
 
 <template>
   <div class="footer-container">
-
+    <div class="divider"></div>
     <div class="footer-container__logo">
-      <img src="/images/new_design/logo_metalizado_slogan.png" alt="royalIntegrity Logo" width="420" height="160" loading="lazy" />
+      <img src="/images/new_design/logo_metalizado_slogan.png" alt="royalIntegrity Logo" width="420" height="160"
+        loading="lazy" />
     </div>
 
     <div class="footer-container__contact-information">
       <div class="footer-container__contact-information--title">
         {{ $t('footer.contactUs') }}
       </div>
+
       <div class="footer-container__contact-information--text">
+        <Icon name="ion:mail-outline" class="icon contact-icon" />
         contact@royalIntegrity.com.co
       </div>
       <div class="footer-container__contact-information--text">
-        <span class="disable-number">+57 3155675665</span>
+        <Icon name="ion:call-outline" class="icon contact-icon" />
+        <span class="disable-number">+57 3180778244</span>
       </div>
-      <div class="footer-container__contact-information--text link">
-        <NuxtLink to="https://issuu.com/royalIntegrity.ai/docs/4._amd-po01_anexo_nro._4_-_pol_tica_de_tratamient?fr=sZjk5NzgwMTE2NDY" target="_blank" aria-label="personal_data_policy">
-          <span>{{ $t('footer.policy')}}</span>
+
+      <div class="footer-container__social-media">
+        <div class="footer-container__social-media--title">
+          {{ $t('footer.followUs') }}
+        </div>
+        <div class="footer-container__social-media--networks">
+
+          <div class="footer-container__social-media--network-item">
+            <NuxtLink to="https://www.linkedin.com/company/royal-integrity-sas/posts/?feedView=all" target="_blank"
+              aria-label="linkedin">
+              <Icon name="ion:logo-linkedin" class="icon" />
+            </NuxtLink>
+          </div>
+          <div class="footer-container__social-media--network-item">
+            <NuxtLink to="https://www.youtube.com/@RoyalIntegritysas" target="_blank" aria-label="youtube">
+              <Icon name="ion:logo-youtube" class="icon" />
+            </NuxtLink>
+          </div>
+          <div class="footer-container__social-media--network-item">
+            <NuxtLink to="mailto:contact@royalIntegrity.com.co" target="_blank" aria-label="gmail">
+              <Icon name="mdi:gmail" class="icon" />
+            </NuxtLink>
+          </div>
+          <div class="footer-container__social-media--network-item">
+            <NuxtLink to="https://wa.me/573180778244" target="_blank" aria-label="whatsapp">
+              <Icon name="ion:logo-whatsapp" class="icon" />
+            </NuxtLink>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="privacy-policy">
+      <div class="privacy-policy--text link">
+        <NuxtLink to="https://" target="_blank" aria-label="personal_data_policy">
+          <span>2025 Royal Integrity. All Rights Reserved.</span>
         </NuxtLink>
       </div>
     </div>
 
-    <div class="divider"></div>
 
-    <div class="footer-container__social-media">
-      <div class="footer-container__social-media--title">
-        {{ $t('footer.followUs') }}
-      </div>
-      <div class="footer-container__social-media--networks">
-
-        <div class="footer-container__social-media--network-item">
-          <NuxtLink to="https://co.linkedin.com/company/guaneai" target="_blank" aria-label="linkedin">
-            <Icon name="ion:logo-linkedin" class="icon" />
-          </NuxtLink>
-        </div>
-        <div class="footer-container__social-media--network-item">
-          <NuxtLink to="https://x.com/guaneAI" target="_blank" aria-label="twitter_x">
-            <Icon name="ri:twitter-x-fill" class="icon" />
-          </NuxtLink>
-        </div>
-        <div class="footer-container__social-media--network-item">
-          <NuxtLink to="https://www.facebook.com/guaneEnterprises" target="_blank" aria-label="facebook">
-            <Icon name="ion:social-facebook" class="icon" />
-          </NuxtLink>
-        </div>
-        <div class="footer-container__social-media--network-item">
-          <NuxtLink to="https://www.instagram.com/guaneai/" target="_blank" aria-label="instagram">
-            <Icon name="ion:logo-instagram" class="icon" />
-          </NuxtLink>
-        </div>
-
-      </div>
-    </div>
   </div>
 </template>
 
@@ -65,21 +73,21 @@
   height: fit-content;
   padding: 40px 30px;
   box-sizing: border-box;
-  background: linear-gradient(60deg, #4c62ac, #1f2846);
+  background: linear-gradient(45deg, $secondary-color, $primary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
-
   font-family: $font-family-royalIntegrity;
   color: $text-light-color;
+  box-shadow: inset 0px 20px 10px 0 rgba(0, 0, 0, 0.2);
 
   @media (min-width: 928px) {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px;
+    justify-content: space-around;
+    padding: 20px;
   }
 
   &__logo {
@@ -88,6 +96,10 @@
     justify-content: center;
 
     @media (min-width: 928px) {
+      width: 30%;
+    }
+
+    @media (min-width: 768px) {
       width: 50%;
     }
 
@@ -109,16 +121,27 @@
     justify-content: center;
     gap: 7px;
 
+    @media (min-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+    }
+
     @media (min-width: 928px) {
-      width: 40%;
+      width: 50%;
       justify-content: flex-start;
     }
 
     @media (min-width: 1366px) {
-      width: 30%;
+      width: 50%;
       justify-content: center;
     }
 
+    @media (min-width: 1660px) {
+      width: 50%;
+    }
 
     &--title {
       width: 100%;
@@ -127,7 +150,6 @@
       text-align: center;
 
       @media (min-width: 928px) {
-        text-align: left;
         font-size: $body-md;
       }
 
@@ -146,26 +168,16 @@
       font-weight: 300;
       font-size: $extra-small;
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &.link {
-        margin-top: 10px;
+        font-size: 15px;
+
         a {
-          color: #fff;
+          color: white;
         }
-      }
-
-      @media (min-width: 928px) {
-        font-size: $body;
-        text-align: left;
-      }
-
-      @media (min-width: 1366px) {
-        text-align: center;
-        font-size: $medium;
-      }
-
-      @media (min-width: 1600px) {
-        font-size: $body-md;
       }
     }
   }
@@ -176,10 +188,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    @media (min-width: 1366px) {
-      width: 25%;
-    }
 
     &--title {
       font-size: $extra-small;
@@ -237,6 +245,10 @@
   color: #fff;
   font-size: $medium;
 
+  &:hover {
+    transform: scale(1.1);
+  }
+
   @media (min-width: 928px) {
     font-size: $body-lg;
   }
@@ -250,24 +262,49 @@
   }
 }
 
+.contact-icon {
+  color: #F6AF33;
+  margin-right: 10px;
+}
+
 
 .divider {
   @include divider;
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
-  border-color: #fff;
+  border-color: #F6AF33;
   margin-bottom: 5px;
   margin-top: 5px;
   border-width: 1px;
-
-  @media (min-width: 1366px) {
-    display: none;
-  }
 }
 
 .disable-number {
   pointer-events: none;
   text-decoration: none;
   color: inherit;
+}
+
+.privacy-policy {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #F6AF33;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  &--text {
+    width: 100%;
+    font-weight: 300;
+    font-size: $small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 </style>
