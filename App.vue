@@ -15,8 +15,8 @@
 <style lang="scss" scoped>
 .whatsapp-sticky {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 100px;
+  right: 5px;
   z-index: 1000;
   background-color: #25D366;
   border-radius: 50%;

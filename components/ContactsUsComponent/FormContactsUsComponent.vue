@@ -16,8 +16,8 @@
             <span class="label-container">
               <p class="label-container__is-required">*</p>
               <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelOne')
-              }}</label>
+              $t('formFieldContactsUs.labelOne')
+            }}</label>
             </span>
             <input v-model="customer.name" name="name" type="text"
               :placeholder="$t('formFieldContactsUs.placeHolderOne')" required class="form-contact__form--input"
@@ -29,8 +29,8 @@
             <span class="label-container">
               <p class="label-container__is-required">*</p>
               <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelTwo')
-              }}</label>
+              $t('formFieldContactsUs.labelTwo')
+            }}</label>
             </span>
             <input v-model="customer.email" name="email" type="email"
               :placeholder="$t('formFieldContactsUs.placeHolderTwo')" required class="form-contact__form--input"
@@ -39,41 +39,10 @@
               {{ $t('formFieldContactsUs.requiredTwo') }}
             </p>
 
-            <!-- <span class="label-container">
-              <p class="label-container__is-required">*</p>
-              <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelThree')
-              }}</label>
-            </span>
-            <input v-model="customer.company" name="company" type="text"
-              :placeholder="$t('formFieldContactsUs.placeHolderThree')" required class="form-contact__form--input"
-              :class="{ 'missing-fields': formErrors.name }" />
-            <p v-if="formErrors.name" class="required">
-              {{ $t('formFieldContactsUs.requiredOne') }}
-            </p> -->
-
-            <span class="label-container">
-              <p class="label-container__is-required">*</p>
-              <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelFour')
-              }}</label>
-            </span>
-            <el-select :class="{ 'missing-fields': formErrors.comment }"
-              :placeholder="$t('formFieldContactsUs.placeHolderFour')" name="comment" size="large"
-              v-model="customer.comment">
-              <el-option class="form-contact__form--option" v-for="option in options" :key="option.value"
-                :label="option.text" :value="option.value">
-                {{ option.text }}
-              </el-option>
-            </el-select>
-            <p v-if="formErrors.comment" class="required">
-              {{ $t('formFieldContactsUs.requiredFour') }}
-            </p>
-
             <span class="label-container">
               <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelFive')
-              }}</label>
+              $t('formFieldContactsUs.labelFive')
+            }}</label>
             </span>
             <textarea v-model="customer.requests" name="requests" :autosize="{ minRows: 2, maxRows: 4 }" type="textarea"
               :placeholder="$t('formFieldContactsUs.placeHolderFive')" class="form-contact__form--textarea"
@@ -85,8 +54,8 @@
 
             <span class="label-container">
               <label class="form-contact__form--label">{{
-                $t('formFieldContactsUs.labelSix')
-              }}</label>
+              $t('formFieldContactsUs.labelSix')
+            }}</label>
             </span>
             <span class="label-information-container">
               <label class="form-contact__form--label">{{
@@ -112,6 +81,7 @@
           </button>
         </div>
       </article>
+      <div class="divider"></div>
     </div>
   </section>
 </template>
@@ -143,35 +113,17 @@ const emailSales = (text) => text.replaceAll('_at_', "@");
 const initialState = {
   name: '',
   email: '',
-  /* company: '', */
   comment: '',
   requests: '',
 };
 const formErrors = reactive({
   name: false,
   email: false,
-  /* company: false, */
   comment: false,
   requests: false,
   accept_policy: false,
 });
 
-const optionsTranslations = {
-  es: [
-    { text: 'Petición', value: 'peticion' },
-    { text: 'Felicitaciones', value: 'felicitaciones' },
-    { text: 'Quejas', value: 'quejas' },
-    { text: 'Reclamos', value: 'reclamos' },
-    { text: 'Solicitud', value: 'solicitud' },
-  ],
-  en: [
-    { text: 'Request', value: 'request' },
-    { text: 'Congratulations', value: 'congratulations' },
-    { text: 'Complaints', value: 'complaints' },
-    { text: 'Claims', value: 'claims' },
-    { text: 'Application', value: 'application' },
-  ],
-};
 const key = ref('6LcH0VQqAAAAADKdvzesc8PlkI7rvmNluGc2aGlO');
 const recaptchaInstance = ref(null);
 
@@ -223,10 +175,8 @@ const submitForm = async () => {
   const body = {
     customer_name: customer.name,
     corporate_mail: customer.email,
-    /* company: customer.company, */
     comment: customer.comment,
     requests: customer.requests,
-    // accept_policy: customer.accept_policy,
   };
   const setAppointment = await getAppointment.contactUs(body);
   if (setAppointment.status === 201) {
@@ -270,7 +220,7 @@ onUnmounted(() => {
 .form-section {
   width: 100%;
   background-color: #fff;
-  background: linear-gradient(0deg, #fff 70%, $secondary-color);
+  background: linear-gradient(0deg, #fff 70%, $quintiary-color);
   font-family: $font-family-royalIntegrity;
 
   &__content {
@@ -297,11 +247,11 @@ onUnmounted(() => {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('/images/new_design/contact/contact_image.svg');
+      background-image: url('/images/new_design/contact/contact.png');
       background-repeat: no-repeat;
       background-position-x: right;
       background-size: contain;
-      opacity: 1;
+      opacity: 0.6;
       z-index: -1;
 
       @media (max-width: 927px) {
@@ -575,6 +525,18 @@ onUnmounted(() => {
   color: red;
   align-self: flex-start;
   margin: 5px 0;
+}
+
+.divider {
+  width: 10px;
+  height: 50vh;
+  background: linear-gradient(45deg, transparent 4px, #4E4A9E 4px, #4E4A9E 6px, transparent 6px),
+    linear-gradient(-45deg, transparent 4px, #4E4A9E 4px, #4E4A9E 6px, transparent 6px);
+  background-size: 10px 10px;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-color: rgba(171, 167, 245, 0.513);
+  box-shadow: 4px 0px 8px -2px rgba(78, 74, 158, 0.6);
 }
 
 .missing-fields {
