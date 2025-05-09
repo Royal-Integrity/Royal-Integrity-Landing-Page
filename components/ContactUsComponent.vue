@@ -1,6 +1,6 @@
 <template>
   <section class="contact-section" :class="content.class">
-    <ResponsiveImage original="/images/new_design/home/preview(2).svg" alt="footerImg" loading="lazy" width="1280"
+    <ResponsiveImage original="/images/new_design/home/prev.png" alt="footerImg" loading="lazy" width="1280"
       height="500" class="contact-section-img" />
     <div class="section-container">
       <div class="title-container">
@@ -51,7 +51,7 @@ const content = {
 
   @media (max-width: 320px) {
     height: 100%;
-padding: 20px
+    padding: 20px
   }
 }
 

@@ -70,9 +70,9 @@
 @mixin primary-button-transparent {
   @include primary-button;
   background-color: rgba(246, 175, 51, 0.8);
-  border: 0.1rem solid #4E4A9E;
+  border: 0.1rem solid #4e4a9e;
   border-radius: 35px;
-  color: #4E4A9E;
+  color: #4e4a9e;
   backdrop-filter: blur(10px);
 }
 
@@ -95,25 +95,28 @@
   background-color: $primary-color-highlight;
 }
 
-@mixin button-gradient{
+@mixin button-gradient {
   @include primary-button;
   color: $primary-color-dark;
   border-radius: 32px;
   border: solid 3px transparent;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #6306fc, #24b0b3);;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(to right, #4e4a9e, #f6af33);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #fff inset;
   text-decoration: none;
 }
 
-
 @mixin button-gradient-alt {
   @include primary-button;
   color: #fff;
   border-radius: 32px;
   border: none;
-  background-image: linear-gradient(to right, #6306fc, #24b0b3); // Fondo con gradiente
+  background-image: linear-gradient(to right, #4e4a9e, #f6af33);
   background-clip: border-box;
   text-decoration: none;
 }

@@ -178,13 +178,9 @@
     "requiredOne": "Campo obligatorio.",
     "labelTwo": "Cargo:",
     "placeHolderTwo": "Escribe tu cargo",
+    "requiredTwo": "Campo vacío o formato incorrecto.",
     "labelThree": "Correo electrónico corporativo:",
     "placeHolderThree": "Escribe tu correo corporativo",
-    "requiredTwo": "Campo vacío o formato incorrecto.",
-    "labelFour": "Compañía:",
-    "placeHolderFour": "Escribe el nombre de tu compañía",
-    "labelFive": "Solicitudes:",
-    "placeHolderFive": "Escribe tu interés o sugerencia",
     "button": "Enviar"
   },
   "formFieldContactsUs": {
@@ -197,7 +193,7 @@
     },
     "text": {
       "partOne": "Consulta a nuestros expertos y contáctanos a traves de ",
-      "partTwo": "contact_at_royalintegrity.com.co"
+      "partTwo": "info_at_royalintegrity.com.co"
     },
     "labelOne": "Nombre completo:",
     "placeHolderOne": "Escribe tu nombre",
@@ -205,10 +201,6 @@
     "labelTwo": "Correo electrónico corporativo:",
     "placeHolderTwo": "Escribe tu correo corporativo",
     "requiredTwo": "Campo vacío o formato incorrecto.",
-    "labelThree": "Compañía:",
-    "placeHolderThree": "Escribe el nombre de tu compañía",
-    "labelFour": "¿Tu comentario está asociado a...?",
-    "placeHolderFour": "Selecciona",
     "requiredFour": "Campo obligatorio. Seleccione una opción",
     "labelFive": "Comentarios:",
     "placeHolderFive": "Describe tu interés o sugerencias",
@@ -221,11 +213,11 @@
   "about": {
     "hero": {
       "title": {
-        "text": "¡Bienvenido/a a royalIntegrity emerging technologies!",
-        "keywords": ["royalIntegrity emerging technologies!"]
+        "text": "¡Bienvenido/a a Royal Integrity!",
+        "keywords": ["Royal Integrity!"]
       },
-      "text": "Conoce más de esta empresa que te ayuda a transformar digitalmente tu negocio.",
-      "keywords": ["empresa", "transformar digitalmente tu negocio"],
+      "text": "Conectamos la innovación con la protección de tus activos. Descubre cómo nuestra experiencia y tecnología están transformando la industria.",
+      "keywords": ["Conectamos la innovación", "experiencia y tecnología"],
       "button": "¡Cuéntame más!",
       "alt": "Acerca de nosotros hero"
     },
@@ -236,27 +228,27 @@
       },
       "imageText": {
         "imageOne": {
-          "text": "Empresa fundada en mayo de 2018",
-          "keywords": ["Empresa fundada"]
+          "text": "Nuestros productos y servicios están diseñados para extender la vida útil de los activos más críticos de nuestros clientes.",
+          "keywords": ["vida útil de los activos"]
         },
         "imageTwo": {
-          "text": "Somos de base física científica",
-          "keywords": ["física científica"]
+          "text": "Desarrollamos soluciones que no solo previenen fallas, sino que impulsan la eficiencia y sostenibilidad de las operaciones industriales.",
+          "keywords": ["eficiencia y sostenibilidad"]
         },
         "imageThree": {
-          "text": "Soluciones en 9 países",
-          "keywords": []
+          "text": "Brindamos soporte técnico especializado donde más lo necesitas: en terreno, en tiempo real y con personal calificado.",
+          "keywords": ["soporte técnico especializado"]
         },
         "imageFour": {
-          "text": "Nuestro nombre 'royalIntegrity' rinde homenaje a la tribu indígena Santandereana",
-          "keywords": []
+          "text": "Nuestras soluciones evolucionan con tu negocio, integrando nuevas tecnologías para enfrentar los retos del mañana.",
+          "keywords": ["evolucionan con tu negocio"]
         },
         "imageFive": {
-          "text": "Conectando nuestras raíces con tecnología",
-          "keywords": []
+          "text": "Nuestro equipo combina formación académica de alto nivel con experiencia real en sectores como Oil & Gas, Energía y Naval.",
+          "keywords": ["Oil & Gas, Energía y Naval."]
         },
         "imageSix": {
-          "text": "La academia con la industria y el humano con las máquinas",
+          "text": "Ofrecemos soluciones avanzadas y soporte constante para proteger tu infraestructura 24/7.",
           "keywords": []
         }
       },
@@ -267,8 +259,8 @@
         "text": "¡Conoce nuestro equipo!",
         "keywords": ["equipo!"]
       },
-      "textOne": "Altamente capacitado y diverso con perfiles con vasta formación en ciencias naturales, física, matemáticas, ingenierías, diseño y tecnología avanzada.",
-      "textThree": "Se enfocan en desarrollar, programar y diseñar soluciones que impulsan el crecimiento de nuestros clientes y del ecosistema.",
+      "textOne": "En Royal Integrity, contamos con un equipo altamente capacitado y multidisciplinario, conformado por profesionales con sólida formación en diferentes areas de la industria.",
+      "textThree": "Nos enfocamos en desarrollar y diseñar soluciones innovadoras que no solo impulsan el crecimiento de nuestros clientes, sino que también fortalecen el ecosistema industrial y energético en el que operamos.",
       "alt": "Informaría"
     },
     "ourPath": {
@@ -276,63 +268,22 @@
         "text": "Nuestro camino en la industria",
         "keywords": ["Nuestro camino"]
       },
-      "text": "Somos reconocidos cómo referentes en la Industria 4.0, brindando soluciones innovadoras y tecnológicamente avanzadas para resolver desafíos más complejos.",
-      "keywords": ["soluciones innovadoras"],
+      "text": "En Royal Integrity somos reconocidos como referentes en soluciones tecnológicas para la protección de activos industriales, brindando tecnología de vanguardia y soporte especializado para enfrentar los desafíos más exigentes en los sectores de Oil & Gas, Energía, Petroquímico, Naval e Industrial.",
+      "keywords": [
+        "Royal Integrity",
+        "activos industriales",
+        "Oil & Gas, Energía, Petroquímico, Naval e Industrial"
+      ],
       "itemOne": "Continentes",
       "itemTwo": "Países",
-      "alt": "Mapamundi"
-    },
-    "technologiesStack": {
-      "title": {
-        "partOne": "Stack de ",
-        "partTwo": "tecnologías"
-      },
-      "itemOne": "Angular",
-      "altOne": "Angular",
-      "itemTwo": "React",
-      "altTwo": "React",
-      "itemThree": "Vue",
-      "altThree": "Vue",
-      "itemFour": "Torch",
-      "altFour": "Torch",
-      "itemFive": "Nodejs",
-      "altFive": "Nodejs",
-      "itemSix": "ExpressJS",
-      "altSix": "ExpressJS",
-      "itemSeven": "FastApi",
-      "altSeven": "FastApi",
-      "itemEight": "Flask",
-      "altEight": "Flask",
-      "itemNine": "Docker",
-      "altNine": "Docker",
-      "itemTen": "Kubernetes",
-      "altTen": "Kubernetes",
-      "itemEleven": "Golang",
-      "altEleven": "Golang"
-    },
-    "clusters": {
-      "title": {
-        "partOne": "¿En dónde se alojan nuestros ",
-        "partTwo": "desarrollos?"
-      },
-      "itemOne": "Azure",
-      "itemTwo": "GCP",
-      "itemThree": "AWS"
+      "alt": "Mundo_pig"
     },
     "contactUs": {
       "title": {
-        "text": "¡Únete a nuestra misión de transformar digitalmente tu negocio!",
-        "keywords": ["transformar digitalmente"]
+        "text": "¡En Royal Integrity, combinamos tecnología, experiencia y visión estratégica para llevar tu negocio al siguiente nivel!",
+        "keywords": ["Royal Integrity", "siguiente nivel"]
       },
       "button": "¡Quiero saber más!"
-    },
-    "heroNews": {
-      "title": {
-        "text": "Nuestras noticias",
-        "keywords": ["noticias"]
-      },
-      "text": "Entérate de nuestros últimos logros, no te pierdas las actualizaciones sobre nuestros éxitos y el impacto positivo que estamos generando en el sector.",
-      "keywords": ["últimos logros"]
     }
   },
   "preservationProgram": {

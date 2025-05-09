@@ -12,27 +12,18 @@
         <div class="info-container__countries">
           <div class="info-container__countries--bar" />
           <div class="info-container__countries--stats">
-            <div class="span">
-              <p class="span__numbers dark">4</p>
-              <p class="span__names">{{ $t('about.ourPath.itemOne') }}</p>
-            </div>
-            <div class="span">
-              <p class="span__numbers light">9</p>
-              <p class="span__names">{{ $t('about.ourPath.itemTwo') }}</p>
+            <div class="info-container__description">
+              <p class="info-container__description--text">
+                <TextHighlighter text="about.ourPath.text" keywords="about.ourPath.keywords"
+                  highlight-class="text-highlighter-bold-alt" />
+              </p>
             </div>
           </div>
-        </div>
-
-        <div class="info-container__description">
-          <p class="info-container__description--text">
-            <TextHighlighter text="about.ourPath.text" keywords="about.ourPath.keywords"
-              highlight-class="text-highlighter-bold-alt" />
-          </p>
         </div>
       </section>
 
       <div class="image-container">
-        <img src="/images/new_design/about_us/section_4.svg" alt="world" loading="lazy" width="100" height="600" />
+        <img src="/images/new_design/about_us/section_4.png" alt="world" loading="lazy" width="100" height="600" />
       </div>
     </div>
   </section>
@@ -105,9 +96,8 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
   box-sizing: border-box;
   padding: 1%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
   margin-top: 50px;
 
   @media (max-width: 927px) {
@@ -128,11 +118,18 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
 }
 
 .image-container {
-  width: 60%;
+  text-align: center;
+  width: 40%;
 
   img {
     width: 100%;
     height: auto;
+    border-radius: 50px;
+    mask-image: linear-gradient(to bottom,
+        transparent 0%,
+        black 0%,
+        black 90%,
+        transparent 100%);
   }
 
   @media (max-width: 375px) {
@@ -178,7 +175,6 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
   }
 
   @media (min-width: 928px) and (max-width: 1279px) {
-    position: absolute;
     top: 20%;
     left: 5%;
     width: 47%;
@@ -187,7 +183,6 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
 
   @media (min-width: 1280px) and (max-width: 1365px) {
     margin-bottom: 0;
-    position: absolute;
     bottom: 5%;
     left: 5%;
     width: 50%;
@@ -195,7 +190,6 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
 
   @media (min-width: 1366px) and (max-width: 1600px) {
     margin-bottom: 0;
-    position: absolute;
     bottom: 5%;
     left: 5%;
     width: 50%;
@@ -240,6 +234,7 @@ import TextHighlighter from "@/components/TextHighlighter.vue";
       line-height: normal;
       font-size: $body-lg;
       font-weight: 300;
+      text-align: justify;
 
       @media (max-width: 375px) {
         font-size: $small;

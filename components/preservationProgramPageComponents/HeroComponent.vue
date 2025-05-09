@@ -3,7 +3,8 @@
     <div class="hero-section__content">
       <div class="title-container">
         <div class="title-container__title">
-          <TextHighlighter text="preservationProgram.hero.title.text" keywords="preservationProgram.hero.title.keywords" />
+          <TextHighlighter text="preservationProgram.hero.title.text"
+            keywords="preservationProgram.hero.title.keywords" />
         </div>
         <div class="title-container__text">
           <TextHighlighter text="preservationProgram.hero.text" keywords="preservationProgram.hero.keywords" />

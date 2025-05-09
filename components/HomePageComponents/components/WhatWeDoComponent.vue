@@ -37,6 +37,13 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
   background-image: url('/public/images/new_design/home/BK4-05-06.webp');
   background-repeat: no-repeat;
   background-size: cover;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 8%,
+    black 80%,
+    transparent 100%
+  );
 
   @media (max-width: 927px) {}
 

@@ -67,124 +67,90 @@
     },
     "ourServices": {
       "title": {
-        "text": "Our services",
-        "keywords": ["services"]
+        "text": "Our portfolio",
+        "keywords": ["portfolio"]
       },
       "services": {
         "slides": [
           {
-            "img": ["/images/services/pig_encamisado.png"],
             "alt": "Patents, Licensing",
             "title": "Patents, Licensing",
-            "text": "Versatile Jacketed Cleaning Pig capable of use in pipelines with different fluid phases and ease of negotiation with two or more internal diameters, meeting the particularities of the subsea pipeline system and its arrangement."
+            "text": "In partnership with Petrobras, a versatile Cleaning Jacketed Pig was developed with the capacity to be used in pipelines with different fluid phases and the facility to negotiate with two or more internal diameters to meet the particularities of the subsea pipeline system and its layout. BR Patent 102012011868-8 Ideal for: Inspection, Drying, Cleaning and Removal (Light)."
           },
           {
-            "img": [
-              "/images/services/pig_espuma_1.png",
-              "/images/services/pig_espuma_2.png",
-              "/images/services/pig_espuma_3.png",
-              "/images/services/pig_espuma_4.png"
-            ],
+            "alt": "Patents, Licensing",
+            "title": "Patents, Licensing",
+            "text": "Pig Multisize Licensed by Petrobras, designed to attend lines with diameter variations through the use of a single tool. Diameters: 4“ x 8.5”, 8“ x 12”, 12 x 16”, among others. Ideal for: Cleaning."
+          },
+          {
             "alt": "Foam Pig",
             "title": "Foam Pigs",
-            "text": "Versatile (Low Weight and High Flexibility), ideal for large diameter reductions and sharp angles."
+            "text": "Versatile (Low Weight and High Flexibility) ideal for large diameter reductions and steep angles. Ideal for: Inspection, Drying, Cleaning, Removal."
           },
           {
-            "img": [
-              "/images/services/pig_mandril_1.png",
-              "/images/services/pig_mandril_2.png",
-              "/images/services/pig_mandril_3.png",
-              "/images/services/pig_mandril_4.png"
-            ],
             "alt": "Mandrel Pigs",
             "title": "Mandrel Pigs",
-            "text": "Versatile (allowing quick replacement of its components), ideal for line preparation prior to inspection. LBD Model (Bi-Directional), LUN Model (Uni-Directional)."
+            "text": "Versatile (allowing for quick component replacement) ideal for line preparation prior to inspection. Model LBD (Bi-Directional), Model LUN (Unidirectional). Ideal for: Cleaning, Removal, Separation and Calibration."
           },
           {
-            "img": [
-              "/images/services/acc_pigs_1.png",
-              "/images/services/acc_pigs_2.png",
-              "/images/services/acc_pigs_3.png",
-              "/images/services/acc_pigs_4.png"
-            ],
-            "alt": "Pig Accessories",
-            "title": "Pig Accessories",
-            "text": "Essential elements that complement and optimize pig performance in cleaning, dehydration, and inspection tasks. Manufactured with high-resistance materials, they allow customizing pigs according to the pipeline's operational conditions. These accessories ensure greater efficiency, adaptability, and lifespan of the equipment in the field."
+            "alt": "Accessories for Pigs",
+            "title": "Accessories for Pigs",
+            "text": "Essential elements that complement and optimize the performance of pigs in cleaning, dehydration and inspection tasks. Manufactured with high-strength materials, they allow pigs to be customized according to the operating conditions of the pipeline. These accessories ensure greater efficiency, adaptability and useful life of the equipment in the field."
           },
           {
-            "img": ["/images/services/pig_Hflex_1.png"],
             "alt": "HFlex Pigs",
             "title": "HFlex Pigs",
-            "text": "Removal of liquids and condensates from gas lines, product separation, cleaning, product interfacing, water removal in hydrostatic testing with minimal risk of obstruction."
+            "text": "Liquid and condensate removal from gas lines, product separation, cleaning, product interface, hydrostatic test water removal with minimal risk of clogging. Ideal for: Cleaning or Draining."
           },
           {
-            "img": [
-              "/images/services/pig_Discflex_1.png",
-              "/images/services/pig_Discflex_2.png",
-              "/images/services/pig_Discflex_3.png"
-            ],
             "alt": "Discflex Pig",
             "title": "Discflex Pig",
-            "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations."
+            "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations. Ideal for: Cleaning or Drainage."
           },
           {
-            "img": ["/images/services/pig_valePig_1.png"],
             "alt": "Valve Pig",
             "title": "Valve Pig",
-            "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations."
+            "text": "Monolithic pigs, with changes in their chemical compositions that allow their applicability in various situations. Ideal for: Cleaning or Drainage."
           },
           {
-            "img": [
-              "/images/services/acc_pigs_5.png",
-              "/images/services/acc_pigs_6.png",
-              "/images/services/acc_pigs_7.png",
-              "/images/services/acc_pigs_8.png"
-            ],
-            "alt": "Pig Accessories",
-            "title": "Pig Accessories",
-            "text": "Essential elements that complement and optimize pig performance in cleaning, dehydration, and inspection tasks. Manufactured with high-resistance materials, they allow customizing pigs according to the pipeline's operational conditions. These accessories ensure greater efficiency, adaptability, and lifespan of the equipment in the field."
+            "alt": "Accessories for Pigs",
+            "title": "Accessories for Pigs",
+            "text": "Essential elements that complement and optimize the performance of pigs in cleaning, dehydration and inspection tasks. Manufactured with high-strength materials, they allow pigs to be customized according to the operating conditions of the pipeline. These accessories ensure greater efficiency, adaptability and useful life of the equipment in the field."
           },
           {
-            "img": ["/images/services/pig_PressurePlug_1.png"],
             "alt": "Hi Pressure Plug",
             "title": "Hi Pressure Plug",
-            "text": "Sealing device, with double compression packers (Polyurethane + Tungsten Rings), designed for the temporary plugging of wells for up to 30 years, coated and with sacrificial anodes."
+            "text": "Sealing device, with double compression packers (Polyurethane + Tungsten Rings) designed for temporary blocking of up to 30 years of wells, coated and sacrificial anodes. Ideal for: Isolation, Sealing, Hydrostatic Testing of Lines, Wells and Christmas Trees."
           },
           {
-            "img": ["/images/services/pig_Plug_1.png"],
             "alt": "Pig Plug",
             "title": "Pig Plug",
-            "text": "Insertion device at one end of the pipeline, creating a seal (Polyurethane Packers are Compressed and Expanded) using a torque tool, blocking the flow and allowing Pig launching."
+            "text": "Insertion device at one end of the pipe, creating a seal (Packers in Polyurethane are Compressed and Expanded) by means of a torque tool, blocking the flow and allowing the release of Pig. Ideal for: Washing and/or Pig Launching."
           },
           {
-            "img": ["/images/services/pig_Bloqueadores_Flujo_Temp._1.png"],
             "alt": "Temp. Flow Blockers",
             "title": "Temp. Flow Blockers",
-            "text": "Device for directing or diverting Pig flow towards specific pipelines, allowing maintenance and inspection operations to be carried out efficiently and safely, controlled via a lever."
+            "text": "Device for directing or diverting pig flow to specific piping lines, allowing maintenance and inspection operations to be performed efficiently and safely, being controlled through a lever. Ideal for: Temporary Flow Blocking."
           },
           {
-            "img": ["/images/services/valvula_argus_1.png"],
             "alt": "Argus Valve",
             "title": "Argus Valve",
-            "text": "Bi-directional valves that allow launching and receiving Pigs in Gas Lines, offering greater efficiency, safety, comfort, ease of use, and reduced environmental impact."
+            "text": "Bidirectional valves that allow launching and receiving pigs in gas lines, offering greater efficiency, safety, comfort, ease of use and reduced environmental impact. Ideal for: Launching, Receiving Pig's."
           },
           {
-            "img": ["/images/services/pig_dataLogger_1.png"],
             "alt": "Pig Data Logger",
             "title": "Pig Data Logger",
-            "text": "Economical and Compact ILI Unit (Installed in a Pig) and independent, designed to record pressure, temperature, and speeds via sensors."
+            "text": "Economical and Compact ILI Unit (Installed in a pig) and stand-alone, designed to record pressure, temperature and velocities through sensors."
           },
           {
-            "img": ["/images/services/ILI_1.png"],
             "alt": "ILI – Unpiggable Lines",
             "title": "ILI – Unpiggable Lines",
-            "text": "ILI Unit for Unpiggable Lines equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines."
+            "text": "ILI Unit for Non-Piggable Lines equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines. It performs accurate XYZ mapping and assesses the complete condition (Internal and External Wall Loss, Internal/External Discrimination, Creeps “Protrusions, Excess Penetration, Ovality”, Dents, Historical Repairs, Fouling)."
           },
           {
-            "img": ["/images/services/acquarius_1.png"],
             "alt": "Acquarius",
             "title": "Acquarius",
-            "text": "Wireless intelligent PIG, equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines."
+            "text": "Wireless smart PIG, equipped with ultrasonic sensors to measure geometry and detect anomalies in pressurized pipelines. It performs accurate XYZ mapping and evaluates the complete condition of pipelines, regardless of material “Steel, HDPE/PVC/GRP, concrete, cast iron,”. Its data is presented in an interactive and dynamic dashboard, facilitating detailed analysis of the inspected pipeline."
           }
         ]
       }
@@ -197,11 +163,11 @@
     },
     "contactUsHome": {
       "title": {
-        "text": "Discover the potential of artificial intelligence in your business!",
-        "keywords": ["artificial intelligence"]
+        "text": "Discover the potential of Royal Integrity in your business!",
+        "keywords": ["Royal Integrity"]
       },
-      "text": "Join the digital revolution with royalIntegrity emerging technologies!",
-      "keywords": ["royalIntegrity emerging technologies!"],
+      "text": "Transform your operation with the innovation and support of Royal Integrity!",
+      "keywords": ["Royal Integrity"],
       "button": "Connect with us"
     }
   },
@@ -212,13 +178,9 @@
     "requiredOne": "Required field.",
     "labelTwo": "Position:",
     "placeHolderTwo": "Type your role",
+    "requiredTwo": "Empty field or wrong format.",
     "labelThree": "Corporate email:",
     "placeHolderThree": "Type your corporate email",
-    "requiredTwo": "Empty field or wrong format.",
-    "labelFour": "Company:",
-    "placeHolderFour": "Type the name of your company",
-    "labelFive": "Requests:",
-    "placeHolderFive": "Describe your interest or suggestions",
     "button": "Send"
   },
   "formFieldContactsUs": {
@@ -231,7 +193,7 @@
     },
     "text": {
       "partOne": "Ask our experts and contact us at ",
-      "partTwo": "contact_at_royalintegrity.com.co"
+      "partTwo": "info_at_royalintegrity.com.co"
     },
     "labelOne": "Full name:",
     "placeHolderOne": "type your name",
@@ -239,10 +201,6 @@
     "labelTwo": "Corporate email:",
     "placeHolderTwo": "Type your corporate email",
     "requiredTwo": "Campo vacío o formato incorrecto.",
-    "labelThree": "Company:",
-    "placeHolderThree": "type your company",
-    "labelFour": "Is your comment associated with...?",
-    "placeHolderFour": "Select",
     "requiredFour": "Field required. select a option",
     "labelFive": "Comment:",
     "placeHolderFive": "Describe your interest or suggestions",
@@ -255,11 +213,12 @@
   "about": {
     "hero": {
       "title": {
-        "text": "Welcome to royalIntegrity Emerging Technologies!",
-        "keywords": ["royalIntegrity Emerging Technologies!"]
+        "text": "Welcome to Royal Integrity!",
+        "keywords": ["Royal Integrity!"]
       },
-      "text": "Learn more about this company that helps you digitally transform your business.",
-      "keywords": ["company", "digitally transform your business"],
+      "text": "We connect innovation with the protection of your assets. Discover how our expertise and technology are transforming the industry.",
+      "keywords": ["We connect innovation", "experience and technology."],
+      "button": "Tell me more!",
       "alt": "about us hero"
     },
     "aboutUs": {
@@ -269,27 +228,27 @@
       },
       "imageText": {
         "imageOne": {
-          "text": "Company founded in May 2018",
-          "keywords": ["Company founded"]
+          "text": "Our products and services are designed to extend the life of our customers' most critical assets.",
+          "keywords": ["life of our customers'"]
         },
         "imageTwo": {
-          "text": "We are based on scientific physics",
-          "keywords": ["scientific physics"]
+          "text": "We develop solutions that not only prevent failures, but also boost the efficiency and sustainability of industrial operations.",
+          "keywords": ["efficiency and sustainability"]
         },
         "imageThree": {
-          "text": "Solutions in 9 countries",
-          "keywords": []
+          "text": "We provide specialized technical support where you need it most: in the field, in real time and with qualified personnel.",
+          "keywords": ["specialized technical support"]
         },
         "imageFour": {
-          "text": "Our name “royalIntegrity” pays tribute to the indigenous Santandereana tribe",
-          "keywords": []
+          "text": "Our solutions evolve with your business, integrating new technologies to meet the challenges of tomorrow.",
+          "keywords": ["evolve with your business"]
         },
         "imageFive": {
-          "text": "Connecting our roots with technology",
-          "keywords": []
+          "text": "Our team combines high-level academic training with real-world experience in sectors such as Oil & Gas, Energy and Marine.",
+          "keywords": ["Oil & Gas, Energy and Marine"]
         },
         "imageSix": {
-          "text": "Academy with industry and humans with machines",
+          "text": "We offer advanced solutions and constant support to protect your infrastructure 24/7.",
           "keywords": []
         }
       },
@@ -300,8 +259,8 @@
         "text": "Get to know our team!",
         "keywords": ["team!"]
       },
-      "textOne": "Highly trained and diverse with profiles with extensive training in natural sciences, physics, mathematics, engineering, design and advanced technology.",
-      "textThree": "They focus on developing, programming and designing solutions that drive the growth of our clients and the ecosystem.",
+      "textOne": "At Royal Integrity, we have a highly trained and multidisciplinary team, made up of professionals with solid backgrounds in different areas of the industry.",
+      "textThree": "We focus on developing and designing innovative solutions that not only drive our customers' growth, but also strengthen the industrial and energy ecosystem in which we operate.",
       "alt": "Infographics"
     },
     "ourPath": {
@@ -309,63 +268,20 @@
         "text": "Our path in the industry",
         "keywords": ["Our path"]
       },
-      "text": "We are recognized as a leader in Industry 4.0, providing innovative and technologically advanced solutions to solve the most complex challenges.",
-      "keywords": ["innovative", "solutions"],
-      "itemOne": "Continents",
-      "itemTwo": "Countries",
-      "alt": "Mapamundi"
-    },
-    "technologiesStack": {
-      "title": {
-        "partOne": "Technology",
-        "partTwo": "stack"
-      },
-      "itemOne": "Angular",
-      "altOne": "Angular",
-      "itemTwo": "React",
-      "altTwo": "React",
-      "itemThree": "Vue",
-      "altThree": "Vue",
-      "itemFour": "Torch",
-      "altFour": "Torch",
-      "itemFive": "Nodejs",
-      "altFive": "Nodejs",
-      "itemSix": "ExpressJS",
-      "altSix": "ExpressJS",
-      "itemSeven": "FastApi",
-      "altSeven": "FastApi",
-      "itemEight": "Flask",
-      "altEight": "Flask",
-      "itemNine": "Docker",
-      "altNine": "Docker",
-      "itemTen": "Kubernetes",
-      "altTen": "Kubernetes",
-      "itemEleven": "Golang",
-      "altEleven": "Golang"
-    },
-    "clusters": {
-      "title": {
-        "partOne": "Where our developments are ",
-        "partTwo": "hosted?"
-      },
-      "itemOne": "Azure",
-      "itemTwo": "GCP",
-      "itemThree": "AWS"
+      "text": "At Royal Integrity we are recognized as a leader in technological solutions for the protection of industrial assets, providing cutting-edge technology and specialized support to meet the most demanding challenges in the Oil & Gas, Energy, Petrochemical, Naval and Industrial sectors.",
+      "keywords": [
+        "Royal Integrity",
+        "industrial assets",
+        "Oil & Gas, Energy, Petrochemical, Naval and Industrial sectors"
+      ],
+      "alt": "Mundo_pig"
     },
     "contactUs": {
       "title": {
-        "text": "Join our mission to digitally transform your business!",
-        "keywords": ["digitally transform"]
+        "text": "At Royal Integrity, we combine technology, experience and strategic vision to take your business to the next level!",
+        "keywords": ["Royal Integrity", "next level"]
       },
       "button": "I want to know more!"
-    },
-    "heroNews": {
-      "title": {
-        "text": "Our news",
-        "keywords": ["news"]
-      },
-      "text": "Find out about our latest achievements, don't miss updates on our successes and the positive impact we are generating in the sector.",
-      "keywords": ["latest achievements"]
     }
   },
   "preservationProgram": {
@@ -374,7 +290,7 @@
         "text": "¡We are working on it!"
       },
       "text": "You will find relevant and updated content here very soon, thank you for your patience!",
-      "keywords": ["¡ thank you for your patience!"]
+      "keywords": ["thank you for your patience!"]
     }
   },
   "pipelineCleaning": {
@@ -383,7 +299,7 @@
         "text": "¡We are working on it!"
       },
       "text": "You will find relevant and updated content here very soon, thank you for your patience!",
-      "keywords": ["¡ thank you for your patience!"]
+      "keywords": ["thank you for your patience!"]
     }
   },
   "trapsStations": {
@@ -392,7 +308,7 @@
         "text": "¡We are working on it!"
       },
       "text": "You will find relevant and updated content here very soon, thank you for your patience!",
-      "keywords": ["¡ thank you for your patience!"]
+      "keywords": ["thank you for your patience!"]
     }
   },
   "404": {

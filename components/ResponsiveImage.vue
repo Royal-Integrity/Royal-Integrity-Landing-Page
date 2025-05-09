@@ -56,16 +56,6 @@ const getResponsiveSrc = (folder) => {
   return `${folderPath}/${fileName}`;
 }
 
-/* onMounted(()=> {
-  const img = picture.value?.querySelector('img');
-  const activeSource = Array.from(picture.value?.querySelectorAll('source') || []).find(
-    (source) => window.matchMedia(source.media).matches
-  );
-
-  console.log('Imagen cargada (src):', img?.src);
-  console.log('Source activo (srcset):', activeSource?.srcset);
-}); */
-
 </script>
 
 <style scoped>
@@ -74,6 +64,13 @@ const getResponsiveSrc = (folder) => {
   height: auto;
   display: block;
   object-fit: cover;
-  /* Asegura que se vea bien en contenedores */
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+  filter: drop-shadow(5px 5px 10px #000);
 }
 </style>

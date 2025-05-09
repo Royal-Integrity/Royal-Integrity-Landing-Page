@@ -9,8 +9,6 @@
 
     <div class="main-container">
       <div class="main-container__photo">
-        <ResponsiveImage original="/images/new_design/about_us/our_team.webp" :alt="$t('about.ourTeam.alt')"
-          loading="lazy" width="1400" height="550" />
       </div>
       <div class="main-container__information">
         {{ $t('about.ourTeam.textOne') }}
@@ -97,15 +95,16 @@ import ResponsiveImage from '../ResponsiveImage.vue';
 
 
   &__photo {
-    width: 86%;
+    width: 80%;
     height: 550px;
-    background-image: url('/images/new_design/about_us/section_3.svg');
+    background-image: url('/images/new_design/about_us/section_3.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    border-radius: 20px;
 
     @media (max-width: 927px) {
       height: auto;

@@ -81,7 +81,6 @@
           </button>
         </div>
       </article>
-      <div class="divider"></div>
     </div>
   </section>
 </template>
@@ -220,7 +219,7 @@ onUnmounted(() => {
 .form-section {
   width: 100%;
   background-color: #fff;
-  background: linear-gradient(0deg, #fff 70%, $quintiary-color);
+  background: linear-gradient(0deg, #fff 70%, $secondary-color);
   font-family: $font-family-royalIntegrity;
 
   &__content {
@@ -247,7 +246,7 @@ onUnmounted(() => {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('/images/new_design/contact/contact.png');
+      background-image: url('/images/new_design/contact/contact-1.png');
       background-repeat: no-repeat;
       background-position-x: right;
       background-size: contain;
@@ -525,18 +524,6 @@ onUnmounted(() => {
   color: red;
   align-self: flex-start;
   margin: 5px 0;
-}
-
-.divider {
-  width: 10px;
-  height: 50vh;
-  background: linear-gradient(45deg, transparent 4px, #4E4A9E 4px, #4E4A9E 6px, transparent 6px),
-    linear-gradient(-45deg, transparent 4px, #4E4A9E 4px, #4E4A9E 6px, transparent 6px);
-  background-size: 10px 10px;
-  background-repeat: repeat-y;
-  background-position: center;
-  background-color: rgba(171, 167, 245, 0.513);
-  box-shadow: 4px 0px 8px -2px rgba(78, 74, 158, 0.6);
 }
 
 .missing-fields {

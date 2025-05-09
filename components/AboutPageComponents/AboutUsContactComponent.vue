@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="contact-section__image">
-      <img src="/images/new_design/about_us/section_5.svg" alt="image" loading="lazy" width="500" height="500" />
+      <img src="/images/new_design/about_us/section_55.png" alt="image" loading="lazy" width="500" height="500" />
     </div>
   </div>
 </template>
@@ -113,6 +113,15 @@ const contactUsContent = {
       max-width: 100%;
       height: auto;
       width: 100%;
+      mask-image: linear-gradient(to right,
+          transparent 0%,
+          black 10%,
+          black 100%),
+        linear-gradient(to top,
+          transparent 0%,
+          black 10%,
+          black 100%);
+      mask-composite: intersect;
     }
   }
 }
@@ -196,4 +205,11 @@ const contactUsContent = {
     color: #fff;
   }
 }
+:deep .text-highlighter-bold {
+        background: linear-gradient(90deg, #4E4A9E, #F6AF33);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+      }
 </style>

@@ -16,7 +16,7 @@
 
       <div class="footer-container__contact-information--text">
         <Icon name="ion:mail-outline" class="icon contact-icon" />
-        contact@royalIntegrity.com.co
+        info@royalintegrity.com.co
       </div>
       <div class="footer-container__contact-information--text">
         <Icon name="ion:call-outline" class="icon contact-icon" />
@@ -41,7 +41,7 @@
             </NuxtLink>
           </div>
           <div class="footer-container__social-media--network-item">
-            <NuxtLink to="mailto:contact@royalIntegrity.com.co" target="_blank" aria-label="gmail">
+            <NuxtLink to="mailto:info@royalintegrity.com.co" target="_blank" aria-label="gmail">
               <Icon name="mdi:gmail" class="icon" />
             </NuxtLink>
           </div>

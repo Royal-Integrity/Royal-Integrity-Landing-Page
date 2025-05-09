@@ -78,6 +78,7 @@ onMounted(() => {
       width: 100%;
       height: auto;
       border-radius: 100%;
+      filter: drop-shadow(5px 5px 10px #000);
     }
   }
 

@@ -142,6 +142,13 @@ onBeforeUnmount(() => {
   background-image: url('/public/images/new_design/home/BK4-05-06.webp');
   background-repeat: no-repeat;
   background-size: cover;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 8%,
+    black 80%,
+    transparent 100%
+  );
   // TRANSITION
   opacity: 0;
   transform: translateY(0px);
@@ -175,6 +182,7 @@ onBeforeUnmount(() => {
       width: 90%;
       height: 90%;
       border-radius: 100%;
+      filter: drop-shadow(5px 5px 10px #000);
     }
 
     @media (min-width: 650px) and (max-width: 927px) {

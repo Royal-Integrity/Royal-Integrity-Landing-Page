@@ -5,15 +5,19 @@
     <div class="hero-section__content">
       <div class="hero-section__content__container">
         <div class="hero-section__content__container--left">
-          <img class="hero-section__image" src="/public/images/new_design/home/CIRCULOS-3DD.png"
-            alt="royalIntegrity Logo" loading="lazy" />
+          <img class="hero-section__image" src="/public/images/new_design/home/homeImage.png" alt="royalIntegrity Logo"
+            loading="lazy" />
         </div>
         <div class="hero-section__content__container--right">
-          <div class="hero-section__content--title">
-            <TextHighlighter text="home.hero.title.text" keywords="home.hero.title.keywords" />
-          </div>
-          <div class="hero-section__content--text">
-            <TextHighlighter text="home.hero.text" keywords="home.hero.keywords" />
+          <div class="content-right"> <img class="hero-section__image--one"
+              src="/public/images/new_design/home/CIRCULOS-3DD.png" alt="royalIntegrity Logo" loading="lazy" /></div>
+          <div class="content-left">
+            <div class="hero-section__content--title">
+              <TextHighlighter text="home.hero.title.text" keywords="home.hero.title.keywords" />
+            </div>
+            <div class="hero-section__content--text">
+              <TextHighlighter text="home.hero.text" keywords="home.hero.keywords" />
+            </div>
           </div>
         </div>
       </div>
@@ -41,11 +45,40 @@ import ResponsiveImage from '../ResponsiveImage.vue';
   color: $text-light-color;
   background-color: white;
   position: relative;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.12);
 
   &__image {
-    width: 400px;
-    height: 400px;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 10px #000);
+
+    &--one {
+      height: 400px;
+      width: 400px;
+
+      @media (max-width: 369px) {
+        visibility: hidden;
+      }
+
+      @media (min-width: 370px) and (max-width: 574px) {
+        visibility: hidden;
+      }
+
+      @media (min-width: 575px) and (max-width: 927px) {
+        width: 250px;
+        height: 250px;
+      }
+
+      @media (min-width: 928px) and (max-width: 1100px) {
+        width: 300px;
+        height: 300px;
+      }
+
+      @media (min-width: 1110px) and (max-width: 1440px) {
+        width: 350px;
+        height: 350px;
+      }
+    }
 
     @media (max-width: 369px) {
       visibility: hidden;
@@ -77,7 +110,7 @@ import ResponsiveImage from '../ResponsiveImage.vue';
     position: absolute;
     top: 20%;
 
-    @media (max-width: 369px) {
+    @media (max-width: 320px) {
       gap: 0rem;
     }
 
@@ -86,11 +119,11 @@ import ResponsiveImage from '../ResponsiveImage.vue';
     }
 
     @media (min-width: 575px) and (max-width: 927px) {
-      gap: 3rem;
+      gap: 4rem;
     }
 
     @media (min-width: 928px) and (max-width: 1279px) {
-      gap: 4rem;
+      gap: 6rem;
     }
 
     &__container {
@@ -136,10 +169,12 @@ import ResponsiveImage from '../ResponsiveImage.vue';
 
         @media (max-width: 369px) {
           gap: 0rem;
+          height: 15rem;
         }
 
         @media (min-width: 370px) and (max-width: 574px) {
           gap: 0rem;
+          height: 15rem;
         }
       }
     }
@@ -221,6 +256,41 @@ import ResponsiveImage from '../ResponsiveImage.vue';
       }
     }
   }
+}
+
+.content-right {
+  position: relative;
+  opacity: 0.45;
+  top: 10rem;
+  left: 20%;
+
+  @media (max-width: 369px) {
+    visibility: hidden;
+  }
+
+  @media (min-width: 370px) and (max-width: 574px) {
+    visibility: hidden;
+  }
+
+  @media (min-width: 575px) and (max-width: 927px) {
+    top: 6rem;
+    left: 20%;
+  }
+
+  @media (min-width: 928px) and (max-width: 1100px) {
+    top: 15rem;
+    left: 15%;
+  }
+
+  @media (min-width: 1110px) and (max-width: 1440px) {
+    top: 15rem;
+    left: 15%;
+  }
+}
+
+.content-left {
+  position: absolute;
+  text-align: -webkit-center;
 }
 
 .hero-img {

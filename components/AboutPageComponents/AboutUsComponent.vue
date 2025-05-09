@@ -14,6 +14,10 @@
         </div>
       </div>
       <div class="aboutUs-section__images">
+        <div class="aboutUs-section__images--image">
+          <img v-for="image, index in images" :key="index" :class="{ 'visible': index === currentIndex }"
+            :src="image.image" :alt="$t('about.aboutUs.alt')" loading="lazy" />
+        </div>
         <div class="aboutUs-section__images--controller">
           <div class="indicator">{{ currentIndex + 1 }}/6</div>
           <div class="button-container">
@@ -24,10 +28,6 @@
               <Icon name="majesticons:arrow-right" class="btn-icon" />
             </button>
           </div>
-        </div>
-        <div class="aboutUs-section__images--image">
-          <img v-for="image, index in images" :key="index" :class="{ 'visible': index === currentIndex }"
-            :src="image.image" :alt="$t('about.aboutUs.alt')" loading="lazy" />
         </div>
       </div>
     </div>
@@ -41,32 +41,32 @@ const currentIndex = ref(0);
 
 const images = [
   {
-    image: '/images/new_design/about_us/section_2.svg',
+    image: '/images/new_design/about_us/section_2.png',
     text: 'about.aboutUs.imageText.imageOne.text',
     keywords: 'about.aboutUs.imageText.imageOne.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_1.svg',
+    image: '/images/new_design/about_us/section_2_1.png',
     text: 'about.aboutUs.imageText.imageTwo.text',
     keywords: 'about.aboutUs.imageText.imageTwo.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_2.svg',
+    image: '/images/new_design/about_us/section_2_2.png',
     text: 'about.aboutUs.imageText.imageThree.text',
     keywords: 'about.aboutUs.imageText.imageThree.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_3.svg',
+    image: '/images/new_design/about_us/section_2_3.png',
     text: 'about.aboutUs.imageText.imageFour.text',
     keywords: 'about.aboutUs.imageText.imageFour.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_4.svg',
+    image: '/images/new_design/about_us/section_2_4.png',
     text: 'about.aboutUs.imageText.imageFive.text',
     keywords: 'about.aboutUs.imageText.imageFive.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_5.svg',
+    image: '/images/new_design/about_us/section_2_5.png',
     text: 'about.aboutUs.imageText.imageSix.text',
     keywords: 'about.aboutUs.imageText.imageSix.keywords',
   },
@@ -91,7 +91,7 @@ const backImage = () => {
 const autoAdvance = () => {
   interval = setInterval(() => {
     currentIndex.value = (currentIndex.value + 1) % images.length;
-  }, 3000)
+  }, 10000)
 }
 
 onMounted(() => {
@@ -142,11 +142,9 @@ onBeforeUnmount(() => {
 
   &__content {
     width: 100%;
-    height: 100%;
-
+    height: 120%;
     border-radius: 30px;
     box-shadow: 0px 4px 14px #00000033;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -158,6 +156,7 @@ onBeforeUnmount(() => {
       align-items: center;
       justify-content: center;
       border-radius: 16px;
+      height: 100%;
     }
 
     @media (min-width: 376px) and (max-width: 574px) {
@@ -165,6 +164,7 @@ onBeforeUnmount(() => {
       align-items: center;
       justify-content: center;
       border-radius: 16px;
+      height: 100%;
     }
 
     @media (min-width: 575px) and (max-width: 927px) {
@@ -172,6 +172,7 @@ onBeforeUnmount(() => {
       align-items: center;
       justify-content: center;
       border-radius: 16px;
+      height: 100%;
     }
   }
 
@@ -238,35 +239,13 @@ onBeforeUnmount(() => {
 
 
     &--controller {
-      width: 25%;
-
+      width: 100%;
+      height: auto;
       display: flex;
-      align-items: center;
-      margin-left: 10px;
       gap: 10px;
-      position: absolute;
-      bottom: 0;
-      z-index: 1;
-
-      @media (max-width: 375px) {
-        width: auto;
-        margin-left: 15px;
-      }
-
-      @media (min-width: 376px) and (max-width: 574px) {
-        width: auto;
-        margin-left: 15px;
-      }
-
-      @media (min-width: 575px) and (max-width: 927px) {
-        width: auto;
-        margin-left: 15px;
-      }
-
-
-      @media (min-width: 928px) and (max-width: 1280px) {
-        width: 20%;
-      }
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
     }
 
     &--image {
@@ -287,6 +266,7 @@ onBeforeUnmount(() => {
         transition: opacity 0.2s ease-in;
         position: absolute;
         object-fit: contain;
+        border-radius: 20px;
 
         &.visible {
           opacity: 1;
@@ -295,7 +275,7 @@ onBeforeUnmount(() => {
 
       @media (max-width: 375px) {
         img {
-          width: 75%;
+          width: 70%;
           height: auto;
           object-fit: contain;
         }
@@ -303,7 +283,7 @@ onBeforeUnmount(() => {
 
       @media (min-width: 376px) and (max-width: 574px) {
         img {
-          width: 80%;
+          width: 60%;
           height: auto;
           object-fit: contain;
         }
@@ -311,7 +291,7 @@ onBeforeUnmount(() => {
 
       @media (min-width: 575px) and (max-width: 927px) {
         img {
-          width: 50%;
+          width: 40%;
           height: auto;
           object-fit: contain;
         }
@@ -460,45 +440,63 @@ onBeforeUnmount(() => {
 .button-container {
   display: flex;
   flex-direction: row;
+  gap: 10px;
 
   &__btn-back {
-    @include secondary-button-nav;
-    font-size: $medium-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px;
+    background-color: #6449ac;
+    font-size: 26px;
 
-    @media (max-width: 375px) {
-      height: 40px;
-      width: 65px;
+    @media (max-width: 320px) {
+      width: 30px;
+      height: 30px;
     }
 
-    @media (min-width: 376px) and (max-width: 574px) {
+    @media (min-width: 375px) and (max-width: 574px) {
+      width: 40px;
       height: 40px;
-      width: 65px;
     }
 
     @media (min-width: 575px) and (max-width: 927px) {
-      height: 40px;
-      width: 65px;
+      width: 50px;
+      height: 50px;
     }
-
   }
 
   &__btn-next {
-    @include primary-button-nav;
-    font-size: $medium-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px;
+    background-color: #6449ac;
+    font-size: 26px;
 
-    @media (max-width: 375px) {
-      height: 40px;
-      width: 65px;
+    @media (max-width: 320px) {
+      width: 30px;
+      height: 30px;
     }
 
-    @media (min-width: 376px) and (max-width: 574px) {
+    @media (min-width: 375px) and (max-width: 574px) {
+      width: 40px;
       height: 40px;
-      width: 65px;
     }
 
     @media (min-width: 575px) and (max-width: 927px) {
-      height: 40px;
-      width: 65px;
+      width: 50px;
+      height: 50px;
     }
   }
 }
