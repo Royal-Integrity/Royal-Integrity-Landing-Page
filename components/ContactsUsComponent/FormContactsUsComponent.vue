@@ -16,8 +16,8 @@
             <span class="label-container">
               <p class="label-container__is-required">*</p>
               <label class="form-contact__form--label">{{
-              $t('formFieldContactsUs.labelOne')
-            }}</label>
+                $t('formFieldContactsUs.labelOne')
+                }}</label>
             </span>
             <input v-model="customer.name" name="name" type="text"
               :placeholder="$t('formFieldContactsUs.placeHolderOne')" required class="form-contact__form--input"
@@ -29,8 +29,8 @@
             <span class="label-container">
               <p class="label-container__is-required">*</p>
               <label class="form-contact__form--label">{{
-              $t('formFieldContactsUs.labelTwo')
-            }}</label>
+                $t('formFieldContactsUs.labelTwo')
+                }}</label>
             </span>
             <input v-model="customer.email" name="email" type="email"
               :placeholder="$t('formFieldContactsUs.placeHolderTwo')" required class="form-contact__form--input"
@@ -40,9 +40,35 @@
             </p>
 
             <span class="label-container">
+              <p class="label-container__is-required">*</p>
               <label class="form-contact__form--label">{{
-              $t('formFieldContactsUs.labelFive')
-            }}</label>
+                $t('formFieldContactsUs.labelThree')
+                }}</label>
+            </span>
+            <input v-model="customer.company" name="company" type="text"
+              :placeholder="$t('formFieldContactsUs.placeHolderThree')" required class="form-contact__form--input"
+              :class="{ 'missing-fields': formErrors.company }" />
+            <p v-if="formErrors.company" class="required">
+              {{ $t('formFieldContactsUs.requiredThree') }}
+            </p>
+
+            <span class="label-container">
+              <p class="label-container__is-required">*</p>
+              <label class="form-contact__form--label">{{
+                $t('formFieldContactsUs.labelFour')
+                }}</label>
+            </span>
+            <input v-model="customer.telephone" name="telephone" type="text"
+              :placeholder="$t('formFieldContactsUs.placeHolderFour')" required class="form-contact__form--input"
+              :class="{ 'missing-fields': formErrors.telephone }" />
+            <p v-if="formErrors.telephone" class="required">
+              {{ $t('formFieldContactsUs.requiredFour') }}
+            </p>
+
+            <span class="label-container">
+              <label class="form-contact__form--label">{{
+                $t('formFieldContactsUs.labelFive')
+                }}</label>
             </span>
             <textarea v-model="customer.requests" name="requests" :autosize="{ minRows: 2, maxRows: 4 }" type="textarea"
               :placeholder="$t('formFieldContactsUs.placeHolderFive')" class="form-contact__form--textarea"
@@ -54,13 +80,13 @@
 
             <span class="label-container">
               <label class="form-contact__form--label">{{
-              $t('formFieldContactsUs.labelSix')
-            }}</label>
+                $t('formFieldContactsUs.labelSix')
+                }}</label>
             </span>
             <span class="label-information-container">
               <label class="form-contact__form--label">{{
                 $t('formFieldContactsUs.policyDescription')
-              }}</label>
+                }}</label>
             </span>
             <div :class="{ 'missing-fields': formErrors.accept_policy }">
               <el-radio-group v-model="customer.accept_policy" class="radio-group">
@@ -102,7 +128,7 @@ const customer = reactive({
   name: '',
   email: '',
   company: '',
-  comment: '',
+  telephone: '',
   requests: '',
   accept_policy: null,
 });
@@ -112,24 +138,27 @@ const emailSales = (text) => text.replaceAll('_at_', "@");
 const initialState = {
   name: '',
   email: '',
-  comment: '',
+  company: '',
+  telephone: '',
   requests: '',
+  accept_policy: null,
 };
 const formErrors = reactive({
   name: false,
   email: false,
-  comment: false,
+  company: false,
+  telephone: false,
   requests: false,
   accept_policy: false,
 });
 
-const key = ref('6LcH0VQqAAAAADKdvzesc8PlkI7rvmNluGc2aGlO');
+const key = ref('6LeRCTorAAAAACAzCRu68_ZLZdr0tYNBIghywj3L');
 const recaptchaInstance = ref(null);
 
 const onVerify = async (token) => {
   if (token) {
     const response = await getRecaptcha.reCaptcha({ token: token })
-    if (response.status == 200) {
+    if (response.ok) {
       submitForm()
     }
   }
@@ -167,15 +196,17 @@ const resetForm = () => {
 };
 
 const submitForm = async () => {
-  const quoteAppointmentData = await validateForm(quoteAppointment.value);
+  const quoteAppointmentData = validateForm(quoteAppointment.value);
   if (!quoteAppointmentData) {
     return;
   }
   const body = {
     customer_name: customer.name,
     corporate_mail: customer.email,
-    comment: customer.comment,
+    company: customer.company,
+    telephone: customer.telephone,
     requests: customer.requests,
+    accept_policy: customer.accept_policy,
   };
   const setAppointment = await getAppointment.contactUs(body);
   if (setAppointment.status === 201) {

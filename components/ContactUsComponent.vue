@@ -15,7 +15,7 @@
 
       <div class="button-container">
         <button class="button-container__button">
-          <NuxtLink to="https://calendar.app.google/ZNoeLdnSzxFSthCLA" target="_blank" class="link">
+          <NuxtLink to="https://calendar.app.google/pmFbpdLmKqXPzTVX7" target="_blank" class="link">
             {{ $t(content.button) }}
           </NuxtLink>
         </button>

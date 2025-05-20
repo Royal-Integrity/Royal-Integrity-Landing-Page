@@ -67,19 +67,10 @@
             </NuxtLink>
           </el-sub-menu>
 
-          <!-- CASOS DE EXITO -->
-          <NuxtLink :to="localePath(locale === 'es' ? '/casos-de-exito' : '/success-stories')" class="link"
-            @click="closeDrawer">
-            <el-menu-item index="4" class="menu__nav"
-              :class="isCurrentRoute(localePath(locale === 'es' ? '/casos-de-exito' : '/success-stories'), currentRoute)">
-              {{ $t('navbar.testimonials') }}
-            </el-menu-item>
-          </NuxtLink>
-
           <!-- CONTACTANOS -->
           <NuxtLink :to="localePath(locale === 'es' ? '/contactanos' : '/contact-us')" class="link"
             @click="closeDrawer">
-            <el-menu-item index="5" class="menu__nav"
+            <el-menu-item index="4" class="menu__nav"
               :class="isCurrentRoute(localePath(locale === 'es' ? '/contactanos' : '/contact-us'), currentRoute)">
               {{ $t('navbar.contacts') }}
             </el-menu-item>
@@ -143,8 +134,6 @@ const getMenuIndex = (routePath) => {
     home: ['/', '/en'],
     about: {
       about_us: ['/acerca-de-nosotros', '/en/about-us'],
-      news: ['/noticias', '/en/news'],
-      blog: ['/blog-royalIntegrity', '/en/royalIntegrity-blog'],
     },
     products: {
       preservationProgram: ['/preservationProgram-royalIntegrity', '/en/royalIntegrity-preservationProgram'],

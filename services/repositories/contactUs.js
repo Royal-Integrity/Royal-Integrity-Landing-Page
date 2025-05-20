@@ -1,6 +1,6 @@
 import fetchClient from '../client/fetchClient';
 
-const resource = '/email/send-feedback';
+const resource = '/contact/send';
 export default {
   async contactUs(payload) {
     const response = await fetchClient({

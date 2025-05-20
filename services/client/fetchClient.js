@@ -5,16 +5,14 @@ const postRequest = async ({
   headers,
   // params
 }) => {
-  const response = await fetch(
-    `https://api-website.guane.com.co/api${resource}`,
-    {
-      method: method || 'GET',
-      ...(method !== 'GET' && {
-        body: JSON.stringify(body) || JSON.stringify({}),
-      }),
-      headers: headers || { 'Content-Type': 'application/json' },
-    }
-  );
+  const API_BASE_URL = 'https://royal-integrity-send-email-web-app.onrender.com/api';
+  const response = await fetch(`${API_BASE_URL}${resource}`, {
+    method: method || 'GET',
+    ...(method !== 'GET' && {
+      body: JSON.stringify(body) || JSON.stringify({}),
+    }),
+    headers: headers || { 'Content-Type': 'application/json' },
+  });
   return response;
 };
 

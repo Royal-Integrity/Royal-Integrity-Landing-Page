@@ -12,7 +12,7 @@
       </h2>
 
       <button class="contact-section__text--button">
-        <NuxtLink to="https://calendar.app.google/f1JUpjECTEy8nt4X9" target="_blank" class="link">
+        <NuxtLink to="https://calendar.app.google/pmFbpdLmKqXPzTVX7" target="_blank" class="link">
           {{ $t(content.button) }}
         </NuxtLink>
       </button>
