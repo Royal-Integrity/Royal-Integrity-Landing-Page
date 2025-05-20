@@ -73,9 +73,11 @@ onMounted(() => {
   &__video {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
 
     video {
-      width: 100%;
+      width: 80%;
       height: auto;
       border-radius: 100%;
       filter: drop-shadow(5px 5px 10px #000);
@@ -178,10 +180,10 @@ onMounted(() => {
     &.el-steps--horizontal {
       & .el-step__head {
         &.is-success {
-          border-color: #6306fc;
+          border-color: #4E4A9E;
 
           & .el-step__icon {
-            background-color: #6306fc;
+            background-color: #4E4A9E;
             color: transparent;
             border: 0;
             width: 12px;
@@ -189,7 +191,7 @@ onMounted(() => {
           }
 
           & .el-step__line {
-            background: linear-gradient(to right, #6306fc 10%, #24b0b3);
+            background: linear-gradient(to right, #4E4A9E 10%, #F6AF33);
             top: 5px
           }
         }
@@ -197,7 +199,7 @@ onMounted(() => {
         &.is-process {
           & .el-step__icon {
             color: transparent;
-            background-color: #24b0b3;
+            background-color: #F6AF33;
             border: 0;
             width: 12px;
             height: 12px;

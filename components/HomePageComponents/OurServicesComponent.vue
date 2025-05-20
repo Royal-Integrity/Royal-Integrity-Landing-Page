@@ -455,8 +455,8 @@ onMounted(() => {
   height: 100px;
 
   @media (min-width: 320px) {
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 50px;
   }
 
   @media (min-width: 420px) {

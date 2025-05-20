@@ -410,7 +410,7 @@ onBeforeUnmount(() => {
 .divider {
   @include divider;
   width: 25%;
-  border-image: linear-gradient(to right, #6306fc 0%, #24b0b3 100%) 1;
+  border-image: linear-gradient(to right, #4E4A9E 0%, #F6AF33 100%) 1;
 
   @media (max-width: 375px) {
     width: 65%;

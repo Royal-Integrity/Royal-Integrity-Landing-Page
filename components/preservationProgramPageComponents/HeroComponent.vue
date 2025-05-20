@@ -21,6 +21,7 @@ import TextHighlighter from '../TextHighlighter.vue';
 <style lang="scss" scoped>
 .hero-section {
   width: 100%;
+  height: 80dvh;
   background-color: #fff;
   background: linear-gradient(0deg, #fff 50%, #F6AF33);
   font-family: $font-family-royalIntegrity;
@@ -28,6 +29,7 @@ import TextHighlighter from '../TextHighlighter.vue';
 
   &__content {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +50,7 @@ import TextHighlighter from '../TextHighlighter.vue';
 
 .title-container {
   width: 50%;
-  height: 53vh;
+  height: 55dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
