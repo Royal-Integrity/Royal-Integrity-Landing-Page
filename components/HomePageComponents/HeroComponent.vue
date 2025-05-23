@@ -5,12 +5,12 @@
     <div class="hero-section__content">
       <div class="hero-section__content__container">
         <div class="hero-section__content__container--left">
-          <img class="hero-section__image" src="/public/images/new_design/home/homeImage.png" alt="royalIntegrity Logo"
+          <img class="hero-section__image" src="/public/images/new_design/home/homeImage.webp" alt="royalIntegrity Logo"
             loading="lazy" />
         </div>
         <div class="hero-section__content__container--right">
           <div class="content-right"> <img class="hero-section__image--one"
-              src="/public/images/new_design/home/CIRCULOS-3DD.png" alt="royalIntegrity Logo" loading="lazy" /></div>
+              src="/public/images/new_design/home/CIRCULOS-3DD.webp" alt="royalIntegrity Logo" loading="lazy" /></div>
           <div class="content-left">
             <div class="hero-section__content--title">
               <TextHighlighter text="home.hero.title.text" keywords="home.hero.title.keywords" />
@@ -124,6 +124,9 @@ import ResponsiveImage from '../ResponsiveImage.vue';
 
     @media (min-width: 928px) and (max-width: 1279px) {
       gap: 6rem;
+    }
+    @media (min-width: 1440px) and (max-width: 1680px) {
+      gap: 0rem;
     }
 
     &__container {

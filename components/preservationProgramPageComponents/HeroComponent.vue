@@ -107,7 +107,6 @@ import TextHighlighter from '../TextHighlighter.vue';
   }
 
   &__text {
-    width: 80%;
     font-size: $body-lg-2;
     font-weight: 300;
     line-height: 26px;

@@ -6,8 +6,8 @@
     "products": "Soluciones",
     "services": "Servicios",
     "preservationProgram": "Programa de Preservación",
-    "pipelineCleaning": "Limpieza de Tuberías",
-    "trapsStations": "Trampas, Estaciones",
+    "pipelineCleaning": "PIGS",
+    "trapsStations": "Reparaciones no metálicas",
     "contacts": "Contáctanos"
   },
   "footer": {
@@ -17,11 +17,17 @@
   "home": {
     "hero": {
       "title": {
-        "text": "Royal Integrity integridad que perdura",
+        "text": "Royal Integrity Integridad que Perdura",
         "keywords": ["Royal Integrity"]
       },
-      "text": "Somos una compañía Colombiana líder de distribución, servicio y desarrollo de nuevas tecnologías con un solo objetivo, salvaguardar tus activos para aumentar la rentabilidad de tu operación; para los mercados de Oil & Gas (Upstream, Midstream, Downstream), Energía, Petroquímico, Naval e Industrial.",
-      "keywords": ["Oil & Gas"],
+      "text": "Somos una compañía Colombiana líder de distribución, servicios y desarrollo de nuevas tecnologías con un solo objetivo, salvaguardar tus activos para aumentar la rentabilidad de tu operación; para los mercados deOil & Gas (Upstream, Midstream, Downstream), Petroquímico, Energía, Naval e Industrial.",
+      "keywords": [
+        "Oil & Gas",
+        " Energía",
+        "Petroquímico",
+        "Naval",
+        "Industrial"
+      ],
       "button": "¡Conoce más!",
       "alt": "Home hero"
     },
@@ -30,12 +36,13 @@
         "text": "¿Cómo podemos apoyarte en Royal Integrity?",
         "keywords": ["Royal Integrity?"]
       },
-      "description": "En Royal Integrity estamos listos para apoyarte con soluciones especializadas para la protección de tus activos. Ofrecemos Inhibidores de Corrosión Volátiles, servicios con PIGs (limpieza, instrumentación y plugs), así como reparación con Materiales Compuestos (Carbon Fiber Composite Wrap). Contáctanos y con gusto te ayudaremos a fortalecer la integridad de tus sistemas.",
+      "description": "En Royal Integrity estamos listos para apoyarte con soluciones especializadas para la protección de tus activos. Ofrecemos Inhibidores de Corrosión Volátiles, PIGS (instrumentados, bloqueadores de flujo, trampas y etc.), en reparación con refuerzos no metálicos o materiales compuestos (Carbon Fiber Composite Wrap). Contáctanos y con gusto te ayudaremos a fortalecer la integridad de tus sistemas.",
       "keywords": [
         "Royal Integrity",
         "Inhibidores de Corrosión Volátiles",
-        "PIGs",
-        "Materiales Compuestos"
+        "PIGS",
+        "reparación con refuerzos no metálicos",
+        "materiales compuestos"
       ]
     },
     "whoweare": {
@@ -48,7 +55,7 @@
         "keywords": ["Misión"]
       },
       "slideOne": {
-        "text": "Nuestra misión es proteger la infraestructura crítica e inversiones a largo plazo de clientes en Oil & Gas, Energía e Industrial en Latinoamérica. También ofrecemos soluciones especializadas de protección y reparación contra la corrosión.",
+        "text": "Nuestra misión es proteger la infraestructura crítica e inversiones a largo plazo de aliados en Oil & Gas, Energía e Industrial en Latinoamérica. También ofrecemos soluciones especializadas de protección y reparación contra la corrosión.",
         "keywords": ["Nuestra misión", "Oil & Gas", "Energía e Industrial"]
       },
       "slideTwo": {
@@ -74,101 +81,123 @@
         "slides": [
           {
             "alt": "Patentes, Licenciamiento",
+            "titleImage": "Pig Encamisado",
             "title": "Patentes, Licenciamiento",
             "text": "En asociación con Petrobras, se desarrollo un Pig Encamisado de Limpieza versátil y con capacidad de uso en tuberías con diferentes fases de fluido y la facilidad de negociación con dos o más diámetros internos que cumpliera con las particularidades del sistema de tuberías submarinas y su disposición. Patente BR 102012011868-8 Ideal para: Inspección, Secado, Limpieza y Remoción (Liviana)."
           },
           {
             "alt": "Patentes, Licenciamiento",
+            "titleImage": "Pig Multisize",
             "title": "Patentes, Licenciamiento",
             "text": "Pig Multisize Licenciado por Petrobras, diseñado para atender líneas con variaciones de diámetro mediante la utilización de una sola herramienta. Diámetros: 4” x 8.5”, 8” x 12”, 12 x 16”, entre otros. Ideal para: Limpieza."
           },
           {
             "alt": "Pig Espuma",
+            "titleImage": "Pigs de Espuma",
             "title": "Pigs de Espuma",
             "text": "Versátil (Bajo Peso y Alta Flexibilidad) ideales para reducciones de gran diámetro y ángulos pronunciados. Ideal para: Inspección, Secado, Limpieza, Remoción."
           },
           {
             "alt": "Pigs de Mandril",
+            "titleImage": "Pigs de Mandril",
             "title": "Pigs de Mandril",
             "text": "Versátil (permitiendo la rápida reposición de sus componentes) ideales para la preparación de líneas previo a la inspección. Modelo LBD (Bi-Direccionales), Modelo LUN (Unidireccionales). Ideal para: Limpieza, Remoción, Separación y Calibración."
           },
           {
             "alt": "Accesorios para Pigs",
+            "titleImage": "Accesorios para Pigs",
             "title": "Accesorios para Pigs",
             "text": "Elementos esenciales que complementan y optimizan el desempeño de los pigs en tareas de limpieza, deshidratado e inspección. Fabricados con materiales de alta resistencia, permiten personalizar los pigs según las condiciones operativas del ducto. Estos accesorios aseguran mayor eficiencia, adaptabilidad y vida útil de los equipos en campo."
           },
           {
             "alt": "Pigs HFlex",
+            "titleImage": "Pigs HFlex",
             "title": "Pigs HFlex",
             "text": "Eliminación de líquidos y condensados de líneas de gas, separación de productos, limpieza, interfaz de productos, eliminación de agua en prueba hidrostática con un riesgo mínimo de obstrucción. Ideal para: Limpieza o Drenaje."
           },
           {
             "alt": "Pig Discflex",
+            "titleImage": "Pig Discflex",
             "title": "Pig Discflex",
             "text": "Pigs monolíticos, con cambios en sus composiciones químicas que permiten su aplicabilidad en diversas situaciones. Ideal para: Limpieza o Drenaje."
           },
           {
             "alt": "Valve Pig",
+            "titleImage": "Valve Pig",
             "title": "Valve Pig",
             "text": "Pigs monolíticos, con cambios en sus composiciones químicas que permiten su aplicabilidad en diversas situaciones. Ideal para: Limpieza o Drenaje."
           },
           {
-            "alt": "Accesorios para Pigs",
-            "title": "Accesorios para Pigs",
-            "text": "Elementos esenciales que complementan y optimizan el desempeño de los pigs en tareas de limpieza, deshidratado e inspección. Fabricados con materiales de alta resistencia, permiten personalizar los pigs según las condiciones operativas del ducto. Estos accesorios aseguran mayor eficiencia, adaptabilidad y vida útil de los equipos en campo."
-          },
-          {
             "alt": "Hi Pressure Plug",
+            "titleImage": "Hi Pressure Plug",
             "title": "Hi Pressure Plug",
             "text": "Dispositivo de Sellado, con packers de compresión doble (Poliuretano + Anillos de Tungsteno) diseñado para el bloqueo temporal de hasta 30 años de pozos, recubierto y ánodos de sacrificio. Ideal para: Aislamiento, Sellado, Pruebas Hidrostáticas de Líneas, Pozos y Arboles de Navidad."
           },
           {
             "alt": "Pig Plug",
+            "titleImage": "Pig Plug",
             "title": "Pig Plug",
             "text": "Dispositivo de inserción en un extremo de la tubería, creando un sello (Packers en Poliuretano son Comprimidos y Expandidos) mediante una herramienta de torque, bloqueando el flujo y permitiendo el lanzamiento de Pig. Ideal para: Lavado y/o Lanzamiento de Pigs."
           },
           {
             "alt": "Bloqueadores de Flujo Temp.",
+            "titleImage": "Bloqueadores de Flujo Temp.",
             "title": "Bloqueadores de Flujo Temp.",
             "text": "Dispositivo de dirección o desviación del flujo del Pig hacia líneas de tuberías especificas, permitiendo que las operaciones de mantenimiento e inspección se realicen con eficiencia y seguridad, siendo controlado a través de una palanca. Ideal para: Bloqueo Temporal de Flujo."
           },
           {
             "alt": "Válvula Argus",
+            "titleImage": "Válvula Argus",
             "title": "Válvula Argus",
             "text": "Válvulas bidireccionales que permiten lanzar y recibir los Pig´s en Líneas de Gas, ofrecen mayor eficacia, seguridad, comodidad, facilidad de uso e impacto ambiental reducido. Ideal para: Lanzamiento, Recepción de Pig´s."
           },
           {
             "alt": "Pig Data Logger",
+            "titleImage": "Pig Data Logger",
             "title": "Pig Data Logger",
             "text": "Unidad ILI Económica y Compacta (Instalado en un Pig) e independiente, diseñado para registrar presión, temperatura y velocidades a través de sensores."
           },
           {
             "alt": "ILI – Líneas No Pigables",
+            "titleImage": "ILI – Líneas No Pigables",
             "title": "ILI – Líneas No Pigables",
             "text": "Unidad ILI para Líneas no Pigables equipado con sensores ultrasónicos para medir la geometría y detectar anomalías en tuberías presurizadas. Realiza un mapeo XYZ preciso y evalúa la condición completa (Pérdida de pared Interior y externa, Discriminación Interna/Externa, Creeps “Protuberancias, Exceso de Penetración, Ovalidad”, Abolladuras, Reparaciones Históricas, Incrustaciones)."
           },
           {
             "alt": "Acquarius",
+            "titleImage": "Acquarius",
             "title": "Acquarius",
             "text": "PIG inteligente inalámbrico, equipado con sensores ultrasónicos para medir la geometría y detectar anomalías en tuberías presurizadas. Realiza un mapeo XYZ preciso y evalúa la condición completa de tuberías, independientemente del material “Acero, HDPE/PVC/GRP, hormigón, hierro fundido,”. Sus datos se presentan en un panel interactivo y dinámico, facilitando el análisis detallado de la tubería inspeccionada."
+          },
+          {
+            "alt": "Removedores",
+            "titleImage": "Removedores",
+            "title": "Removedores",
+            "text": "La línea AxxaClean™ de ZERUST®/EXCOR® ofrece una gama de soluciones especializadas en la eliminación eficaz de óxido y deslustre de diversas superficies metálicas, principalmente metales ferrosos, y en algunos casos, también cobre, latón y otras aleaciones. Estos productos líquidos, a menudo listos para usar o diseñados para aplicación por inmersión, penetran eficazmente incluso en grietas y hendiduras de difícil acceso para restaurar las superficies metálicas."
+          },
+          {
+            "alt": "Inhibidores",
+            "titleImage": "Inhibidores",
+            "title": "Inhibidores",
+            "text": "La gama de productos Axxanol™ y Axxatec™ de ZERUST® comprende una serie de revestimientos especializados diseñados para ofrecer una protección anticorrosiva robusta a una amplia variedad de superficies metálicas, incluyendo metales ferrosos, no ferrosos y multimetales. Estos productos forman películas protectoras –que varían en textura desde ligeramente aceitosas hasta secas al tacto o invisibles– con el objetivo común de salvaguardar los metales contra los efectos dañinos de ambientes agresivos, incluyendo alta humedad, fluctuaciones de temperatura y exposición a condiciones salinas.Son ideales para la protección de piezas, láminas, bobinas y componentes metálicos durante procesos de fabricación, ensamblaje, traslados y periodos de almacenamiento, tanto en interiores como en contextos más exigentes."
+          },
+          {
+            "alt": "Emisores-Difusores",
+            "titleImage": "Emisores-Difusores",
+            "title": "Emisores-Difusores",
+            "text": "La gama de emisores y difusores VCI de ZERUST®, que incluye cápsulas, sachets, tabletas y polvos, está diseñada para proporcionar una protección anticorrosiva altamente eficaz para metales dentro de espacios cerrados, contenedores o áreas de difícil acceso. Estos productos funcionan liberando Inhibidores Volátiles de Corrosión (VCI) que saturan el ambiente cerrado, formando una capa molecular protectora invisible sobre las superficies metálicas."
           }
         ]
       }
     },
-    "ourClients": {
-      "title": {
-        "text": "Nuestros clientes",
-        "keywords": ["clientes"]
-      }
-    },
     "contactUsHome": {
       "title": {
-        "text": "¡Descubre el potencial de Royal Integrity en tu negocio!",
+        "text": "¡Descubre el potencial de Royal Integrity en tu operación!",
         "keywords": ["Royal Integrity"]
       },
-      "text": "¡Transforma tu operación con la innovación y respaldo de Royal Integrity!",
+      "text": "¡Transforma e innova con el respaldo de Royal Integrity!",
       "keywords": ["Royal Integrity"],
-      "button": "Conecta con nosotros"
+      "button": "Contáctanos"
     }
   },
   "quottingModal": {
@@ -228,13 +257,13 @@
     },
     "aboutUs": {
       "title": {
-        "text": "Sobre nosotros",
-        "keywords": ["nosotros"]
+        "text": "Nosotros",
+        "keywords": ["Nosotros"]
       },
       "imageText": {
         "imageOne": {
-          "text": "Nuestros productos y servicios están diseñados para extender la vida útil de los activos más críticos de nuestros clientes.",
-          "keywords": ["vida útil de los activos"]
+          "text": "Nuestros productos y servicios están diseñados para extender la vida útil de tus activos críticos de nuestros aliados.",
+          "keywords": ["vida útil", "activos críticos", "aliados"]
         },
         "imageTwo": {
           "text": "Desarrollamos soluciones que no solo previenen fallas, sino que impulsan la eficiencia y sostenibilidad de las operaciones industriales.",
@@ -249,11 +278,17 @@
           "keywords": ["evolucionan con tu negocio"]
         },
         "imageFive": {
-          "text": "Nuestro equipo combina formación académica de alto nivel con experiencia real en sectores como Oil & Gas, Energía y Naval.",
-          "keywords": ["Oil & Gas, Energía y Naval."]
+          "text": "Nuestro equipo combina formación académica de alto nivel con experiencia real en sectores como Oil & Gas, Energía, Petroquímico, Naval e Industrial",
+          "keywords": [
+            "Oil & Gas",
+            "Energía",
+            "Petroquímico",
+            "Naval",
+            "Industrial"
+          ]
         },
         "imageSix": {
-          "text": "Ofrecemos soluciones avanzadas y soporte constante para proteger tu infraestructura 24/7.",
+          "text": "Ofrecemos soluciones avanzadas y soporte permanente para proteger tu infraestructura 24/7.",
           "keywords": []
         }
       },
@@ -264,8 +299,8 @@
         "text": "¡Conoce nuestro equipo!",
         "keywords": ["equipo!"]
       },
-      "textOne": "En Royal Integrity, contamos con un equipo altamente capacitado y multidisciplinario, conformado por profesionales con sólida formación en diferentes areas de la industria.",
-      "textThree": "Nos enfocamos en desarrollar y diseñar soluciones innovadoras que no solo impulsan el crecimiento de nuestros clientes, sino que también fortalecen el ecosistema industrial y energético en el que operamos.",
+      "textOne": "En Royal Integrity, contamos con un equipo altamente capacitado y multidisciplinario, conformado por profesionales con sólida formación en diferentes aréas de la industria.",
+      "textThree": "Nos enfocamos en desarrollar y diseñar soluciones innovadoras que no solo impulsan el crecimiento de nuestros aliados, sino que también fortalecen el ecosistema industrial y energético en el que operamos.",
       "alt": "Informaría"
     },
     "ourPath": {
@@ -273,10 +308,10 @@
         "text": "Nuestro camino en la industria",
         "keywords": ["Nuestro camino"]
       },
-      "text": "En Royal Integrity somos reconocidos como referentes en soluciones tecnológicas para la protección de activos industriales, brindando tecnología de vanguardia y soporte especializado para enfrentar los desafíos más exigentes en los sectores de Oil & Gas, Energía, Petroquímico, Naval e Industrial.",
+      "text": "Royal Integrity somos referentes en soluciones tecnológicas para la protección de activos, brindando tecnología de vanguardia y soporte especializado para enfrentar los desafíos más exigentes en los sectores de Oil & Gas, Energía, Petroquímico, Naval e Industrial.",
       "keywords": [
         "Royal Integrity",
-        "activos industriales",
+        "activos",
         "Oil & Gas, Energía, Petroquímico, Naval e Industrial"
       ],
       "itemOne": "Continentes",
@@ -285,7 +320,7 @@
     },
     "contactUs": {
       "title": {
-        "text": "¡En Royal Integrity, combinamos tecnología, experiencia y visión estratégica para llevar tu negocio al siguiente nivel!",
+        "text": "Royal Integrity, combina tecnología, experiencia y visión estratégica para llevar tu operacion al siguiente nivel",
         "keywords": ["Royal Integrity", "siguiente nivel"]
       },
       "button": "¡Quiero saber más!"

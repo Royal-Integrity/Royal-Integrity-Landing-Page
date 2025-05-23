@@ -5,7 +5,7 @@
   <div class="footer-container">
     <div class="divider"></div>
     <div class="footer-container__logo">
-      <img src="/images/new_design/logo_metalizado_slogan.png" alt="royalIntegrity Logo" width="420" height="160"
+      <img src="/images/new_design/logo_metalizado_slogan.webp" alt="royalIntegrity Logo" width="420" height="160"
         loading="lazy" />
     </div>
 

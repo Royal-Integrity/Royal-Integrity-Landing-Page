@@ -130,10 +130,6 @@ const closeDrawer = () => drawer.value = false;
       <div class="navbar-container__content">
 
         <div class="logo-container" :class="{ hidden: isHidden }">
-          <NuxtLink :to="localePath('/')" class="link">
-            <img src="/images/new_design/logo_navbar_naranja.png" alt="royalIntegrity Logo" width="280" height="100"
-              loading="lazy" />
-          </NuxtLink>
         </div>
 
         <div class="center-navbar" v-if="collapseNavbar === true">

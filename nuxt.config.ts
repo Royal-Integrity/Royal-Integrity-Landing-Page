@@ -82,7 +82,7 @@ export default defineNuxtConfig({
   components: false,
   app: {
     head: {
-      title: 'royal integrity',
+      title: 'Royal Integrity',
       htmlAttrs: {
         lang: 'en',
       },
@@ -104,23 +104,23 @@ export default defineNuxtConfig({
           rel: 'icon',
           type: 'image/png',
           sizes: '16x16',
-          href: '/favicon-16x16.png',
+          href: '/favicon-16x16.webp',
         },
         {
           rel: 'icon',
           type: 'image/png',
           sizes: '32x32',
-          href: '/favicon-32x32.png',
+          href: '/favicon-32x32.webp',
         },
         {
           rel: 'apple-touch-icon',
           sizes: '72x72',
-          href: '/apple-touch-icon.png',
+          href: '/apple-touch-icon.webp',
         },
         {
           rel: 'android-chrome-icon',
           sizes: '192x192',
-          href: '/android-chrome-icon-120x120.png',
+          href: '/android-chrome-icon-120x120.webp',
         },
         {
           rel: 'preconnect',

@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="hero-section__image">
-      <ResponsiveImage original="/images/new_design/about_us/hero.png" :alt="$t('about.hero.alt')" loading="eager"
+      <ResponsiveImage original="/images/new_design/about_us/hero.webp" :alt="$t('about.hero.alt')" loading="eager"
         width="400" height="400" />
     </div>
   </section>

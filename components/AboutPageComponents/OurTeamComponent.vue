@@ -97,7 +97,7 @@ import ResponsiveImage from '../ResponsiveImage.vue';
   &__photo {
     width: 80%;
     height: 550px;
-    background-image: url('/images/new_design/about_us/section_3.png');
+    background-image: url('/images/new_design/about_us/section_3.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

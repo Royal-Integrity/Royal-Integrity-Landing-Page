@@ -1,8 +1,9 @@
 <template>
   <div class="what_we_do_mobile">
     <div class="what_we_do_mobile__image-container">
-      <ResponsiveImage original="/images/new_design/home/LUN-CC2-DG2-ELP.png" alt="what_we_do" width="250" height="250"
-        loading="lazy" />
+      <video style="width: 90%; height: 100%; filter: drop-shadow(5px 5px 10px #000);" autoplay loop muted playsinline>
+        <source src="/videos/WhatWeDoComponent.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="what_we_do_mobile__text-container">
       <div class="what_we_do_mobile__text-container--title">
@@ -27,7 +28,7 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
 <style lang="scss" scoped>
 .what_we_do_mobile {
   width: 100%;
-  height: 60dvh;
+  height: 55dvh;
   box-sizing: border-box;
   font-family: $font-family-royalIntegrity;
   color: $primary-color-dark;
@@ -39,15 +40,10 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
   margin-bottom: 5%;
 
   &__image-container {
-    width: 70%;
+    display: flex;
     height: auto;
     position: relative;
-
-    picture {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
+    justify-content: center;
 
     &--texts {
       box-sizing: border-box;

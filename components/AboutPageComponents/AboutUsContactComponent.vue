@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="contact-section__image">
-      <img src="/images/new_design/about_us/section_55.png" alt="image" loading="lazy" width="500" height="500" />
+      <img src="/images/new_design/about_us/section_55.webp" alt="image" loading="lazy" width="500" height="500" />
     </div>
   </div>
 </template>

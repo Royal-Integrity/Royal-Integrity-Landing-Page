@@ -6,8 +6,8 @@
     "products": "Solutions",
     "services": "Services",
     "preservationProgram": "preservationProgram Program",
-    "pipelineCleaning": "Pipeline Cleaning",
-    "trapsStations": "Traps, Stations",
+    "pipelineCleaning": "PIGS",
+    "trapsStations": "Non-metallic repairs",
     "contacts": "Contact us"
   },
   "footer": {
@@ -17,11 +17,17 @@
   "home": {
     "hero": {
       "title": {
-        "text": "Royal Integrity integrity that endures",
+        "text": "Royal Integrity Integrity that Endures",
         "keywords": ["Royal Integrity"]
       },
-      "text": "We are a leading Colombian company in the distribution, service and development of new technologies with a single objective, to safeguard your assets to increase the profitability of your operation; for the Oil & Gas (Upstream, Midstream, Downstream), Energy, Petrochemical, Naval and Industrial markets.",
-      "keywords": ["Oil & Gas"],
+      "text": "We are a leading Colombian company in the distribution, services and development of new technologies with a single objective, to safeguard your assets to increase the profitability of your operation; for the Oil & Gas (Upstream, Midstream, Downstream), Energy, Petrochemical, Naval and Industrial markets.",
+      "keywords": [
+        "Oil & Gas",
+        "Energy",
+        "Petrochemical",
+        "Naval",
+        "Industrial markets"
+      ],
       "button": "Learn more!",
       "alt": "Home hero"
     },
@@ -30,12 +36,13 @@
         "text": "How can we support you in Royal Integrity?",
         "keywords": ["Royal Integrity?"]
       },
-      "description": "At Royal Integrity we are ready to support you with specialized solutions for the protection of your assets. We offer Volatile Corrosion Inhibitors, PIG services (cleaning, instrumentation and plugs), as well as Carbon Fiber Composite Wrap repair. Contact us and we will gladly help you strengthen the integrity of your systems.",
+      "description": "At Royal Integrity we are ready to support you with specialized solutions for the protection of your assets. We offer Volatile Corrosion Inhibitors, PIGS (instrumented, flow blockers, traps and etc.), in repair with non-metallic reinforcements or composite materials (Carbon Fiber Composite Wrap). Contact us and we will gladly help you strengthen the integrity of your systems.",
       "keywords": [
         "Royal Integrity",
         "Volatile Corrosion Inhibitors",
-        "PIG services",
-        "Carbon Fiber Composite Wrap repair"
+        "PIGS",
+        "non-metallic reinforced repair",
+        "composite materials"
       ]
     },
     "whoweare": {
@@ -48,7 +55,7 @@
         "keywords": ["Mission"]
       },
       "slideOne": {
-        "text": "Our mission is to protect the critical infrastructure and long-term investments of clients in the Oil & Gas, Energy, and Industrial sectors in Latin America. We also offer specialized solutions for corrosion protection and repair.",
+        "text": "Our mission is to protect the critical infrastructure and long-term investments of partners in the Oil & Gas, Energy, and Industrial sectors in Latin America. We also offer specialized solutions for corrosion protection and repair.",
         "keywords": ["Our mission", "Oil & Gas", "Energy and Industrial"]
       },
       "slideTwo": {
@@ -74,6 +81,7 @@
         "slides": [
           {
             "alt": "Patents, Licensing",
+            "titleImage": "Pig Encamisado",
             "title": "Patents, Licensing",
             "text": "In partnership with Petrobras, a versatile Cleaning Jacketed Pig was developed with the capacity to be used in pipelines with different fluid phases and the facility to negotiate with two or more internal diameters to meet the particularities of the subsea pipeline system and its layout. BR Patent 102012011868-8 Ideal for: Inspection, Drying, Cleaning and Removal (Light)."
           },
@@ -155,20 +163,14 @@
         ]
       }
     },
-    "ourClients": {
-      "title": {
-        "text": "Our clients",
-        "keywords": ["clients"]
-      }
-    },
     "contactUsHome": {
       "title": {
-        "text": "Discover the potential of Royal Integrity in your business!",
+        "text": "Discover the potential of Royal Integrity in your operation!",
         "keywords": ["Royal Integrity"]
       },
-      "text": "Transform your operation with the innovation and support of Royal Integrity!",
+      "text": "Transform and innovate with the support of Royal Integrity!",
       "keywords": ["Royal Integrity"],
-      "button": "Connect with us"
+      "button": "Contact us"
     }
   },
   "quottingModal": {
@@ -233,8 +235,8 @@
       },
       "imageText": {
         "imageOne": {
-          "text": "Our products and services are designed to extend the life of our customers' most critical assets.",
-          "keywords": ["life of our customers'"]
+          "text": "Our products and services are designed to extend the useful life of our partners' critical assets.",
+          "keywords": ["useful life", "critical assets", "partners"]
         },
         "imageTwo": {
           "text": "We develop solutions that not only prevent failures, but also boost the efficiency and sustainability of industrial operations.",
@@ -249,11 +251,17 @@
           "keywords": ["evolve with your business"]
         },
         "imageFive": {
-          "text": "Our team combines high-level academic training with real-world experience in sectors such as Oil & Gas, Energy and Marine.",
-          "keywords": ["Oil & Gas, Energy and Marine"]
+          "text": "Our team combines high-level academic training with real-world experience in sectors such as Oil & Gas, Energy, Petrochemical, Marine and Industrial.",
+          "keywords": [
+            "Oil & Gas",
+            "Energy",
+            "Petrochemical",
+            "Marine",
+            "Industrial"
+          ]
         },
         "imageSix": {
-          "text": "We offer advanced solutions and constant support to protect your infrastructure 24/7.",
+          "text": "We offer advanced solutions and ongoing support to protect your infrastructure 24/7.",
           "keywords": []
         }
       },
@@ -265,7 +273,7 @@
         "keywords": ["team!"]
       },
       "textOne": "At Royal Integrity, we have a highly trained and multidisciplinary team, made up of professionals with solid backgrounds in different areas of the industry.",
-      "textThree": "We focus on developing and designing innovative solutions that not only drive our customers' growth, but also strengthen the industrial and energy ecosystem in which we operate.",
+      "textThree": "We focus on developing and designing innovative solutions that not only drive the growth of our partners, but also strengthen the industrial and energy ecosystem in which we operate.",
       "alt": "Infographics"
     },
     "ourPath": {
@@ -273,17 +281,17 @@
         "text": "Our path in the industry",
         "keywords": ["Our path"]
       },
-      "text": "At Royal Integrity we are recognized as a leader in technological solutions for the protection of industrial assets, providing cutting-edge technology and specialized support to meet the most demanding challenges in the Oil & Gas, Energy, Petrochemical, Naval and Industrial sectors.",
+      "text": "Royal Integrity is a leader in technological solutions for asset protection, providing cutting-edge technology and specialized support to meet the most demanding challenges in the Oil & Gas, Energy, Petrochemical, Naval and Industrial sectors.",
       "keywords": [
         "Royal Integrity",
-        "industrial assets",
+        "assets",
         "Oil & Gas, Energy, Petrochemical, Naval and Industrial sectors"
       ],
       "alt": "Mundo_pig"
     },
     "contactUs": {
       "title": {
-        "text": "At Royal Integrity, we combine technology, experience and strategic vision to take your business to the next level!",
+        "text": "Royal Integrity combines technology, experience and strategic vision to take your operation to the next level.",
         "keywords": ["Royal Integrity", "next level"]
       },
       "button": "I want to know more!"

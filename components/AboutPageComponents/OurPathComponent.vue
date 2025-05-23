@@ -23,7 +23,7 @@
       </section>
 
       <div class="image-container">
-        <img src="/images/new_design/about_us/section_4.png" alt="world" loading="lazy" width="100" height="600" />
+        <img src="/images/new_design/about_us/section_4.webp" alt="world" loading="lazy" width="100" height="600" />
       </div>
     </div>
   </section>

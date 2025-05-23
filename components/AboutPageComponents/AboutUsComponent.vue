@@ -41,32 +41,32 @@ const currentIndex = ref(0);
 
 const images = [
   {
-    image: '/images/new_design/about_us/section_2.png',
+    image: '/images/new_design/about_us/section_2.webp',
     text: 'about.aboutUs.imageText.imageOne.text',
     keywords: 'about.aboutUs.imageText.imageOne.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_1.png',
+    image: '/images/new_design/about_us/section_2_1.webp',
     text: 'about.aboutUs.imageText.imageTwo.text',
     keywords: 'about.aboutUs.imageText.imageTwo.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_2.png',
+    image: '/images/new_design/about_us/section_2_2.webp',
     text: 'about.aboutUs.imageText.imageThree.text',
     keywords: 'about.aboutUs.imageText.imageThree.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_3.png',
+    image: '/images/new_design/about_us/section_2_3.webp',
     text: 'about.aboutUs.imageText.imageFour.text',
     keywords: 'about.aboutUs.imageText.imageFour.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_4.png',
+    image: '/images/new_design/about_us/section_2_4.webp',
     text: 'about.aboutUs.imageText.imageFive.text',
     keywords: 'about.aboutUs.imageText.imageFive.keywords',
   },
   {
-    image: '/images/new_design/about_us/section_2_5.png',
+    image: '/images/new_design/about_us/section_2_5.webp',
     text: 'about.aboutUs.imageText.imageSix.text',
     keywords: 'about.aboutUs.imageText.imageSix.keywords',
   },

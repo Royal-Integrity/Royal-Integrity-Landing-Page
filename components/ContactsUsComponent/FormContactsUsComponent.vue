@@ -277,7 +277,7 @@ onUnmounted(() => {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('/images/new_design/contact/contact-1.png');
+      background-image: url('/images/new_design/contact/contact-1.webp');
       background-repeat: no-repeat;
       background-position-x: right;
       background-size: contain;

@@ -11,8 +11,9 @@
       </div>
     </div>
     <div class="section-two__image-container">
-      <ResponsiveImage original="/images/new_design/home/LUN-CC2-DG2-ELP.png" alt="royalIntegrity" loading="lazy"
-        width="500" height="500" />
+      <video style="width: 90%; height: 100%; filter: drop-shadow(5px 5px 10px #000);" autoplay loop muted playsinline>
+        <source src="/videos/WhatWeDoComponent.mp4" type="video/mp4">
+      </video>
     </div>
   </section>
 </template>
@@ -32,34 +33,55 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   background-image: url('/public/images/new_design/home/BK4-05-06.webp');
   background-repeat: no-repeat;
   background-size: cover;
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 8%,
-    black 80%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 8%,
+      black 80%,
+      transparent 100%);
 
-  @media (max-width: 927px) {}
+  @media (min-width: 768px) and (max-width: 927px) {
+    height: 35dvh;
+  }
 
-  @media (min-width: 928px) and (max-width: 1279px) {}
+  @media (min-width: 1024px) and (max-width: 1225px) {
+    height: 40dvh;
+  }
+
+  @media (min-width: 1230px) and (max-width: 1440px) {
+    height: 50dvh;
+  }
+
+  @media (min-width: 1450px) and (max-width: 1680px) {
+    height: 85dvh;
+  }
+
+  @media (min-width: 1780px) {
+    height: 65dvh;
+  }
 
   &__image-container {
     width: 40%;
+    height: auto;
+    margin-top: 7rem;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
 
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
+    @media (min-width: 768px) and (max-width: 927px) {
+      margin-top: 8rem;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1225px) {
+      margin-top: 7rem;
+    }
+
+    @media (min-width: 1230px) and (max-width: 1440px) {
+      margin-top: 7rem;
     }
 
     &--texts {
@@ -140,7 +162,7 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
     }
 
     &--title {
-      width: 70%;
+      width: 100%;
       font-size: $large-title;
       line-height: auto;
       font-weight: 300;

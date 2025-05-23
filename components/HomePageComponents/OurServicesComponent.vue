@@ -1,6 +1,6 @@
 <template>
   <section class="ourservices-section">
-    <ResponsiveImage original="/images/new_design/home/pigs.png" alt="pigs" loading="lazy" width="1280" height="960"
+    <ResponsiveImage original="/images/new_design/home/pigs.webp" alt="pigs" loading="lazy" width="1280" height="960"
       class="ourservices-img" />
     <div class="title-container">
       <h2 class="title-container__title">
@@ -22,7 +22,11 @@
           <el-carousel ref="carousel" tigger="click" arrow="never" class="carousel" :autoplay="true" :interval="5000">
             <el-carousel-item v-for="module, index in  pageContent " :key="index">
               <div class="card">
-                <div :class="['slider-card__img', { 'is-grid': module.img && module.img.length >= 3 }]">
+                <h1 class="card__text--title-image">{{ module.titleImage }}</h1>
+                <div :class="['slider-card__img', {
+            'is-grid': module.img && module.img.length > 3,
+            'is-grid-three': module.img && module.img.length == 3
+          }]">
                   <template v-for="(imageUrl, imgIndex) in module.img" :key="imgIndex">
                     <img :src="imageUrl" :alt="module.alt || `Imagen ${imgIndex + 1} de ${module.title}`" loading="lazy"
                       class="card-image-item" />
@@ -77,100 +81,138 @@ const cardBackground = computed(() => {
 });
 const pageContentBase = [
   {
-    img: ['/images/services/pig_encamisado_1.png'],
+    img: ['/images/services/pig_encamisado_1.webp'],
     altKey: 'home.ourServices.services.slides.0.alt',
+    titleImageKey: 'home.ourServices.services.slides.0.titleImage',
     titleKey: 'home.ourServices.services.slides.0.title',
     textKey: 'home.ourServices.services.slides.0.text'
   },
   {
-    img: ['/images/services/pig_multisize_1.png'],
+    img: ['/images/services/pig_multisize_1.webp'],
     altKey: 'home.ourServices.services.slides.1.alt',
+    titleImageKey: 'home.ourServices.services.slides.1.titleImage',
     titleKey: 'home.ourServices.services.slides.1.title',
     textKey: 'home.ourServices.services.slides.1.text'
   },
   {
-    img: ['/images/services/pig_espuma_1.png', '/images/services/pig_espuma_2.png', '/images/services/pig_espuma_3.png', '/images/services/pig_espuma_4.png', '/images/services/pig_espuma_5.png', '/images/services/pig_espuma_6.png', '/images/services/pig_espuma_7.png', '/images/services/pig_espuma_8.png'],
+    img: ['/images/services/pig_espuma_1.webp', '/images/services/pig_espuma_2.webp', '/images/services/pig_espuma_3.webp', '/images/services/pig_espuma_4.webp', '/images/services/pig_espuma_5.webp', '/images/services/pig_espuma_6.webp', '/images/services/pig_espuma_7.webp', '/images/services/pig_espuma_8.webp'],
     altKey: 'home.ourServices.services.slides.2.alt',
+    titleImageKey: 'home.ourServices.services.slides.2.titleImage',
     titleKey: 'home.ourServices.services.slides.2.title',
     textKey: 'home.ourServices.services.slides.2.text'
   },
   {
-    img: ['/images/services/pig_mandril_1.png', '/images/services/pig_mandril_2.png', '/images/services/pig_mandril_3.png', '/images/services/pig_mandril_4.png', '/images/services/pig_mandril_5.png', '/images/services/pig_mandril_6.png', '/images/services/pig_mandril_7.png', '/images/services/pig_mandril_8.png'],
+    img: ['/images/services/pig_mandril_1.webp', '/images/services/pig_mandril_2.webp', '/images/services/pig_mandril_3.webp', '/images/services/pig_mandril_4.webp', '/images/services/pig_mandril_5.webp', '/images/services/pig_mandril_6.webp', '/images/services/pig_mandril_7.webp', '/images/services/pig_mandril_8.webp'],
     altKey: 'home.ourServices.services.slides.3.alt',
+    titleImageKey: 'home.ourServices.services.slides.3.titleImage',
     titleKey: 'home.ourServices.services.slides.3.title',
     textKey: 'home.ourServices.services.slides.3.text'
   },
   {
-    img: ['/images/services/acc_pigs_1.png', '/images/services/acc_pigs_2.png', '/images/services/acc_pigs_3.png', '/images/services/acc_pigs_4.png', '/images/services/acc_pigs_5.png', '/images/services/acc_pigs_6.png', '/images/services/acc_pigs_7.png', '/images/services/acc_pigs_8.png'],
+    img: ['/images/services/acc_pigs_1.webp', '/images/services/acc_pigs_2.webp', '/images/services/acc_pigs_3.webp', '/images/services/acc_pigs_4.webp', '/images/services/acc_pigs_5.webp', '/images/services/acc_pigs_6.webp', '/images/services/acc_pigs_7.webp', '/images/services/acc_pigs_8.webp'],
     altKey: 'home.ourServices.services.slides.4.alt',
+    titleImageKey: 'home.ourServices.services.slides.4.titleImage',
     titleKey: 'home.ourServices.services.slides.4.title',
     textKey: 'home.ourServices.services.slides.4.text'
   },
   {
-    img: ['/images/services/pig_Hflex_1.png'],
+    img: ['/images/services/pig_Hflex_1.webp'],
     altKey: 'home.ourServices.services.slides.5.alt',
+    titleImageKey: 'home.ourServices.services.slides.5.titleImage',
     titleKey: 'home.ourServices.services.slides.5.title',
     textKey: 'home.ourServices.services.slides.5.text'
   },
   {
-    img: ['/images/services/pig_Discflex_1.png', '/images/services/pig_Discflex_3.png', '/images/services/pig_Discflex_2.png',],
+    img: ['/images/services/pig_Discflex_1.webp','/images/services/pig_Discflex_2.webp', '/images/services/pig_Discflex_3.webp',],
     altKey: 'home.ourServices.services.slides.6.alt',
+    titleImageKey: 'home.ourServices.services.slides.6.titleImage',
     titleKey: 'home.ourServices.services.slides.6.title',
     textKey: 'home.ourServices.services.slides.6.text'
   },
+  
   {
-    img: ['/images/services/pig_valePig_1.png'],
+    img: ['/images/services/pig_valePig_1.webp'],
     altKey: 'home.ourServices.services.slides.7.alt',
+    titleImageKey: 'home.ourServices.services.slides.7.titleImage',
     titleKey: 'home.ourServices.services.slides.7.title',
     textKey: 'home.ourServices.services.slides.7.text'
   },
   {
-    img: ['/images/services/pig_PressurePlug_1.png'],
+    img: ['/images/services/pig_PressurePlug_1.webp'],
     altKey: 'home.ourServices.services.slides.8.alt',
+    titleImageKey: 'home.ourServices.services.slides.8.titleImage',
     titleKey: 'home.ourServices.services.slides.8.title',
     textKey: 'home.ourServices.services.slides.8.text'
   },
   {
-    img: ['/images/services/pig_Plug_1.png'],
+    img: ['/images/services/pig_Plug_1.webp'],
     altKey: 'home.ourServices.services.slides.9.alt',
+    titleImageKey: 'home.ourServices.services.slides.9.titleImage',
     titleKey: 'home.ourServices.services.slides.9.title',
     textKey: 'home.ourServices.services.slides.9.text'
   },
   {
-    img: ['/images/services/pig_Bloqueadores_Flujo_Temp._1.png'],
+    img: ['/images/services/pig_Bloqueadores_Flujo_Temp._1.webp'],
     altKey: 'home.ourServices.services.slides.10.alt',
+    titleImageKey: 'home.ourServices.services.slides.10.titleImage',
     titleKey: 'home.ourServices.services.slides.10.title',
     textKey: 'home.ourServices.services.slides.10.text'
   },
   {
-    img: ['/images/services/valvula_argus_1.png', '/images/services/valvula_argus_2.png', '/images/services/valvula_argus_3.png'],
+    img: ['/images/services/valvula_argus_1.webp', '/images/services/valvula_argus_2.webp', '/images/services/valvula_argus_3.webp'],
     altKey: 'home.ourServices.services.slides.11.alt',
+    titleImageKey: 'home.ourServices.services.slides.11.titleImage',
     titleKey: 'home.ourServices.services.slides.11.title',
     textKey: 'home.ourServices.services.slides.11.text'
   },
   {
-    img: ['/images/services/pig_dataLogger_1.png'],
+    img: ['/images/services/pig_dataLogger_1.webp'],
     altKey: 'home.ourServices.services.slides.12.alt',
+    titleImageKey: 'home.ourServices.services.slides.12.titleImage',
     titleKey: 'home.ourServices.services.slides.12.title',
     textKey: 'home.ourServices.services.slides.12.text'
   },
   {
-    img: ['/images/services/ILI_1.png'],
+    img: ['/images/services/ILI_1.webp'],
     altKey: 'home.ourServices.services.slides.13.alt',
+    titleImageKey: 'home.ourServices.services.slides.13.titleImage',
     titleKey: 'home.ourServices.services.slides.13.title',
     textKey: 'home.ourServices.services.slides.13.text'
   },
   {
-    img: ['/images/services/acquarius_1.png'],
+    img: ['/images/services/acquarius_1.webp'],
     altKey: 'home.ourServices.services.slides.14.alt',
+    titleImageKey: 'home.ourServices.services.slides.14.titleImage',
     titleKey: 'home.ourServices.services.slides.14.title',
     textKey: 'home.ourServices.services.slides.14.text'
+  },
+  {
+    img: ['/images/services/removedores_1.webp', '/images/services/removedores_2.webp', '/images/services/removedores_3.webp'],
+    altKey: 'home.ourServices.services.slides.15.alt',
+    titleImageKey: 'home.ourServices.services.slides.15.titleImage',
+    titleKey: 'home.ourServices.services.slides.15.title',
+    textKey: 'home.ourServices.services.slides.15.text'
+  },
+  {
+    img: ['/images/services/inhibidores_1.webp', '/images/services/inhibidores_2.webp', '/images/services/inhibidores_3.webp', '/images/services/inhibidores_4.webp', '/images/services/inhibidores_5.webp', '/images/services/inhibidores_6.webp', '/images/services/inhibidores_7.webp', '/images/services/inhibidores_8.webp'],
+    altKey: 'home.ourServices.services.slides.16.alt',
+    titleImageKey: 'home.ourServices.services.slides.16.titleImage',
+    titleKey: 'home.ourServices.services.slides.16.title',
+    textKey: 'home.ourServices.services.slides.16.text'
+  },
+  {
+    img: ['/images/services/emisores_difusores_1.webp', '/images/services/emisores_difusores_2.webp', '/images/services/emisores_difusores_3.webp', '/images/services/emisores_difusores_4.webp', '/images/services/emisores_difusores_5.webp', '/images/services/emisores_difusores_6.webp', '/images/services/emisores_difusores_7.webp', '/images/services/emisores_difusores_1.webp'],
+    altKey: 'home.ourServices.services.slides.17.alt',
+    titleImageKey: 'home.ourServices.services.slides.17.titleImage',
+    titleKey: 'home.ourServices.services.slides.17.title',
+    textKey: 'home.ourServices.services.slides.17.text'
   },
 ];
 const pageContent = computed(() => {
   return pageContentBase.map(item => ({
     ...item,
     alt: t(item.altKey),
+    titleImage: t(item.titleImageKey),
     title: t(item.titleKey),
     text: t(item.textKey)
   }));
@@ -200,7 +242,7 @@ onMounted(() => {
   height: 100%;
 
   &__carousel {
-    width: 50%;
+    width: 100%;
     height: 100%;
     box-sizing: border-box;
     padding: 20px;
@@ -240,12 +282,16 @@ onMounted(() => {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
   }
+
+  &__img.is-grid-three {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+  }
 }
 
 .card {
-  background-image: url('/public/images/new_design/home/BK4-05-06.webp');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgba(255, 255, 255, 0.401);
   border-radius: 12px;
   overflow: hidden;
   width: 70%;
@@ -362,6 +408,44 @@ onMounted(() => {
         line-height: 38px;
       }
     }
+
+    &--title-image {
+      font-size: $extra-small;
+      line-height: 18px;
+      margin: 2rem;
+
+      @media (min-width: 320px) {
+        font-size: $body-sm;
+        margin: 0rem;
+      }
+
+      @media (min-width: 570px) {
+        font-size: $body-sm;
+        margin: 1rem;
+      }
+
+      @media (min-width: 928px) {
+        font-size: $medium;
+        line-height: 22px;
+        margin: 1rem;
+      }
+
+      @media (min-width: 1280px) {
+        font-size: $medium;
+        line-height: 22px;
+      }
+
+      @media (min-width: 1366px) {
+        font-size: $body-md;
+        line-height: 26px;
+      }
+
+      @media (min-width: 1600px) {
+        font-size: $extra-small-title;
+        line-height: 38px;
+      }
+    }
+
 
     &--divider {
       width: 100%;
@@ -490,7 +574,47 @@ onMounted(() => {
   }
 }
 
-.slider-card__img:not(.is-grid) .card-image-item {
+.slider-card__img.is-grid-three .card-image-item {
+  width: 250px;
+  height: 150px;
+
+  @media (min-width: 320px) {
+    width: 100px;
+    height: 50px;
+  }
+
+  @media (min-width: 420px) {
+    width: 100px;
+    height: 50px;
+  }
+
+  @media (min-width: 570px) {
+    width: 100px;
+    height: 50px;
+  }
+
+  @media (min-width: 928px) {
+    width: 180px;
+    height: 80px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 200px;
+    height: 100px;
+  }
+
+  @media (min-width: 1366px) {
+    width: 170px;
+    height: 110px;
+  }
+
+  @media (min-width: 1600px) {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.slider-card__img:not(.is-grid):not(.is-grid-three) .card-image-item {
   width: 400px;
   height: 300px;
   position: relative;
