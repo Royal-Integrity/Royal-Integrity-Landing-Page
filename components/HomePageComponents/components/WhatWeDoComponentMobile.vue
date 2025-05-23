@@ -28,7 +28,7 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
 <style lang="scss" scoped>
 .what_we_do_mobile {
   width: 100%;
-  height: 55dvh;
+  height: 60dvh;
   box-sizing: border-box;
   font-family: $font-family-royalIntegrity;
   color: $primary-color-dark;

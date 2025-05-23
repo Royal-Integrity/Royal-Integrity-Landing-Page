@@ -125,6 +125,7 @@ import ResponsiveImage from '../ResponsiveImage.vue';
     @media (min-width: 928px) and (max-width: 1279px) {
       gap: 6rem;
     }
+
     @media (min-width: 1440px) and (max-width: 1680px) {
       gap: 0rem;
     }
@@ -193,25 +194,26 @@ import ResponsiveImage from '../ResponsiveImage.vue';
 
       @media (min-width: 570px) {
         font-size: $mobile-title-lg;
+        width: 90%;
       }
 
       @media (min-width: 928px) {
         font-size: $medium-title;
-        width: 85%;
+        width: 90%;
       }
 
       @media (min-width: 1280px) {
         font-size: $medium-title;
-        width: 70%;
+        width: 90%;
       }
 
       @media (min-width: 1366px) {
         font-size: $medium-title;
-        width: 70%;
+        width: 90%;
       }
 
       @media (min-width: 1600px) {
-        width: 70%;
+        width: 90%;
       }
 
       :deep .text-highlighter-bold {

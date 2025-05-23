@@ -110,6 +110,7 @@ import TextHighlighter from '../TextHighlighter.vue';
     font-size: $body-lg-2;
     font-weight: 300;
     line-height: 26px;
+    width: 100%;
 
     span {
       font-weight: 600;
@@ -119,21 +120,21 @@ import TextHighlighter from '../TextHighlighter.vue';
       font-size: $small;
       line-height: normal;
       text-align: center;
-      width: 90%;
+      width: 100%;
     }
 
     @media (min-width: 376px) and (max-width: 574px) {
       font-size: $small;
       line-height: normal;
       text-align: center;
-      width: 90%;
+      width: 100%;
     }
 
     @media (min-width: 575px) and (max-width: 927px) {
       font-size: $body-sm;
       line-height: normal;
       text-align: center;
-      width: 95%;
+      width: 100%;
     }
 
     @media (min-width: 928px) and (max-width: 1279px) {
@@ -145,13 +146,13 @@ import TextHighlighter from '../TextHighlighter.vue';
     @media (min-width: 1280px) and (max-width: 1365px) {
       font-size: $body-md;
       line-height: normal;
-      width: 90%;
+      width: 100%;
     }
 
     @media (min-width: 1366px) and (max-width: 1600px) {
       font-size: $body-lg;
       line-height: normal;
-      width: 90%;
+      width: 100%;
     }
   }
 }

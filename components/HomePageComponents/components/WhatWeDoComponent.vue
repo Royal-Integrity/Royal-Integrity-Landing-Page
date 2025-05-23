@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="section-two__image-container">
-      <video style="width: 90%; height: 100%; filter: drop-shadow(5px 5px 10px #000);" autoplay loop muted playsinline>
+      <video style="width: 90%; height: 90%;; filter: drop-shadow(5px 5px 10px #000);" autoplay loop muted playsinline>
         <source src="/videos/WhatWeDoComponent.mp4" type="video/mp4">
       </video>
     </div>
@@ -52,8 +52,11 @@ import ResponsiveImage from '~/components/ResponsiveImage.vue';
     height: 40dvh;
   }
 
-  @media (min-width: 1230px) and (max-width: 1440px) {
-    height: 50dvh;
+  @media (min-width: 1230px) and (max-width: 1350px) {
+    height: 60dvh;
+  }
+  @media (min-width: 1360px) and (max-width: 1440px) {
+    height: 60dvh;
   }
 
   @media (min-width: 1450px) and (max-width: 1680px) {
